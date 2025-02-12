@@ -1,1611 +1,1611 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Player,Versus,BasedOnMinutes,scouting_period
+Aaron Cresswell,Center Backs,3069,2017-2018 Premier League
+Aaron Cresswell,Fullbacks,416,2023-2024 Europa League
+Aaron Cresswell,Fullbacks,517,2022-2023 Europa Conference League
+Aaron Cresswell,Fullbacks,664,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Aaron Cresswell,Fullbacks,696,2021-2022 Europa League
+Aaron Cresswell,Fullbacks,1589,2018-2019 Premier League
+Aaron Cresswell,Fullbacks,2235,2022-2023 Premier League
+Aaron Cresswell,Fullbacks,2726,2021-2022 Premier League
+Aaron Cresswell,Fullbacks,2727,2019-2020 Premier League
+Aaron Cresswell,Fullbacks,3170,2020-2021 Premier League
+Aaron Wan-Bissaka,Fullbacks,212,2023-2024 Champions League
+Aaron Wan-Bissaka,Fullbacks,410,2022-2023 Europa League
+Aaron Wan-Bissaka,Fullbacks,419,2021-2022 Champions League
+Aaron Wan-Bissaka,Fullbacks,445,2019-2020 Europa League
+Aaron Wan-Bissaka,Fullbacks,469,2020-2021 Champions League
+Aaron Wan-Bissaka,Fullbacks,627,2017-2018 Premier League
+Aaron Wan-Bissaka,Fullbacks,723,2020-2021 Europa League
+Aaron Wan-Bissaka,Fullbacks,1435,2022-2023 Premier League
+Aaron Wan-Bissaka,Fullbacks,1714,2024-2025 Premier League
+Aaron Wan-Bissaka,Fullbacks,1780,2023-2024 Premier League
+Aaron Wan-Bissaka,Fullbacks,1793,2021-2022 Premier League
+Aaron Wan-Bissaka,Fullbacks,2610,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Aaron Wan-Bissaka,Fullbacks,3060,2020-2021 Premier League
+Aaron Wan-Bissaka,Fullbacks,3070,2019-2020 Premier League
+Aaron Wan-Bissaka,Fullbacks,3134,2018-2019 Premier League
+Adam Smith,Fullbacks,1035,2024-2025 Premier League
+Adam Smith,Fullbacks,1711,2021-2022 Championship
+Adam Smith,Fullbacks,2055,2019-2020 Premier League
+Adam Smith,Fullbacks,2066,2018-2019 Premier League
+Adam Smith,Fullbacks,2071,2017-2018 Premier League
+Adam Smith,Fullbacks,2150,2023-2024 Premier League
+Adam Smith,Fullbacks,2442,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Adam Smith,Fullbacks,2943,2022-2023 Premier League
+Adam Smith,Fullbacks,3329,2020-2021 Championship
+Adam Webster,Center Backs,697,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Adam Webster,Center Backs,1144,2023-2024 Premier League
+Adam Webster,Center Backs,1434,2021-2022 Premier League
+Adam Webster,Center Backs,1985,2022-2023 Premier League
+Adam Webster,Center Backs,2594,2020-2021 Premier League
+Adam Webster,Center Backs,2668,2019-2020 Premier League
+Adam Webster,Center Backs,3744,2018-2019 Championship
+Andrew Omobamidele,Center Backs,711,2020-2021 Championship
+Andrew Omobamidele,Center Backs,783,2023-2024 Premier League
+Andrew Omobamidele,Center Backs,783,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Andrew Omobamidele,Center Backs,2567,2022-2023 Championship
+Andrew Robertson,Fullbacks,268,2024 UEFA Euro 2024
+Andrew Robertson,Fullbacks,270,2021 UEFA Euro 2020
+Andrew Robertson,Fullbacks,277,2024-2025 Champions League
+Andrew Robertson,Fullbacks,303,2023-2024 Europa League
+Andrew Robertson,Fullbacks,378,2022-2023 Champions League
+Andrew Robertson,Fullbacks,540,2017-2018 Champions League
+Andrew Robertson,Fullbacks,649,2019-2020 Champions League
+Andrew Robertson,Fullbacks,754,2020-2021 Champions League
+Andrew Robertson,Fullbacks,826,2021-2022 Champions League
+Andrew Robertson,Fullbacks,1006,2018-2019 Champions League
+Andrew Robertson,Fullbacks,1444,2024-2025 Premier League
+Andrew Robertson,Fullbacks,1693,2023-2024 Premier League
+Andrew Robertson,Fullbacks,1940,2017-2018 Premier League
+Andrew Robertson,Fullbacks,2537,2021-2022 Premier League
+Andrew Robertson,Fullbacks,2583,2022-2023 Premier League
+Andrew Robertson,Fullbacks,2997,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Andrew Robertson,Fullbacks,3111,2019-2020 Premier League
+Andrew Robertson,Fullbacks,3216,2018-2019 Premier League
+Andrew Robertson,Fullbacks,3383,2020-2021 Premier League
+Archie Gray,Center Backs,693,2024-2025 Premier League
+Archie Gray,Center Backs,1233,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Archie Gray,Fullbacks,540,2024-2025 Europa League
+Archie Gray,Fullbacks,1511,Last 365 Days Men's Next 14 Competitions
+Archie Gray,Fullbacks,3599,2023-2024 Championship
+Armel Bella Kotchap,Center Backs,662,2019-2020 2. Bundesliga
+Armel Bella Kotchap,Center Backs,1768,2021-2022 Bundesliga
+Armel Bella Kotchap,Center Backs,1879,2022-2023 Premier League
+Armel Bella Kotchap,Center Backs,2406,2020-2021 2. Bundesliga
+Ashley Young,Fullbacks,336,2017-2018 Champions League
+Ashley Young,Fullbacks,417,2020-2021 Champions League
+Ashley Young,Fullbacks,515,2019-2020 Europa League
+Ashley Young,Fullbacks,581,2018-2019 Champions League
+Ashley Young,Fullbacks,955,2019-2020 Premier League
+Ashley Young,Fullbacks,1185,2019-2020 Serie A
+Ashley Young,Fullbacks,1250,2021-2022 Premier League
+Ashley Young,Fullbacks,1425,2020-2021 Serie A
+Ashley Young,Fullbacks,1438,2024-2025 Premier League
+Ashley Young,Fullbacks,2036,2022-2023 Premier League
+Ashley Young,Fullbacks,2280,2023-2024 Premier League
+Ashley Young,Fullbacks,2442,2017-2018 Premier League
+Ashley Young,Fullbacks,2509,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ashley Young,Fullbacks,2569,2018-2019 Premier League
+Axel Disasi,Center Backs,411,2021-2022 Europa League
+Axel Disasi,Center Backs,750,2022-2023 Europa League
+Axel Disasi,Center Backs,1080,2017-2018 Ligue 2
+Axel Disasi,Center Backs,1243,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Axel Disasi,Center Backs,2011,2020-2021 Ligue 1
+Axel Disasi,Center Backs,2430,2019-2020 Ligue 1
+Axel Disasi,Center Backs,2579,2023-2024 Premier League
+Axel Disasi,Center Backs,2721,2021-2022 Ligue 1
+Axel Disasi,Center Backs,3330,2022-2023 Ligue 1
+Axel Disasi,Fullbacks,508,2024-2025 Conference League
+Axel Disasi,Fullbacks,508,Last 365 Days Men's Next 14 Competitions
+Axel Tuanzebe,Center Backs,203,2020-2021 Champions League
+Axel Tuanzebe,Center Backs,270,2019-2020 Europa League
+Axel Tuanzebe,Center Backs,508,2021-2022 Premier League
+Axel Tuanzebe,Center Backs,2092,2018-2019 Championship
+Axel Tuanzebe,Fullbacks,770,2024-2025 Premier League
+Axel Tuanzebe,Fullbacks,770,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Axel Tuanzebe,Fullbacks,929,Last 365 Days Men's Next 14 Competitions
+Axel Tuanzebe,Fullbacks,1376,2023-2024 Championship
+Ben Davies,Center Backs,238,2022 World Cup
+Ben Davies,Center Backs,392,2022-2023 Champions League
+Ben Davies,Center Backs,450,2024-2025 Europa League
+Ben Davies,Center Backs,909,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ben Davies,Center Backs,1090,2023-2024 Premier League
+Ben Davies,Center Backs,2288,2022-2023 Premier League
+Ben Davies,Center Backs,2538,2021-2022 Premier League
+Ben Davies,Fullbacks,270,2019-2020 Champions League
+Ben Davies,Fullbacks,275,2021 UEFA Euro 2020
+Ben Davies,Fullbacks,307,2021-2022 Europa Conference League
+Ben Davies,Fullbacks,450,2017-2018 Champions League
+Ben Davies,Fullbacks,570,2018-2019 Champions League
+Ben Davies,Fullbacks,900,2020-2021 Europa League
+Ben Davies,Fullbacks,1346,2020-2021 Premier League
+Ben Davies,Fullbacks,1431,2019-2020 Premier League
+Ben Davies,Fullbacks,1844,2018-2019 Premier League
+Ben Davies,Fullbacks,2324,2017-2018 Premier League
+Ben Godfrey,Center Backs,2029,2021-2022 Premier League
+Ben Godfrey,Center Backs,2390,2018-2019 Championship
+Ben Godfrey,Center Backs,2644,2019-2020 Premier League
+Ben Godfrey,Center Backs,2685,2020-2021 Premier League
+Ben Godfrey,Fullbacks,802,2022-2023 Premier League
+Ben Godfrey,Fullbacks,1071,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ben Godfrey,Fullbacks,1120,2023-2024 Premier League
+Ben Johnson,Center Backs,525,2022-2023 Europa Conference League
+Ben Johnson,Fullbacks,523,2020-2021 Premier League
+Ben Johnson,Fullbacks,544,2023-2024 Premier League
+Ben Johnson,Fullbacks,676,2024-2025 Premier League
+Ben Johnson,Fullbacks,684,2021-2022 Europa League
+Ben Johnson,Fullbacks,866,2022-2023 Premier League
+Ben Johnson,Fullbacks,1153,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ben Johnson,Fullbacks,1397,2021-2022 Premier League
+Ben Mee,Center Backs,776,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ben Mee,Center Backs,1272,2023-2024 Premier League
+Ben Mee,Center Backs,1839,2021-2022 Premier League
+Ben Mee,Center Backs,2610,2017-2018 Premier League
+Ben Mee,Center Backs,2693,2020-2021 Premier League
+Ben Mee,Center Backs,2880,2019-2020 Premier League
+Ben Mee,Center Backs,3269,2022-2023 Premier League
+Ben Mee,Center Backs,3420,2018-2019 Premier League
+Ben White,Center Backs,2880,2021-2022 Premier League
+Ben White,Center Backs,3191,2020-2021 Premier League
+Ben White,Center Backs,4140,2019-2020 Championship
+Ben White,Fullbacks,225,2024-2025 Champions League
+Ben White,Fullbacks,396,2022-2023 Europa League
+Ben White,Fullbacks,695,2024-2025 Premier League
+Ben White,Fullbacks,754,2023-2024 Champions League
+Ben White,Fullbacks,2822,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ben White,Fullbacks,2988,2023-2024 Premier League
+Ben White,Fullbacks,3055,2022-2023 Premier League
+Benjamin Nelson,Center Backs,646,2024-2025 Championship
+Benjamin Nelson,Center Backs,845,Last 365 Days Men's Next 14 Competitions
+Benoît Badiashile,Center Backs,180,2018-2019 Champions League
+Benoît Badiashile,Center Backs,360,2024-2025 Conference League
+Benoît Badiashile,Center Backs,450,2022-2023 Europa League
+Benoît Badiashile,Center Backs,472,2021-2022 Europa League
+Benoît Badiashile,Center Backs,839,2022-2023 Ligue 1
+Benoît Badiashile,Center Backs,905,2022-2023 Premier League
+Benoît Badiashile,Center Backs,1127,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Benoît Badiashile,Center Backs,1338,2023-2024 Premier League
+Benoît Badiashile,Center Backs,1411,2019-2020 Ligue 1
+Benoît Badiashile,Center Backs,1762,2018-2019 Ligue 1
+Benoît Badiashile,Center Backs,1838,2021-2022 Ligue 1
+Benoît Badiashile,Center Backs,2870,2020-2021 Ligue 1
+Boubacar Kamara,Center Backs,367,2018-2019 Europa League
+Boubacar Kamara,Center Backs,455,2017-2018 Ligue 1
+Boubacar Kamara,Center Backs,2139,2019-2020 Ligue 1
+Boubacar Kamara,Center Backs,2411,2018-2019 Ligue 1
+Bukayo Saka,Fullbacks,1753,2019-2020 Premier League
+Caleb Okoli,Center Backs,800,2024-2025 Premier League
+Caleb Okoli,Center Backs,960,2022-2023 Serie A
+Caleb Okoli,Center Backs,1395,2020-2021 Serie B
+Caleb Okoli,Center Backs,2385,2021-2022 Serie B
+Caleb Okoli,Center Backs,2398,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Caleb Okoli,Center Backs,2914,2023-2024 Serie A
+Calvin Bassey,Center Backs,180,2022-2023 Europa League
+Calvin Bassey,Center Backs,540,2022-2023 Champions League
+Calvin Bassey,Center Backs,1177,2021-2022 Europa League
+Calvin Bassey,Center Backs,1800,2024-2025 Premier League
+Calvin Bassey,Center Backs,1807,2022-2023 Eredivisie
+Calvin Bassey,Center Backs,2303,2023-2024 Premier League
+Calvin Bassey,Center Backs,2986,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Cameron Burgess,Center Backs,810,2024-2025 Premier League
+Cameron Burgess,Center Backs,810,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Cameron Burgess,Center Backs,1351,Last 365 Days Men's Next 14 Competitions
+Cameron Burgess,Center Backs,3421,2023-2024 Championship
+Chadi Riad,Center Backs,180,2023-2024 Europa Conference League
+Chadi Riad,Center Backs,1151,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Chadi Riad,Center Backs,2164,2023-2024 La Liga
+Charlie Taylor,Center Backs,1725,2022-2023 Championship
+Charlie Taylor,Fullbacks,950,2017-2018 Premier League
+Charlie Taylor,Fullbacks,1157,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Charlie Taylor,Fullbacks,1945,2019-2020 Premier League
+Charlie Taylor,Fullbacks,2331,2023-2024 Premier League
+Charlie Taylor,Fullbacks,2426,2020-2021 Premier League
+Charlie Taylor,Fullbacks,2731,2021-2022 Premier League
+Charlie Taylor,Fullbacks,3243,2018-2019 Premier League
+Cheick Doucouré,Center Backs,1682,2019-2020 Ligue 2
+Chiedozie Ogbene,Fullbacks,1129,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Chiedozie Ogbene,Fullbacks,1995,2023-2024 Premier League
+Chris Richards,Center Backs,180,2020-2021 Europa League
+Chris Richards,Center Backs,270,2024 Copa América
+Chris Richards,Center Backs,805,2024-2025 Premier League
+Chris Richards,Center Backs,1033,2020-2021 Bundesliga
+Chris Richards,Center Backs,1307,2021-2022 Bundesliga
+Chris Richards,Center Backs,2094,2023-2024 Premier League
+Chris Richards,Center Backs,2155,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Conor Bradley,Fullbacks,234,2023-2024 Europa League
+Conor Bradley,Fullbacks,753,2023-2024 Premier League
+Conor Bradley,Fullbacks,1231,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Conor Coady,Center Backs,700,2023-2024 Championship
+Conor Coady,Center Backs,712,2024-2025 Premier League
+Conor Coady,Center Backs,712,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Conor Coady,Center Backs,990,2019-2020 Europa League
+Conor Coady,Center Backs,2096,2022-2023 Premier League
+Conor Coady,Center Backs,3303,2020-2021 Premier League
+Conor Coady,Center Backs,3361,2021-2022 Premier League
+Conor Coady,Center Backs,3420,2018-2019 Premier League
+Conor Coady,Center Backs,3420,2019-2020 Premier League
+Conor Townsend,Fullbacks,957,2018-2019 Championship
+Conor Townsend,Fullbacks,1354,Last 365 Days Men's Next 14 Competitions
+Conor Townsend,Fullbacks,1902,2019-2020 Championship
+Conor Townsend,Fullbacks,2234,2020-2021 Premier League
+Conor Townsend,Fullbacks,3123,2023-2024 Championship
+Conor Townsend,Fullbacks,3773,2021-2022 Championship
+Conor Townsend,Fullbacks,3905,2022-2023 Championship
+Craig Dawson,Center Backs,234,2022-2023 Europa Conference League
+Craig Dawson,Center Backs,930,2021-2022 Europa League
+Craig Dawson,Center Backs,971,2024-2025 Premier League
+Craig Dawson,Center Backs,1601,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Craig Dawson,Center Backs,1925,2020-2021 Premier League
+Craig Dawson,Center Backs,2134,2022-2023 Premier League
+Craig Dawson,Center Backs,2209,2023-2024 Premier League
+Craig Dawson,Center Backs,2361,2019-2020 Premier League
+Craig Dawson,Center Backs,2507,2017-2018 Premier League
+Craig Dawson,Center Backs,2754,2021-2022 Premier League
+Craig Dawson,Center Backs,3549,2018-2019 Championship
+Cristian Romero,Center Backs,258,2021 Copa América
+Cristian Romero,Center Backs,480,2024 Copa América
+Cristian Romero,Center Backs,547,2022 World Cup
+Cristian Romero,Center Backs,598,2022-2023 Champions League
+Cristian Romero,Center Backs,625,2020-2021 Champions League
+Cristian Romero,Center Backs,974,2024-2025 Premier League
+Cristian Romero,Center Backs,1026,2016-2017 Primera División Argentina
+Cristian Romero,Center Backs,1844,2021-2022 Premier League
+Cristian Romero,Center Backs,2336,2018-2019 Serie A
+Cristian Romero,Center Backs,2364,2022-2023 Premier League
+Cristian Romero,Center Backs,2545,2020-2021 Serie A
+Cristian Romero,Center Backs,2577,2019-2020 Serie A
+Cristian Romero,Center Backs,2594,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Cristian Romero,Center Backs,2790,2023-2024 Premier League
+Dan Burn,Center Backs,1216,2018-2019 Championship
+Dan Burn,Center Backs,1800,2024-2025 Premier League
+Dan Burn,Center Backs,2462,2021-2022 Premier League
+Dan Burn,Center Backs,3189,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Dan Burn,Fullbacks,277,2023-2024 Champions League
+Dan Burn,Fullbacks,2061,2020-2021 Premier League
+Dan Burn,Fullbacks,2726,2023-2024 Premier League
+Dan Burn,Fullbacks,2880,2019-2020 Premier League
+Dan Burn,Fullbacks,3111,2022-2023 Premier League
+Daniel Muñoz,Center Backs,2843,2020-2021 Belgian First Division A
+Daniel Muñoz,Fullbacks,240,2021-2022 Europa League
+Daniel Muñoz,Fullbacks,386,2024 Copa América
+Daniel Muñoz,Fullbacks,450,2023-2024 Europa Conference League
+Daniel Muñoz,Fullbacks,480,2021 Copa América
+Daniel Muñoz,Fullbacks,1439,2023-2024 Premier League
+Daniel Muñoz,Fullbacks,1444,2023-2024 Belgian Pro League
+Daniel Muñoz,Fullbacks,1803,2024-2025 Premier League
+Daniel Muñoz,Fullbacks,1910,2021-2022 Belgian First Division A
+Daniel Muñoz,Fullbacks,2612,2022-2023 Belgian Pro League
+Daniel Muñoz,Fullbacks,3242,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Dara O'Shea,Center Backs,1047,2021-2022 Championship
+Dara O'Shea,Center Backs,1592,2024-2025 Premier League
+Dara O'Shea,Center Backs,2102,2020-2021 Premier League
+Dara O'Shea,Center Backs,2892,2023-2024 Premier League
+Dara O'Shea,Center Backs,3007,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Dara O'Shea,Center Backs,3330,2022-2023 Championship
+Dara O'Shea,Fullbacks,1482,2019-2020 Championship
+Dean Huijsen,Center Backs,522,2023-2024 Serie A
+Dean Huijsen,Center Backs,974,2024-2025 Premier League
+Dean Huijsen,Center Backs,1425,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Declan Rice,Center Backs,1430,2017-2018 Premier League
+Destiny Udogie,Fullbacks,259,2024-2025 Europa League
+Destiny Udogie,Fullbacks,1430,2024-2025 Premier League
+Destiny Udogie,Fullbacks,2391,2023-2024 Premier League
+Destiny Udogie,Fullbacks,2477,2021-2022 Serie A
+Destiny Udogie,Fullbacks,2578,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Destiny Udogie,Fullbacks,2704,2022-2023 Serie A
+Diego Carlos,Center Backs,484,2024-2025 Champions League
+Diego Carlos,Center Backs,509,2023-2024 Europa Conference League
+Diego Carlos,Center Backs,539,2021-2022 Champions League
+Diego Carlos,Center Backs,646,2019-2020 Europa League
+Diego Carlos,Center Backs,720,2020-2021 Champions League
+Diego Carlos,Center Backs,830,2024-2025 Premier League
+Diego Carlos,Center Backs,1816,2023-2024 Premier League
+Diego Carlos,Center Backs,2150,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Diego Carlos,Center Backs,2291,2017-2018 Ligue 1
+Diego Carlos,Center Backs,2788,2020-2021 La Liga
+Diego Carlos,Center Backs,2957,2021-2022 La Liga
+Diego Carlos,Center Backs,3134,2019-2020 La Liga
+Diego Carlos,Center Backs,3148,2018-2019 Ligue 1
+Diogo Dalot,Fullbacks,234,2021-2022 Champions League
+Diogo Dalot,Fullbacks,244,2018-2019 Champions League
+Diogo Dalot,Fullbacks,258,2022 World Cup
+Diogo Dalot,Fullbacks,260,2019-2020 Europa League
+Diogo Dalot,Fullbacks,459,2024-2025 Europa League
+Diogo Dalot,Fullbacks,463,2023-2024 Champions League
+Diogo Dalot,Fullbacks,620,2022-2023 Europa League
+Diogo Dalot,Fullbacks,760,2020-2021 Europa League
+Diogo Dalot,Fullbacks,1013,2018-2019 Premier League
+Diogo Dalot,Fullbacks,1090,2020-2021 Serie A
+Diogo Dalot,Fullbacks,1766,2024-2025 Premier League
+Diogo Dalot,Fullbacks,1801,2021-2022 Premier League
+Diogo Dalot,Fullbacks,2154,2022-2023 Premier League
+Diogo Dalot,Fullbacks,3174,2023-2024 Premier League
+Diogo Dalot,Fullbacks,3755,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Djed Spence,Fullbacks,210,2022-2023 Europa League
+Djed Spence,Fullbacks,500,2024-2025 Premier League
+Djed Spence,Fullbacks,573,2022-2023 Ligue 1
+Djed Spence,Fullbacks,859,2023-2024 Serie A
+Djed Spence,Fullbacks,1359,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Djed Spence,Fullbacks,1535,2019-2020 Championship
+Djed Spence,Fullbacks,3621,2021-2022 Championship
+Edson Álvarez,Center Backs,2358,2018-2019 Liga MX
+Edson Álvarez,Fullbacks,267,2018 World Cup
+Emerson Palmieri,Fullbacks,199,2019-2020 Champions League
+Emerson Palmieri,Fullbacks,220,2020-2021 Champions League
+Emerson Palmieri,Fullbacks,292,2021 UEFA Euro 2020
+Emerson Palmieri,Fullbacks,504,2023-2024 Europa League
+Emerson Palmieri,Fullbacks,585,2021-2022 Europa League
+Emerson Palmieri,Fullbacks,663,2018-2019 Premier League
+Emerson Palmieri,Fullbacks,716,2022-2023 Europa Conference League
+Emerson Palmieri,Fullbacks,1020,2018-2019 Europa League
+Emerson Palmieri,Fullbacks,1024,2019-2020 Premier League
+Emerson Palmieri,Fullbacks,1320,2022-2023 Premier League
+Emerson Palmieri,Fullbacks,1432,2024-2025 Premier League
+Emerson Palmieri,Fullbacks,2264,2021-2022 Ligue 1
+Emerson Palmieri,Fullbacks,3061,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Emerson Palmieri,Fullbacks,3137,2023-2024 Premier League
+Emil Krafth,Center Backs,913,2023-2024 Premier League
+Emil Krafth,Center Backs,1070,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Emil Krafth,Fullbacks,946,2017-2018 Serie A
+Emil Krafth,Fullbacks,1020,2019-2020 Premier League
+Emil Krafth,Fullbacks,1288,2020-2021 Premier League
+Emil Krafth,Fullbacks,1634,2021-2022 Premier League
+Emil Krafth,Fullbacks,2974,2018-2019 Ligue 1
+Emmanuel Agbadou,Center Backs,1260,2024-2025 Ligue 1
+Emmanuel Agbadou,Center Backs,1984,2020-2021 Belgian First Division A
+Emmanuel Agbadou,Center Backs,2388,2022-2023 Ligue 1
+Emmanuel Agbadou,Center Backs,2596,2023-2024 Ligue 1
+Emmanuel Agbadou,Center Backs,2718,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Emmanuel Agbadou,Center Backs,2885,2021-2022 Belgian First Division A
+Ethan Pinnock,Center Backs,270,2024 Copa América
+Ethan Pinnock,Center Backs,1440,2024-2025 Premier League
+Ethan Pinnock,Center Backs,2251,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ethan Pinnock,Center Backs,2521,2023-2024 Premier League
+Ethan Pinnock,Center Backs,2694,2021-2022 Premier League
+Ethan Pinnock,Center Backs,2700,2022-2023 Premier League
+Ethan Pinnock,Center Backs,3038,2019-2020 Championship
+Ethan Pinnock,Center Backs,3432,2020-2021 Championship
+Ezri Konsa,Center Backs,472,Last 365 Days Men's Next 14 Competitions
+Ezri Konsa,Center Backs,905,2023-2024 Europa Conference League
+Ezri Konsa,Center Backs,1631,2024-2025 Premier League
+Ezri Konsa,Center Backs,2039,2019-2020 Premier League
+Ezri Konsa,Center Backs,2477,2021-2022 Premier League
+Ezri Konsa,Center Backs,3069,2023-2024 Premier League
+Ezri Konsa,Center Backs,3196,2020-2021 Premier League
+Ezri Konsa,Center Backs,3322,2022-2023 Premier League
+Ezri Konsa,Center Backs,3750,2018-2019 Championship
+Ezri Konsa,Fullbacks,450,2024-2025 Champions League
+Ezri Konsa,Fullbacks,3302,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Fabian Schär,Center Backs,191,2021 UEFA Euro 2020
+Fabian Schär,Center Backs,270,2018 World Cup
+Fabian Schär,Center Backs,480,2024 UEFA Euro 2024
+Fabian Schär,Center Backs,540,2023-2024 Champions League
+Fabian Schär,Center Backs,1246,2020-2021 Premier League
+Fabian Schär,Center Backs,1467,2024-2025 Premier League
+Fabian Schär,Center Backs,1672,2019-2020 Premier League
+Fabian Schär,Center Backs,1999,2018-2019 Premier League
+Fabian Schär,Center Backs,2158,2021-2022 Premier League
+Fabian Schär,Center Backs,2219,2017-2018 La Liga
+Fabian Schär,Center Backs,2708,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Fabian Schär,Center Backs,3054,2023-2024 Premier League
+Fabian Schär,Center Backs,3206,2022-2023 Premier League
+Federico Chiesa,Fullbacks,852,2022-2023 Serie A
+Ferdi Kadioglu,Fullbacks,310,2021-2022 Europa League
+Ferdi Kadioglu,Fullbacks,450,2024 UEFA Euro 2024
+Ferdi Kadioglu,Fullbacks,469,2022-2023 Europa League
+Ferdi Kadioglu,Fullbacks,520,2023-2024 Europa Conference League
+Gabriel Magalhães,Center Backs,443,2024-2025 Champions League
+Gabriel Magalhães,Center Backs,517,2022-2023 Europa League
+Gabriel Magalhães,Center Backs,540,2019-2020 Champions League
+Gabriel Magalhães,Center Backs,540,2020-2021 Europa League
+Gabriel Magalhães,Center Backs,930,2023-2024 Champions League
+Gabriel Magalhães,Center Backs,1066,2018-2019 Ligue 1
+Gabriel Magalhães,Center Backs,1628,2024-2025 Premier League
+Gabriel Magalhães,Center Backs,1996,2020-2021 Premier League
+Gabriel Magalhães,Center Backs,2087,2019-2020 Ligue 1
+Gabriel Magalhães,Center Backs,3044,2023-2024 Premier League
+Gabriel Magalhães,Center Backs,3063,2021-2022 Premier League
+Gabriel Magalhães,Center Backs,3409,2022-2023 Premier League
+Gabriel Magalhães,Center Backs,4039,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+George Edmundson,Center Backs,180,2019-2020 Europa League
+George Edmundson,Center Backs,749,2020-2021 Championship
+George Edmundson,Center Backs,888,2023-2024 Championship
+George Edmundson,Center Backs,1772,2024-2025 Championship
+George Edmundson,Center Backs,2300,Last 365 Days Men's Next 14 Competitions
+Hamza Choudhury,Fullbacks,758,Last 365 Days Men's Next 14 Competitions
+Hamza Choudhury,Fullbacks,1472,2023-2024 Championship
+Harry Clarke,Fullbacks,819,Last 365 Days Men's Next 14 Competitions
+Harry Clarke,Fullbacks,985,2022-2023 Championship
+Harry Clarke,Fullbacks,2361,2023-2024 Championship
+Harry Maguire,Center Backs,309,2023-2024 Champions League
+Harry Maguire,Center Backs,369,2022-2023 Europa League
+Harry Maguire,Center Backs,429,2022 World Cup
+Harry Maguire,Center Backs,450,2020-2021 Champions League
+Harry Maguire,Center Backs,510,2021 UEFA Euro 2020
+Harry Maguire,Center Backs,533,2021-2022 Champions League
+Harry Maguire,Center Backs,540,2020-2021 Europa League
+Harry Maguire,Center Backs,645,2018 World Cup
+Harry Maguire,Center Backs,767,2022-2023 Premier League
+Harry Maguire,Center Backs,817,2019-2020 Europa League
+Harry Maguire,Center Backs,818,2024-2025 Premier League
+Harry Maguire,Center Backs,1653,2023-2024 Premier League
+Harry Maguire,Center Backs,1736,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Harry Maguire,Center Backs,2515,2021-2022 Premier League
+Harry Maguire,Center Backs,2596,2018-2019 Premier League
+Harry Maguire,Center Backs,3047,2020-2021 Premier League
+Harry Maguire,Center Backs,3420,2017-2018 Premier League
+Harry Maguire,Center Backs,3420,2019-2020 Premier League
+Harry Toffolo,Fullbacks,584,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Harry Toffolo,Fullbacks,940,2022-2023 Premier League
+Harry Toffolo,Fullbacks,1459,2023-2024 Premier League
+Harry Toffolo,Fullbacks,1710,2019-2020 Championship
+Harry Toffolo,Fullbacks,2670,2020-2021 Championship
+Harry Toffolo,Fullbacks,3560,2021-2022 Championship
+Ian Maatsen,Fullbacks,223,2024-2025 Champions League
+Ian Maatsen,Fullbacks,630,2023-2024 Champions League
+Ian Maatsen,Fullbacks,1264,2023-2024 Bundesliga
+Ian Maatsen,Fullbacks,2340,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ian Maatsen,Fullbacks,3152,2021-2022 Championship
+Ian Maatsen,Fullbacks,3283,2022-2023 Championship
+Ibrahima Konaté,Center Backs,258,2022-2023 Champions League
+Ibrahima Konaté,Center Backs,270,2018-2019 Europa League
+Ibrahima Konaté,Center Backs,294,2022 World Cup
+Ibrahima Konaté,Center Backs,315,2017-2018 Europa League
+Ibrahima Konaté,Center Backs,447,2024-2025 Champions League
+Ibrahima Konaté,Center Backs,476,2020-2021 Champions League
+Ibrahima Konaté,Center Backs,500,2023-2024 Europa League
+Ibrahima Konaté,Center Backs,569,2019-2020 Bundesliga
+Ibrahima Konaté,Center Backs,695,2020-2021 Bundesliga
+Ibrahima Konaté,Center Backs,720,2021-2022 Champions League
+Ibrahima Konaté,Center Backs,990,2021-2022 Premier League
+Ibrahima Konaté,Center Backs,1129,2024-2025 Premier League
+Ibrahima Konaté,Center Backs,1227,2017-2018 Bundesliga
+Ibrahima Konaté,Center Backs,1552,2022-2023 Premier League
+Ibrahima Konaté,Center Backs,1574,2023-2024 Premier League
+Ibrahima Konaté,Center Backs,2431,2018-2019 Bundesliga
+Ibrahima Konaté,Center Backs,2494,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Igor,Center Backs,419,2023-2024 Europa League
+Igor,Center Backs,762,2022-2023 Europa Conference League
+Igor,Center Backs,903,2024-2025 Premier League
+Igor,Center Backs,1168,2020-2021 Serie A
+Igor,Center Backs,1940,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Igor,Center Backs,1948,2019-2020 Serie A
+Igor,Center Backs,2057,2022-2023 Serie A
+Igor,Center Backs,2242,2021-2022 Serie A
+Igor,Fullbacks,1637,2023-2024 Premier League
+Illia Zabarnyi,Center Backs,270,2024 UEFA Euro 2024
+Illia Zabarnyi,Center Backs,360,2020-2021 Europa League
+Illia Zabarnyi,Center Backs,427,2022-2023 Europa League
+Illia Zabarnyi,Center Backs,480,2021 UEFA Euro 2020
+Illia Zabarnyi,Center Backs,540,2020-2021 Champions League
+Illia Zabarnyi,Center Backs,540,2021-2022 Champions League
+Illia Zabarnyi,Center Backs,1890,2024-2025 Premier League
+Illia Zabarnyi,Center Backs,3330,2023-2024 Premier League
+Illia Zabarnyi,Center Backs,3510,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Issa Diop,Center Backs,542,2021-2022 Europa League
+Issa Diop,Center Backs,963,2021-2022 Premier League
+Issa Diop,Center Backs,1068,2024-2025 Premier League
+Issa Diop,Center Backs,1381,2020-2021 Premier League
+Issa Diop,Center Backs,1424,2023-2024 Premier League
+Issa Diop,Center Backs,1601,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Issa Diop,Center Backs,2012,2022-2023 Premier League
+Issa Diop,Center Backs,2766,2019-2020 Premier League
+Issa Diop,Center Backs,2970,2018-2019 Premier League
+Issa Diop,Center Backs,3060,2017-2018 Ligue 1
+Issa Kaboré,Fullbacks,450,2019-2020 Belgian First Division A
+Issa Kaboré,Fullbacks,820,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Issa Kaboré,Fullbacks,1028,2022-2023 Ligue 1
+Issa Kaboré,Fullbacks,1377,2020-2021 Belgian First Division A
+Issa Kaboré,Fullbacks,1729,2023-2024 Premier League
+Issa Kaboré,Fullbacks,2254,2021-2022 Ligue 1
+Jack Hinshelwood,Fullbacks,869,2023-2024 Premier League
+Jack Hinshelwood,Fullbacks,1090,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jack Stephens,Center Backs,793,2024-2025 Premier League
+Jack Stephens,Center Backs,793,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jack Stephens,Center Backs,811,2021-2022 Premier League
+Jack Stephens,Center Backs,991,Last 365 Days Men's Next 14 Competitions
+Jack Stephens,Center Backs,1219,2022-2023 Premier League
+Jack Stephens,Center Backs,1490,2023-2024 Championship
+Jack Stephens,Center Backs,1537,2020-2021 Premier League
+Jack Stephens,Center Backs,1700,2018-2019 Premier League
+Jack Stephens,Center Backs,1979,2017-2018 Premier League
+Jack Stephens,Center Backs,2451,2019-2020 Premier League
+Jacob Greaves,Center Backs,1080,2024-2025 Premier League
+Jacob Greaves,Center Backs,1080,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jacob Greaves,Center Backs,1530,Last 365 Days Men's Next 14 Competitions
+Jacob Greaves,Center Backs,3870,2023-2024 Championship
+Jacob Greaves,Center Backs,4140,2021-2022 Championship
+Jacob Greaves,Fullbacks,3568,2022-2023 Championship
+Jacob Murphy,Fullbacks,1626,2020-2021 Premier League
+Jake O'Brien,Center Backs,1394,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jake O'Brien,Center Backs,2369,2023-2024 Ligue 1
+Jakub Kiwior,Center Backs,270,2024 UEFA Euro 2024
+Jakub Kiwior,Center Backs,355,2022 World Cup
+Jakub Kiwior,Center Backs,1443,2022-2023 Serie A
+Jakub Kiwior,Fullbacks,381,2023-2024 Champions League
+Jakub Kiwior,Fullbacks,946,2023-2024 Premier League
+Jakub Kiwior,Fullbacks,1360,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+James Bree,Fullbacks,554,Last 365 Days Men's Next 14 Competitions
+James Bree,Fullbacks,1080,2023-2024 Championship
+James Bree,Fullbacks,1603,2020-2021 Championship
+James Bree,Fullbacks,1750,2018-2019 Championship
+James Bree,Fullbacks,2430,2022-2023 Championship
+James Bree,Fullbacks,3038,2019-2020 Championship
+James Bree,Fullbacks,3730,2021-2022 Championship
+James Hill,Fullbacks,1298,vs. Fullbacks
+James Justin,Fullbacks,334,2021-2022 Europa Conference League
+James Justin,Fullbacks,459,2020-2021 Europa League
+James Justin,Fullbacks,998,2021-2022 Premier League
+James Justin,Fullbacks,1012,2019-2020 Premier League
+James Justin,Fullbacks,1078,Last 365 Days Men's Next 14 Competitions
+James Justin,Fullbacks,1252,2022-2023 Premier League
+James Justin,Fullbacks,1813,2024-2025 Premier League
+James Justin,Fullbacks,1813,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+James Justin,Fullbacks,2070,2020-2021 Premier League
+James Justin,Fullbacks,2616,2023-2024 Championship
+James Milner,Fullbacks,773,2023-2024 Premier League
+James Tarkowski,Center Backs,1791,2024-2025 Premier League
+James Tarkowski,Center Backs,2790,2017-2018 Premier League
+James Tarkowski,Center Backs,3086,2018-2019 Premier League
+James Tarkowski,Center Backs,3106,2021-2022 Premier League
+James Tarkowski,Center Backs,3240,2020-2021 Premier League
+James Tarkowski,Center Backs,3321,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+James Tarkowski,Center Backs,3419,2023-2024 Premier League
+James Tarkowski,Center Backs,3420,2019-2020 Premier League
+James Tarkowski,Center Backs,3420,2022-2023 Premier League
+Jan Bednarek,Center Backs,225,2018 World Cup
+Jan Bednarek,Center Backs,264,2021 UEFA Euro 2020
+Jan Bednarek,Center Backs,270,2024 UEFA Euro 2024
+Jan Bednarek,Center Backs,1406,Last 365 Days Men's Next 14 Competitions
+Jan Bednarek,Center Backs,1512,2024-2025 Premier League
+Jan Bednarek,Center Backs,1512,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jan Bednarek,Center Backs,1772,2022-2023 Premier League
+Jan Bednarek,Center Backs,2151,2018-2019 Premier League
+Jan Bednarek,Center Backs,2629,2021-2022 Premier League
+Jan Bednarek,Center Backs,3057,2019-2020 Premier League
+Jan Bednarek,Center Backs,3100,2020-2021 Premier League
+Jan Bednarek,Center Backs,3548,2023-2024 Championship
+Jan Paul van Hecke,Center Backs,624,2023-2024 Europa League
+Jan Paul van Hecke,Center Backs,1610,2024-2025 Premier League
+Jan Paul van Hecke,Center Backs,2322,2020-2021 Eredivisie
+Jan Paul van Hecke,Center Backs,2369,2023-2024 Premier League
+Jan Paul van Hecke,Center Backs,2646,2021-2022 Championship
+Jan Paul van Hecke,Center Backs,2960,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jannik Vestergaard,Center Backs,189,2021-2022 Europa League
+Jannik Vestergaard,Center Backs,193,2021-2022 Europa Conference League
+Jannik Vestergaard,Center Backs,360,2024 UEFA Euro 2024
+Jannik Vestergaard,Center Backs,485,2021 UEFA Euro 2020
+Jannik Vestergaard,Center Backs,567,2021-2022 Premier League
+Jannik Vestergaard,Center Backs,1111,2024-2025 Premier League
+Jannik Vestergaard,Center Backs,1111,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jannik Vestergaard,Center Backs,1388,Last 365 Days Men's Next 14 Competitions
+Jannik Vestergaard,Center Backs,1497,2019-2020 Premier League
+Jannik Vestergaard,Center Backs,2027,2018-2019 Premier League
+Jannik Vestergaard,Center Backs,2574,2020-2021 Premier League
+Jannik Vestergaard,Center Backs,2880,2017-2018 Bundesliga
+Jannik Vestergaard,Center Backs,3718,2023-2024 Championship
+Jarell Quansah,Center Backs,539,2023-2024 Europa League
+Jarell Quansah,Center Backs,1190,2023-2024 Premier League
+Jarell Quansah,Center Backs,1313,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jarrad Branthwaite,Center Backs,259,2022-2023 Europa League
+Jarrad Branthwaite,Center Backs,900,2020-2021 Championship
+Jarrad Branthwaite,Center Backs,998,2024-2025 Premier League
+Jarrad Branthwaite,Center Backs,1992,2022-2023 Eredivisie
+Jarrad Branthwaite,Center Backs,2494,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jarrad Branthwaite,Center Backs,3116,2023-2024 Premier League
+Jean-Clair Todibo,Center Backs,834,2018-2019 Ligue 1
+Jean-Clair Todibo,Center Backs,834,2022-2023 Europa Conference League
+Jean-Clair Todibo,Center Backs,866,2024-2025 Premier League
+Jean-Clair Todibo,Center Backs,1330,2020-2021 Ligue 1
+Jean-Clair Todibo,Center Backs,2290,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jean-Clair Todibo,Center Backs,2651,2023-2024 Ligue 1
+Jean-Clair Todibo,Center Backs,2870,2022-2023 Ligue 1
+Jean-Clair Todibo,Center Backs,3115,2021-2022 Ligue 1
+Jeffrey Schlupp,Fullbacks,1745,2017-2018 Premier League
+Joachim Andersen,Center Backs,270,2022 World Cup
+Joachim Andersen,Center Backs,360,2024 UEFA Euro 2024
+Joachim Andersen,Center Backs,392,2019-2020 Champions League
+Joachim Andersen,Center Backs,546,2017-2018 Serie A
+Joachim Andersen,Center Backs,1143,2024-2025 Premier League
+Joachim Andersen,Center Backs,1233,2024-2025 Premier League
+Joachim Andersen,Center Backs,1531,2019-2020 Ligue 1
+Joachim Andersen,Center Backs,2730,2020-2021 Premier League
+Joachim Andersen,Center Backs,2758,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Joachim Andersen,Center Backs,2782,2022-2023 Premier League
+Joachim Andersen,Center Backs,2848,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Joachim Andersen,Center Backs,2880,2018-2019 Serie A
+Joachim Andersen,Center Backs,2916,2021-2022 Premier League
+Joachim Andersen,Center Backs,3415,2023-2024 Premier League
+Joe Gomez,Center Backs,270,2020-2021 Champions League
+Joe Gomez,Center Backs,298,2022-2023 Champions League
+Joe Gomez,Center Backs,512,2019-2020 Champions League
+Joe Gomez,Center Backs,519,2024-2025 Premier League
+Joe Gomez,Center Backs,527,2018-2019 Champions League
+Joe Gomez,Center Backs,590,2020-2021 Premier League
+Joe Gomez,Center Backs,1063,2018-2019 Premier League
+Joe Gomez,Center Backs,1466,2022-2023 Premier League
+Joe Gomez,Center Backs,2004,2019-2020 Premier League
+Joe Gomez,Fullbacks,250,2021-2022 Champions League
+Joe Gomez,Fullbacks,371,2017-2018 Champions League
+Joe Gomez,Fullbacks,572,2023-2024 Europa League
+Joe Gomez,Fullbacks,1694,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Joe Gomez,Fullbacks,1786,2023-2024 Premier League
+Joe Gomez,Fullbacks,1902,2017-2018 Premier League
+Joel Ward,Center Backs,648,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Joel Ward,Fullbacks,552,2018-2019 Premier League
+Joel Ward,Fullbacks,1613,2017-2018 Premier League
+Joel Ward,Fullbacks,1980,2023-2024 Premier League
+Joel Ward,Fullbacks,2256,2020-2021 Premier League
+Joel Ward,Fullbacks,2256,2022-2023 Premier League
+Joel Ward,Fullbacks,2382,2019-2020 Premier League
+Joel Ward,Fullbacks,2487,2021-2022 Premier League
+John Stones,Center Backs,341,2023-2024 Champions League
+John Stones,Center Backs,421,2018-2019 Champions League
+John Stones,Center Backs,434,2022 World Cup
+John Stones,Center Backs,450,2017-2018 Champions League
+John Stones,Center Backs,635,2021-2022 Champions League
+John Stones,Center Backs,645,2018 World Cup
+John Stones,Center Backs,678,2021 UEFA Euro 2020
+John Stones,Center Backs,690,2024 UEFA Euro 2024
+John Stones,Center Backs,798,2020-2021 Champions League
+John Stones,Center Backs,1064,2023-2024 Premier League
+John Stones,Center Backs,1119,2021-2022 Premier League
+John Stones,Center Backs,1122,2019-2020 Premier League
+John Stones,Center Backs,1302,2017-2018 Premier League
+John Stones,Center Backs,1357,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+John Stones,Center Backs,1764,2018-2019 Premier League
+John Stones,Center Backs,1846,2022-2023 Premier League
+John Stones,Center Backs,1933,2020-2021 Premier League
+Jonny Evans,Center Backs,306,2021-2022 Europa League
+Jonny Evans,Center Backs,360,2021-2022 Europa Conference League
+Jonny Evans,Center Backs,441,2020-2021 Europa League
+Jonny Evans,Center Backs,902,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jonny Evans,Center Backs,1051,2022-2023 Premier League
+Jonny Evans,Center Backs,1348,2021-2022 Premier League
+Jonny Evans,Center Backs,1392,2023-2024 Premier League
+Jonny Evans,Center Backs,1996,2018-2019 Premier League
+Jonny Evans,Center Backs,2270,2017-2018 Premier League
+Jonny Evans,Center Backs,2473,2020-2021 Premier League
+Jonny Evans,Center Backs,3383,2019-2020 Premier League
+Jorge Cuenca,Center Backs,365,2023-2024 Europa League
+Jorge Cuenca,Center Backs,506,2022-2023 La Liga
+Jorge Cuenca,Center Backs,720,2022-2023 Europa Conference League
+Jorge Cuenca,Center Backs,1608,2017-2018 Segunda División
+Jorge Cuenca,Center Backs,1963,2023-2024 La Liga
+Jorge Cuenca,Center Backs,2683,2021-2022 La Liga
+Jorge Cuenca,Center Backs,2809,2020-2021 Segunda División
+Jorge Cuenca,Fullbacks,1163,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Josh Wilson-Esbrand,Fullbacks,461,2023-2024 Ligue 1
+Josh Wilson-Esbrand,Fullbacks,645,2022-2023 Championship
+Josh Wilson-Esbrand,Fullbacks,668,2023-2024 Championship
+Josh Wilson-Esbrand,Fullbacks,668,Last 365 Days Men's Next 14 Competitions
+Joshua Acheampong,Center Backs,180,vs. Center Backs
+Joël Veltman,Center Backs,426,2019-2020 Champions League
+Joël Veltman,Center Backs,1650,2019-2020 Eredivisie
+Joël Veltman,Fullbacks,312,2018-2019 Champions League
+Joël Veltman,Fullbacks,377,2023-2024 Europa League
+Joël Veltman,Fullbacks,485,2018-2019 Eredivisie
+Joël Veltman,Fullbacks,1290,2024-2025 Premier League
+Joël Veltman,Fullbacks,1588,2023-2024 Premier League
+Joël Veltman,Fullbacks,1980,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Joël Veltman,Fullbacks,2188,2022-2023 Premier League
+Joël Veltman,Fullbacks,2281,2020-2021 Premier League
+Joël Veltman,Fullbacks,2874,2021-2022 Premier League
+Joško Gvardiol,Center Backs,335,2021-2022 Champions League
+Joško Gvardiol,Center Backs,510,2021-2022 Europa League
+Joško Gvardiol,Center Backs,540,2022-2023 Champions League
+Joško Gvardiol,Center Backs,690,2022 World Cup
+Joško Gvardiol,Center Backs,2170,2022-2023 Bundesliga
+Joško Gvardiol,Center Backs,2409,2021-2022 Bundesliga
+Joško Gvardiol,Fullbacks,270,2024 UEFA Euro 2024
+Joško Gvardiol,Fullbacks,369,2021 UEFA Euro 2020
+Joško Gvardiol,Fullbacks,454,2024-2025 Champions League
+Joško Gvardiol,Fullbacks,569,2023-2024 Champions League
+Joško Gvardiol,Fullbacks,880,2020-2021 Europa League
+Joško Gvardiol,Fullbacks,1752,2024-2025 Premier League
+Joško Gvardiol,Fullbacks,2328,2023-2024 Premier League
+Joško Gvardiol,Fullbacks,3541,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Julian Araujo,Fullbacks,821,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Julian Araujo,Fullbacks,895,2019 Major League Soccer
+Julian Araujo,Fullbacks,1290,2020 Major League Soccer
+Julian Araujo,Fullbacks,1462,2023-2024 La Liga
+Julian Araujo,Fullbacks,2741,2022 Major League Soccer
+Julian Araujo,Fullbacks,2793,2021 Major League Soccer
+Jurriën Timber,Center Backs,180,2022-2023 Europa League
+Jurriën Timber,Center Backs,390,2022 World Cup
+Jurriën Timber,Center Backs,450,2020-2021 Europa League
+Jurriën Timber,Center Backs,529,2022-2023 Champions League
+Jurriën Timber,Center Backs,572,2021-2022 Champions League
+Jurriën Timber,Center Backs,1510,2020-2021 Eredivisie
+Jurriën Timber,Center Backs,2550,2021-2022 Eredivisie
+Jurriën Timber,Center Backs,3029,2022-2023 Eredivisie
+Jurriën Timber,Fullbacks,315,2024-2025 Champions League
+Jurriën Timber,Fullbacks,1485,2024-2025 Premier League
+Jurriën Timber,Fullbacks,1822,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kaoru Mitoma,Fullbacks,1186,2021-2022 Belgian First Division A
+Keane Lewis-Potter,Fullbacks,1441,2023-2024 Premier League
+Keane Lewis-Potter,Fullbacks,1649,2024-2025 Premier League
+Keane Lewis-Potter,Fullbacks,2513,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kenny Tete,Fullbacks,197,2018-2019 Champions League
+Kenny Tete,Fullbacks,360,2017-2018 Europa League
+Kenny Tete,Fullbacks,867,2023-2024 Premier League
+Kenny Tete,Fullbacks,1048,2018-2019 Ligue 1
+Kenny Tete,Fullbacks,1072,2019-2020 Ligue 1
+Kenny Tete,Fullbacks,1262,2024-2025 Premier League
+Kenny Tete,Fullbacks,1342,2021-2022 Championship
+Kenny Tete,Fullbacks,1463,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kenny Tete,Fullbacks,1481,2020-2021 Premier League
+Kenny Tete,Fullbacks,1608,2017-2018 Ligue 1
+Kenny Tete,Fullbacks,2569,2022-2023 Premier League
+Kieran Tierney,Center Backs,180,2021 UEFA Euro 2020
+Kieran Tierney,Fullbacks,180,2017-2018 Europa League
+Kieran Tierney,Fullbacks,360,2019-2020 Europa League
+Kieran Tierney,Fullbacks,428,2020-2021 Europa League
+Kieran Tierney,Fullbacks,480,2022-2023 Europa League
+Kieran Tierney,Fullbacks,517,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kieran Tierney,Fullbacks,540,2017-2018 Champions League
+Kieran Tierney,Fullbacks,540,2018-2019 Europa League
+Kieran Tierney,Fullbacks,795,2022-2023 Premier League
+Kieran Tierney,Fullbacks,989,2019-2020 Premier League
+Kieran Tierney,Fullbacks,1238,2023-2024 La Liga
+Kieran Tierney,Fullbacks,1915,2021-2022 Premier League
+Kieran Tierney,Fullbacks,2299,2020-2021 Premier League
+Kieran Trippier,Fullbacks,206,2022 World Cup
+Kieran Trippier,Fullbacks,219,2021-2022 Champions League
+Kieran Trippier,Fullbacks,270,2017-2018 Champions League
+Kieran Trippier,Fullbacks,291,2021 UEFA Euro 2020
+Kieran Trippier,Fullbacks,450,2024 UEFA Euro 2024
+Kieran Trippier,Fullbacks,489,2024-2025 Premier League
+Kieran Trippier,Fullbacks,512,2023-2024 Champions League
+Kieran Trippier,Fullbacks,540,2019-2020 Champions League
+Kieran Trippier,Fullbacks,608,2020-2021 Champions League
+Kieran Trippier,Fullbacks,625,2018-2019 Champions League
+Kieran Trippier,Fullbacks,976,2021-2022 La Liga
+Kieran Trippier,Fullbacks,1063,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kieran Trippier,Fullbacks,1914,2017-2018 Premier League
+Kieran Trippier,Fullbacks,1979,2019-2020 La Liga
+Kieran Trippier,Fullbacks,2236,2023-2024 Premier League
+Kieran Trippier,Fullbacks,2276,2018-2019 Premier League
+Kieran Trippier,Fullbacks,2475,2020-2021 La Liga
+Kieran Trippier,Fullbacks,3341,2022-2023 Premier League
+Konstantinos Mavropanos,Center Backs,805,2023-2024 Europa League
+Konstantinos Mavropanos,Center Backs,867,2019-2020 2. Bundesliga
+Konstantinos Mavropanos,Center Backs,1307,2024-2025 Premier League
+Konstantinos Mavropanos,Center Backs,1463,2020-2021 Bundesliga
+Konstantinos Mavropanos,Center Backs,1500,2023-2024 Premier League
+Konstantinos Mavropanos,Center Backs,2286,2022-2023 Bundesliga
+Konstantinos Mavropanos,Center Backs,2576,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Konstantinos Mavropanos,Center Backs,2705,2021-2022 Bundesliga
+Kosta Nedeljković,Fullbacks,238,vs. Fullbacks
+Kostas Tsimikas,Fullbacks,263,2024-2025 Champions League
+Kostas Tsimikas,Fullbacks,342,2022-2023 Champions League
+Kostas Tsimikas,Fullbacks,344,2021-2022 Champions League
+Kostas Tsimikas,Fullbacks,383,2019-2020 Europa League
+Kostas Tsimikas,Fullbacks,396,2023-2024 Europa League
+Kostas Tsimikas,Fullbacks,432,2018-2019 Europa League
+Kostas Tsimikas,Fullbacks,540,2019-2020 Champions League
+Kostas Tsimikas,Fullbacks,647,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kostas Tsimikas,Fullbacks,679,2023-2024 Premier League
+Kostas Tsimikas,Fullbacks,771,2022-2023 Premier League
+Kostas Tsimikas,Fullbacks,877,2021-2022 Premier League
+Kristoffer Ajer,Center Backs,180,2017-2018 Europa League
+Kristoffer Ajer,Center Backs,408,2020-2021 Europa League
+Kristoffer Ajer,Center Backs,675,2019-2020 Europa League
+Kristoffer Ajer,Center Backs,763,2022-2023 Premier League
+Kristoffer Ajer,Center Backs,1832,2023-2024 Premier League
+Kristoffer Ajer,Center Backs,1995,2021-2022 Premier League
+Kristoffer Ajer,Fullbacks,717,2024-2025 Premier League
+Kristoffer Ajer,Fullbacks,1823,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kyle Walker,Center Backs,493,2018 World Cup
+Kyle Walker,Fullbacks,236,2022 World Cup
+Kyle Walker,Fullbacks,282,2022-2023 Champions League
+Kyle Walker,Fullbacks,443,2019-2020 Champions League
+Kyle Walker,Fullbacks,503,2023-2024 Champions League
+Kyle Walker,Fullbacks,575,2021-2022 Champions League
+Kyle Walker,Fullbacks,599,2021 UEFA Euro 2020
+Kyle Walker,Fullbacks,630,2017-2018 Champions League
+Kyle Walker,Fullbacks,690,2024 UEFA Euro 2024
+Kyle Walker,Fullbacks,746,2018-2019 Champions League
+Kyle Walker,Fullbacks,970,2024-2025 Premier League
+Kyle Walker,Fullbacks,981,2020-2021 Champions League
+Kyle Walker,Fullbacks,1755,2021-2022 Premier League
+Kyle Walker,Fullbacks,1946,2020-2021 Premier League
+Kyle Walker,Fullbacks,1958,2022-2023 Premier League
+Kyle Walker,Fullbacks,2274,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kyle Walker,Fullbacks,2392,2019-2020 Premier League
+Kyle Walker,Fullbacks,2767,2023-2024 Premier League
+Kyle Walker,Fullbacks,2779,2018-2019 Premier League
+Kyle Walker,Fullbacks,2784,2017-2018 Premier League
+Kyle Walker-Peters,Fullbacks,944,2019-2020 Premier League
+Kyle Walker-Peters,Fullbacks,1428,Last 365 Days Men's Next 14 Competitions
+Kyle Walker-Peters,Fullbacks,1690,2024-2025 Premier League
+Kyle Walker-Peters,Fullbacks,1690,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kyle Walker-Peters,Fullbacks,2633,2021-2022 Premier League
+Kyle Walker-Peters,Fullbacks,2645,2020-2021 Premier League
+Kyle Walker-Peters,Fullbacks,2650,2022-2023 Premier League
+Kyle Walker-Peters,Fullbacks,3858,2023-2024 Championship
+Leif Davis,Fullbacks,574,2021-2022 Championship
+Leif Davis,Fullbacks,1679,Last 365 Days Men's Next 14 Competitions
+Leif Davis,Fullbacks,1890,2024-2025 Premier League
+Leif Davis,Fullbacks,1890,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Leif Davis,Fullbacks,3781,2023-2024 Championship
+Leny Yoro,Center Backs,578,2023-2024 Europa Conference League
+Leny Yoro,Center Backs,769,2022-2023 Ligue 1
+Leny Yoro,Center Backs,1597,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Leny Yoro,Center Backs,2673,2023-2024 Ligue 1
+Levi Colwill,Center Backs,1220,2022-2023 Premier League
+Levi Colwill,Center Backs,1799,2024-2025 Premier League
+Levi Colwill,Center Backs,1997,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Levi Colwill,Center Backs,2423,2021-2022 Championship
+Levi Colwill,Fullbacks,1797,2023-2024 Premier League
+Lewis Dunk,Center Backs,585,2023-2024 Europa League
+Lewis Dunk,Center Backs,1292,2024-2025 Premier League
+Lewis Dunk,Center Backs,2573,2021-2022 Premier League
+Lewis Dunk,Center Backs,2869,2023-2024 Premier League
+Lewis Dunk,Center Backs,2925,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Lewis Dunk,Center Backs,2931,2020-2021 Premier League
+Lewis Dunk,Center Backs,3151,2018-2019 Premier League
+Lewis Dunk,Center Backs,3230,2019-2020 Premier League
+Lewis Dunk,Center Backs,3239,2022-2023 Premier League
+Lewis Dunk,Center Backs,3420,2017-2018 Premier League
+Lewis Hall,Fullbacks,654,2022-2023 Premier League
+Lewis Hall,Fullbacks,781,2023-2024 Premier League
+Lewis Hall,Fullbacks,1678,2024-2025 Premier League
+Lewis Hall,Fullbacks,2348,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Lisandro Martínez,Center Backs,299,2020-2021 Champions League
+Lisandro Martínez,Center Backs,303,2022 World Cup
+Lisandro Martínez,Center Backs,432,2024-2025 Europa League
+Lisandro Martínez,Center Backs,467,2024 Copa América
+Lisandro Martínez,Center Backs,540,2020-2021 Europa League
+Lisandro Martínez,Center Backs,646,2023-2024 Premier League
+Lisandro Martínez,Center Backs,720,2021-2022 Champions League
+Lisandro Martínez,Center Backs,793,2022-2023 Europa League
+Lisandro Martínez,Center Backs,1580,2024-2025 Premier League
+Lisandro Martínez,Center Backs,1755,2020-2021 Eredivisie
+Lisandro Martínez,Center Backs,1856,2017-2018 Superliga Argentina
+Lisandro Martínez,Center Backs,1906,2021-2022 Eredivisie
+Lisandro Martínez,Center Backs,2114,2022-2023 Premier League
+Lisandro Martínez,Center Backs,2201,2018-2019 Superliga Argentina
+Lisandro Martínez,Center Backs,2255,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Lloyd Kelly,Center Backs,639,2019-2020 Premier League
+Lloyd Kelly,Center Backs,2040,2022-2023 Premier League
+Lloyd Kelly,Center Backs,3625,2021-2022 Championship
+Lloyd Kelly,Fullbacks,1176,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Lloyd Kelly,Fullbacks,1559,2023-2024 Premier League
+Lloyd Kelly,Fullbacks,2313,2018-2019 Championship
+Lloyd Kelly,Fullbacks,3044,2020-2021 Championship
+Lucas Digne,Fullbacks,270,2017-2018 Champions League
+Lucas Digne,Fullbacks,349,2024-2025 Champions League
+Lucas Digne,Fullbacks,704,2017-2018 La Liga
+Lucas Digne,Fullbacks,801,2023-2024 Europa Conference League
+Lucas Digne,Fullbacks,1502,2022-2023 Premier League
+Lucas Digne,Fullbacks,1592,2024-2025 Premier League
+Lucas Digne,Fullbacks,2410,2023-2024 Premier League
+Lucas Digne,Fullbacks,2439,2021-2022 Premier League
+Lucas Digne,Fullbacks,2681,2020-2021 Premier League
+Lucas Digne,Fullbacks,2830,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Lucas Digne,Fullbacks,2965,2018-2019 Premier League
+Lucas Digne,Fullbacks,3030,2019-2020 Premier League
+Luke Shaw,Fullbacks,330,2020-2021 Champions League
+Luke Shaw,Fullbacks,360,2019-2020 Europa League
+Luke Shaw,Fullbacks,396,2021-2022 Champions League
+Luke Shaw,Fullbacks,407,2020-2021 Europa League
+Luke Shaw,Fullbacks,424,2022 World Cup
+Luke Shaw,Fullbacks,505,2022-2023 Europa League
+Luke Shaw,Fullbacks,574,2021 UEFA Euro 2020
+Luke Shaw,Fullbacks,720,2018-2019 Champions League
+Luke Shaw,Fullbacks,790,2017-2018 Premier League
+Luke Shaw,Fullbacks,959,2023-2024 Premier League
+Luke Shaw,Fullbacks,1601,2021-2022 Premier League
+Luke Shaw,Fullbacks,1733,2019-2020 Premier League
+Luke Shaw,Fullbacks,2552,2022-2023 Premier League
+Luke Shaw,Fullbacks,2591,2018-2019 Premier League
+Luke Shaw,Fullbacks,2654,2020-2021 Premier League
+Luke Thomas,Fullbacks,261,2021-2022 Europa League
+Luke Thomas,Fullbacks,270,2021-2022 Europa Conference League
+Luke Thomas,Fullbacks,540,2020-2021 Europa League
+Luke Thomas,Fullbacks,657,2023-2024 Championship
+Luke Thomas,Fullbacks,657,Last 365 Days Men's Next 14 Competitions
+Luke Thomas,Fullbacks,917,2023-2024 Premier League
+Luke Thomas,Fullbacks,969,2020-2021 Premier League
+Luke Thomas,Fullbacks,1073,2022-2023 Premier League
+Luke Thomas,Fullbacks,1912,2021-2022 Premier League
+Luke Woolfenden,Center Backs,737,2024-2025 Premier League
+Luke Woolfenden,Center Backs,737,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Luke Woolfenden,Center Backs,1542,Last 365 Days Men's Next 14 Competitions
+Luke Woolfenden,Center Backs,3612,2023-2024 Championship
+Mads Roerslev,Fullbacks,499,2019-2020 Championship
+Mads Roerslev,Fullbacks,868,2020-2021 Championship
+Mads Roerslev,Fullbacks,921,2024-2025 Premier League
+Mads Roerslev,Fullbacks,1108,2022-2023 Premier League
+Mads Roerslev,Fullbacks,1240,2021-2022 Premier League
+Mads Roerslev,Fullbacks,1985,2023-2024 Premier League
+Mads Roerslev,Fullbacks,2172,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Malo Gusto,Fullbacks,446,2021-2022 Europa League
+Malo Gusto,Fullbacks,1240,2024-2025 Premier League
+Malo Gusto,Fullbacks,1595,2022-2023 Ligue 1
+Malo Gusto,Fullbacks,1751,2023-2024 Premier League
+Malo Gusto,Fullbacks,1884,2021-2022 Ligue 1
+Malo Gusto,Fullbacks,2101,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Manuel Akanji,Center Backs,360,2018 World Cup
+Manuel Akanji,Center Backs,360,2022 World Cup
+Manuel Akanji,Center Backs,419,2024-2025 Champions League
+Manuel Akanji,Center Backs,450,2018-2019 Champions League
+Manuel Akanji,Center Backs,450,2021-2022 Champions League
+Manuel Akanji,Center Backs,480,2024 UEFA Euro 2024
+Manuel Akanji,Center Backs,510,2021 UEFA Euro 2020
+Manuel Akanji,Center Backs,523,2019-2020 Champions League
+Manuel Akanji,Center Backs,540,2017-2018 Champions League
+Manuel Akanji,Center Backs,630,2020-2021 Champions League
+Manuel Akanji,Center Backs,665,2023-2024 Champions League
+Manuel Akanji,Center Backs,903,2017-2018 Bundesliga
+Manuel Akanji,Center Backs,1456,2024-2025 Premier League
+Manuel Akanji,Center Backs,2205,2018-2019 Bundesliga
+Manuel Akanji,Center Backs,2261,2021-2022 Bundesliga
+Manuel Akanji,Center Backs,2287,2022-2023 Premier League
+Manuel Akanji,Center Backs,2309,2019-2020 Bundesliga
+Manuel Akanji,Center Backs,2350,2020-2021 Bundesliga
+Manuel Akanji,Center Backs,2511,2023-2024 Premier League
+Manuel Akanji,Center Backs,3417,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Manuel Akanji,Fullbacks,945,2022-2023 Champions League
+Marc Cucurella,Center Backs,414,2022-2023 Champions League
+Marc Cucurella,Fullbacks,180,2024-2025 Conference League
+Marc Cucurella,Fullbacks,545,2024 UEFA Euro 2024
+Marc Cucurella,Fullbacks,1534,2024-2025 Premier League
+Marc Cucurella,Fullbacks,1671,2022-2023 Premier League
+Marc Cucurella,Fullbacks,1782,2023-2024 Premier League
+Marc Cucurella,Fullbacks,2613,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Marc Cucurella,Fullbacks,3089,2021-2022 Premier League
+Marc Cucurella,Fullbacks,3330,2017-2018 Segunda División
+Marc Guéhi,Center Backs,570,2024 UEFA Euro 2024
+Marc Guéhi,Center Backs,997,2019-2020 Championship
+Marc Guéhi,Center Backs,1890,2024-2025 Premier League
+Marc Guéhi,Center Backs,2021,2023-2024 Premier League
+Marc Guéhi,Center Backs,2202,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Marc Guéhi,Center Backs,3222,2021-2022 Premier League
+Marc Guéhi,Center Backs,3329,2022-2023 Premier League
+Marc Guéhi,Center Backs,3547,2020-2021 Championship
+Marcos Senesi,Center Backs,296,2019-2020 Europa League
+Marcos Senesi,Center Backs,431,2020-2021 Europa League
+Marcos Senesi,Center Backs,627,2019 Copa Libertadores
+Marcos Senesi,Center Backs,877,2017-2018 Superliga Argentina
+Marcos Senesi,Center Backs,887,2016-2017 Primera División Argentina
+Marcos Senesi,Center Backs,917,2024-2025 Premier League
+Marcos Senesi,Center Backs,1031,2021-2022 Europa Conference League
+Marcos Senesi,Center Backs,1394,2019-2020 Eredivisie
+Marcos Senesi,Center Backs,1951,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Marcos Senesi,Center Backs,2040,2018-2019 Superliga Argentina
+Marcos Senesi,Center Backs,2242,2023-2024 Premier League
+Marcos Senesi,Center Backs,2491,2022-2023 Premier League
+Marcos Senesi,Center Backs,2543,2021-2022 Eredivisie
+Marcos Senesi,Center Backs,2880,2020-2021 Eredivisie
+Mason Holgate,Center Backs,360,2017-2018 Europa League
+Mason Holgate,Center Backs,507,2022-2023 Premier League
+Mason Holgate,Center Backs,710,2023-2024 Premier League
+Mason Holgate,Center Backs,716,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mason Holgate,Center Backs,1085,2024-2025 Championship
+Mason Holgate,Center Backs,1085,Last 365 Days Men's Next 14 Competitions
+Mason Holgate,Center Backs,1184,2017-2018 Premier League
+Mason Holgate,Center Backs,2054,2019-2020 Premier League
+Mason Holgate,Center Backs,2134,2021-2022 Premier League
+Mason Holgate,Fullbacks,1656,2018-2019 Championship
+Mason Holgate,Fullbacks,2287,2020-2021 Premier League
+Matt Doherty,Fullbacks,233,2021-2022 Europa Conference League
+Matt Doherty,Fullbacks,613,2020-2021 Europa League
+Matt Doherty,Fullbacks,667,2022-2023 Premier League
+Matt Doherty,Fullbacks,875,2021-2022 Premier League
+Matt Doherty,Fullbacks,894,2024-2025 Premier League
+Matt Doherty,Fullbacks,1150,2023-2024 Premier League
+Matt Doherty,Fullbacks,1240,2020-2021 Premier League
+Matt Doherty,Fullbacks,1619,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Matt Doherty,Fullbacks,3144,2018-2019 Premier League
+Matt Targett,Fullbacks,610,2022-2023 Premier League
+Matt Targett,Fullbacks,1186,2018-2019 Premier League
+Matt Targett,Fullbacks,2291,2019-2020 Premier League
+Matt Targett,Fullbacks,2871,2021-2022 Premier League
+Matt Targett,Fullbacks,3404,2020-2021 Premier League
+Matthijs de Ligt,Center Backs,231,2021 UEFA Euro 2020
+Matthijs de Ligt,Center Backs,322,2024-2025 Europa League
+Matthijs de Ligt,Center Backs,406,2020-2021 Champions League
+Matthijs de Ligt,Center Backs,468,2023-2024 Champions League
+Matthijs de Ligt,Center Backs,540,2019-2020 Champions League
+Matthijs de Ligt,Center Backs,614,2022-2023 Champions League
+Matthijs de Ligt,Center Backs,625,2021-2022 Champions League
+Matthijs de Ligt,Center Backs,990,2018-2019 Champions League
+Matthijs de Ligt,Center Backs,1390,2023-2024 Bundesliga
+Matthijs de Ligt,Center Backs,1393,2024-2025 Premier League
+Matthijs de Ligt,Center Backs,2220,2020-2021 Serie A
+Matthijs de Ligt,Center Backs,2403,2022-2023 Bundesliga
+Matthijs de Ligt,Center Backs,2450,2019-2020 Serie A
+Matthijs de Ligt,Center Backs,2674,2021-2022 Serie A
+Matthijs de Ligt,Center Backs,2970,2018-2019 Eredivisie
+Matthijs de Ligt,Center Backs,3114,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Matty Cash,Fullbacks,360,2022 World Cup
+Matty Cash,Fullbacks,764,2023-2024 Europa Conference League
+Matty Cash,Fullbacks,1078,2024-2025 Premier League
+Matty Cash,Fullbacks,1820,2022-2023 Premier League
+Matty Cash,Fullbacks,2099,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Matty Cash,Fullbacks,2142,2023-2024 Premier League
+Matty Cash,Fullbacks,2372,2020-2021 Premier League
+Matty Cash,Fullbacks,3377,2021-2022 Premier League
+Matty Cash,Fullbacks,3615,2019-2020 Championship
+Max Aarons,Fullbacks,1237,2023-2024 Premier League
+Max Aarons,Fullbacks,2881,2021-2022 Premier League
+Max Aarons,Fullbacks,3240,2019-2020 Premier League
+Max Aarons,Fullbacks,3664,2018-2019 Championship
+Max Aarons,Fullbacks,3851,2022-2023 Championship
+Max Aarons,Fullbacks,4046,2020-2021 Championship
+Max Kilman,Center Backs,360,2019-2020 Europa League
+Max Kilman,Center Backs,1310,2020-2021 Premier League
+Max Kilman,Center Backs,1818,2024-2025 Premier League
+Max Kilman,Center Backs,2687,2021-2022 Premier League
+Max Kilman,Center Backs,3307,2022-2023 Premier League
+Max Kilman,Center Backs,3420,2023-2024 Premier League
+Max Kilman,Center Backs,3438,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Maxence Lacroix,Center Backs,540,2021-2022 Champions League
+Maxence Lacroix,Center Backs,630,2018-2019 Ligue 2
+Maxence Lacroix,Center Backs,1627,2022-2023 Bundesliga
+Maxence Lacroix,Center Backs,1710,2024-2025 Premier League
+Maxence Lacroix,Center Backs,1730,2019-2020 Ligue 2
+Maxence Lacroix,Center Backs,2362,2023-2024 Bundesliga
+Maxence Lacroix,Center Backs,2491,2021-2022 Bundesliga
+Maxence Lacroix,Center Backs,2590,2020-2021 Bundesliga
+Maxence Lacroix,Center Backs,2880,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Maxwel Cornet,Fullbacks,548,2019-2020 Champions League
+Maxwel Cornet,Fullbacks,2446,2020-2021 Ligue 1
+Michael Keane,Center Backs,270,2017-2018 Europa League
+Michael Keane,Center Backs,810,2024-2025 Premier League
+Michael Keane,Center Backs,845,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Michael Keane,Center Backs,985,2022-2023 Premier League
+Michael Keane,Center Backs,2559,2019-2020 Premier League
+Michael Keane,Center Backs,2560,2017-2018 Premier League
+Michael Keane,Center Backs,2792,2021-2022 Premier League
+Michael Keane,Center Backs,2969,2018-2019 Premier League
+Michael Keane,Center Backs,2991,2020-2021 Premier League
+Micky van de Ven,Center Backs,788,2024-2025 Premier League
+Micky van de Ven,Center Backs,2186,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Micky van de Ven,Center Backs,2339,2023-2024 Premier League
+Micky van de Ven,Center Backs,2970,2022-2023 Bundesliga
+Milos Kerkez,Fullbacks,237,2024 UEFA Euro 2024
+Milos Kerkez,Fullbacks,850,2022-2023 Europa Conference League
+Milos Kerkez,Fullbacks,1817,2024-2025 Premier League
+Milos Kerkez,Fullbacks,1970,2023-2024 Premier League
+Milos Kerkez,Fullbacks,2626,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Milos Kerkez,Fullbacks,2671,2022-2023 Eredivisie
+Morato,Center Backs,180,2021-2022 Champions League
+Morato,Center Backs,435,2023-2024 Champions League
+Morato,Center Backs,648,2022-2023 Primeira Liga
+Morato,Center Backs,969,2021-2022 Primeira Liga
+Morato,Fullbacks,763,Last 365 Days Men's Next 14 Competitions
+Morato,Fullbacks,1525,2023-2024 Primeira Liga
+Murillo,Center Backs,360,2023 Copa Libertadores
+Murillo,Center Backs,1165,2023 Série A
+Murillo,Center Backs,1777,2024-2025 Premier League
+Murillo,Center Backs,2789,2023-2024 Premier League
+Murillo,Center Backs,3335,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Nathan Aké,Center Backs,326,2021-2022 Champions League
+Nathan Aké,Center Backs,479,2022 World Cup
+Nathan Aké,Center Backs,602,2024-2025 Premier League
+Nathan Aké,Center Backs,797,2020-2021 Premier League
+Nathan Aké,Center Backs,923,2021-2022 Premier League
+Nathan Aké,Center Backs,1778,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Nathan Aké,Center Backs,2042,2023-2024 Premier League
+Nathan Aké,Center Backs,2503,2019-2020 Premier League
+Nathan Aké,Center Backs,3353,2017-2018 Premier League
+Nathan Aké,Center Backs,3411,2018-2019 Premier League
+Nathan Aké,Fullbacks,180,2020-2021 Champions League
+Nathan Aké,Fullbacks,384,2023-2024 Champions League
+Nathan Aké,Fullbacks,470,2024 UEFA Euro 2024
+Nathan Aké,Fullbacks,608,2022-2023 Champions League
+Nathan Aké,Fullbacks,1873,2022-2023 Premier League
+Nathan Collins,Center Backs,535,2019-2020 Championship
+Nathan Collins,Center Backs,1670,2021-2022 Premier League
+Nathan Collins,Center Backs,1814,2022-2023 Premier League
+Nathan Collins,Center Backs,1890,2024-2025 Premier League
+Nathan Collins,Center Backs,2652,2023-2024 Premier League
+Nathan Collins,Center Backs,3347,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Nathan Collins,Fullbacks,1768,2020-2021 Championship
+Nathan Patterson,Fullbacks,277,2020-2021 Europa League
+Nathan Patterson,Fullbacks,1005,2023-2024 Premier League
+Nathan Patterson,Fullbacks,1279,2022-2023 Premier League
+Nathan Wood-Gordon,Center Backs,579,2024-2025 Premier League
+Nathan Wood-Gordon,Center Backs,579,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Nathan Wood-Gordon,Center Backs,1275,Last 365 Days Men's Next 14 Competitions
+Nathan Wood-Gordon,Center Backs,2103,2023-2024 Championship
+Nathan Wood-Gordon,Center Backs,3402,2022-2023 Championship
+Nathaniel Clyne,Center Backs,1089,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Nathaniel Clyne,Fullbacks,1145,2020-2021 Premier League
+Nathaniel Clyne,Fullbacks,1254,2018-2019 Premier League
+Nathaniel Clyne,Fullbacks,1338,2023-2024 Premier League
+Nathaniel Clyne,Fullbacks,1351,2021-2022 Premier League
+Nathaniel Clyne,Fullbacks,1640,2022-2023 Premier League
+Neco Williams,Fullbacks,180,2021-2022 Champions League
+Neco Williams,Fullbacks,190,2020-2021 Champions League
+Neco Williams,Fullbacks,204,2022 World Cup
+Neco Williams,Fullbacks,1088,2024-2025 Premier League
+Neco Williams,Fullbacks,1192,2021-2022 Championship
+Neco Williams,Fullbacks,1637,2023-2024 Premier League
+Neco Williams,Fullbacks,1882,2022-2023 Premier League
+Neco Williams,Fullbacks,2291,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Nikola Milenković,Center Backs,270,2018 World Cup
+Nikola Milenković,Center Backs,270,2022 World Cup
+Nikola Milenković,Center Backs,270,2024 UEFA Euro 2024
+Nikola Milenković,Center Backs,510,Last 365 Days Men's Next 14 Competitions
+Nikola Milenković,Center Backs,750,2022-2023 Europa Conference League
+Nikola Milenković,Center Backs,825,2023-2024 Europa Conference League
+Nikola Milenković,Center Backs,1253,2017-2018 Serie A
+Nikola Milenković,Center Backs,1800,2024-2025 Premier League
+Nikola Milenković,Center Backs,2137,2022-2023 Serie A
+Nikola Milenković,Center Backs,2510,2023-2024 Serie A
+Nikola Milenković,Center Backs,2912,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Nikola Milenković,Center Backs,2926,2021-2022 Serie A
+Nikola Milenković,Center Backs,3034,2020-2021 Serie A
+Nikola Milenković,Center Backs,3258,2019-2020 Serie A
+Nikola Milenković,Fullbacks,3008,2018-2019 Serie A
+Noussair Mazraoui,Fullbacks,225,2019-2020 Champions League
+Noussair Mazraoui,Fullbacks,365,2022 World Cup
+Noussair Mazraoui,Fullbacks,392,2022-2023 Champions League
+Noussair Mazraoui,Fullbacks,477,2020-2021 Champions League
+Noussair Mazraoui,Fullbacks,540,2024-2025 Europa League
+Noussair Mazraoui,Fullbacks,647,2023-2024 Champions League
+Noussair Mazraoui,Fullbacks,657,2021-2022 Champions League
+Noussair Mazraoui,Fullbacks,742,2019-2020 Eredivisie
+Noussair Mazraoui,Fullbacks,825,2018-2019 Champions League
+Noussair Mazraoui,Fullbacks,1075,2022-2023 Bundesliga
+Noussair Mazraoui,Fullbacks,1197,2023-2024 Bundesliga
+Noussair Mazraoui,Fullbacks,1206,2020-2021 Eredivisie
+Noussair Mazraoui,Fullbacks,1601,2024-2025 Premier League
+Noussair Mazraoui,Fullbacks,1951,2021-2022 Eredivisie
+Noussair Mazraoui,Fullbacks,2232,2018-2019 Eredivisie
+Noussair Mazraoui,Fullbacks,2863,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Nélson Semedo,Fullbacks,258,2021 UEFA Euro 2020
+Nélson Semedo,Fullbacks,559,2018-2019 Champions League
+Nélson Semedo,Fullbacks,624,2017-2018 Champions League
+Nélson Semedo,Fullbacks,630,2019-2020 Champions League
+Nélson Semedo,Fullbacks,1428,2024-2025 Premier League
+Nélson Semedo,Fullbacks,1493,2017-2018 La Liga
+Nélson Semedo,Fullbacks,1600,2018-2019 La Liga
+Nélson Semedo,Fullbacks,2097,2019-2020 La Liga
+Nélson Semedo,Fullbacks,2632,2022-2023 Premier League
+Nélson Semedo,Fullbacks,2877,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Nélson Semedo,Fullbacks,2983,2020-2021 Premier League
+Nélson Semedo,Fullbacks,3084,2023-2024 Premier League
+Ola Aina,Fullbacks,876,2022-2023 Serie A
+Ola Aina,Fullbacks,1437,2021-2022 Serie A
+Ola Aina,Fullbacks,1692,2023-2024 Premier League
+Ola Aina,Fullbacks,1823,2024-2025 Premier League
+Ola Aina,Fullbacks,2079,2019-2020 Serie A
+Ola Aina,Fullbacks,2160,2018-2019 Serie A
+Ola Aina,Fullbacks,2526,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ola Aina,Fullbacks,2664,2020-2021 Premier League
+Oleksandr Zinchenko,Fullbacks,204,2022-2023 Europa League
+Oleksandr Zinchenko,Fullbacks,213,2024 UEFA Euro 2024
+Oleksandr Zinchenko,Fullbacks,278,2023-2024 Champions League
+Oleksandr Zinchenko,Fullbacks,337,2018-2019 Champions League
+Oleksandr Zinchenko,Fullbacks,502,2021-2022 Champions League
+Oleksandr Zinchenko,Fullbacks,532,2017-2018 Premier League
+Oleksandr Zinchenko,Fullbacks,587,2020-2021 Champions League
+Oleksandr Zinchenko,Fullbacks,844,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Oleksandr Zinchenko,Fullbacks,1047,2021-2022 Premier League
+Oleksandr Zinchenko,Fullbacks,1151,2018-2019 Premier League
+Oleksandr Zinchenko,Fullbacks,1276,2019-2020 Premier League
+Oleksandr Zinchenko,Fullbacks,1478,2020-2021 Premier League
+Oleksandr Zinchenko,Fullbacks,1722,2023-2024 Premier League
+Oleksandr Zinchenko,Fullbacks,2118,2022-2023 Premier League
+Pau Torres,Center Backs,374,2021 UEFA Euro 2020
+Pau Torres,Center Backs,475,2024-2025 Champions League
+Pau Torres,Center Backs,504,2023-2024 Europa Conference League
+Pau Torres,Center Backs,795,2020-2021 Europa League
+Pau Torres,Center Backs,1080,2021-2022 Champions League
+Pau Torres,Center Backs,1549,2024-2025 Premier League
+Pau Torres,Center Backs,2464,2023-2024 Premier League
+Pau Torres,Center Backs,2855,2021-2022 La Liga
+Pau Torres,Center Backs,2969,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Pau Torres,Center Backs,2970,2020-2021 La Liga
+Pau Torres,Center Backs,2971,2019-2020 La Liga
+Pau Torres,Center Backs,3054,2022-2023 La Liga
+Pau Torres,Center Backs,3420,2018-2019 Segunda División
+Pedro Porro,Fullbacks,360,2024-2025 Europa League
+Pedro Porro,Fullbacks,430,2022-2023 Champions League
+Pedro Porro,Fullbacks,524,2021-2022 Champions League
+Pedro Porro,Fullbacks,739,2019-2020 La Liga
+Pedro Porro,Fullbacks,1074,2022-2023 Primeira Liga
+Pedro Porro,Fullbacks,1131,2022-2023 Premier League
+Pedro Porro,Fullbacks,1640,2021-2022 Primeira Liga
+Pedro Porro,Fullbacks,1718,2024-2025 Premier League
+Pedro Porro,Fullbacks,2211,2018-2019 La Liga
+Pedro Porro,Fullbacks,2503,2020-2021 Primeira Liga
+Pedro Porro,Fullbacks,3089,2023-2024 Premier League
+Pedro Porro,Fullbacks,3371,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Pervis Estupiñán,Fullbacks,226,2020-2021 Europa League
+Pervis Estupiñán,Fullbacks,270,2022 World Cup
+Pervis Estupiñán,Fullbacks,450,2021 Copa América
+Pervis Estupiñán,Fullbacks,645,2021-2022 Champions League
+Pervis Estupiñán,Fullbacks,1168,2020-2021 La Liga
+Pervis Estupiñán,Fullbacks,1243,2023-2024 Premier League
+Pervis Estupiñán,Fullbacks,1334,2024-2025 Premier League
+Pervis Estupiñán,Fullbacks,1460,2018-2019 Segunda División
+Pervis Estupiñán,Fullbacks,1575,2021-2022 La Liga
+Pervis Estupiñán,Fullbacks,1800,2017-2018 Segunda División
+Pervis Estupiñán,Fullbacks,2023,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Pervis Estupiñán,Fullbacks,2675,2022-2023 Premier League
+Pervis Estupiñán,Fullbacks,2979,2019-2020 La Liga
+Radu Drăgușin,Center Backs,360,2024 UEFA Euro 2024
+Radu Drăgușin,Center Backs,367,2024-2025 Europa League
+Radu Drăgușin,Center Backs,1108,2021-2022 Serie A
+Radu Drăgușin,Center Backs,1117,2024-2025 Premier League
+Radu Drăgușin,Center Backs,1710,2023-2024 Serie A
+Radu Drăgușin,Center Backs,1907,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Radu Drăgușin,Center Backs,3375,2022-2023 Serie B
+Rayan Aït-Nouri,Fullbacks,1076,2022-2023 Premier League
+Rayan Aït-Nouri,Fullbacks,1282,2019-2020 Ligue 1
+Rayan Aït-Nouri,Fullbacks,1404,2020-2021 Premier League
+Rayan Aït-Nouri,Fullbacks,1722,2024-2025 Premier League
+Rayan Aït-Nouri,Fullbacks,1828,2021-2022 Premier League
+Rayan Aït-Nouri,Fullbacks,2329,2023-2024 Premier League
+Rayan Aït-Nouri,Fullbacks,2905,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Reece James,Fullbacks,382,2019-2020 Champions League
+Reece James,Fullbacks,506,2021-2022 Champions League
+Reece James,Fullbacks,569,2020-2021 Champions League
+Reece James,Fullbacks,691,2022-2023 Champions League
+Reece James,Fullbacks,1244,2022-2023 Premier League
+Reece James,Fullbacks,1515,2019-2020 Premier League
+Reece James,Fullbacks,1864,2021-2022 Premier League
+Reece James,Fullbacks,2373,2020-2021 Premier League
+Reece James,Fullbacks,3969,2018-2019 Championship
+Reiss Nelson,Fullbacks,319,2017-2018 Europa League
+Renato Veiga,Fullbacks,540,2024-2025 Conference League
+Renato Veiga,Fullbacks,540,Last 365 Days Men's Next 14 Competitions
+Renato Veiga,Fullbacks,639,2022-2023 Bundesliga
+Ricardo Pereira,Fullbacks,328,2021-2022 Europa Conference League
+Ricardo Pereira,Fullbacks,454,2022-2023 Premier League
+Ricardo Pereira,Fullbacks,552,2017-2018 Champions League
+Ricardo Pereira,Fullbacks,959,2020-2021 Premier League
+Ricardo Pereira,Fullbacks,991,2021-2022 Premier League
+Ricardo Pereira,Fullbacks,1233,Last 365 Days Men's Next 14 Competitions
+Ricardo Pereira,Fullbacks,2520,2019-2020 Premier League
+Ricardo Pereira,Fullbacks,3123,2018-2019 Premier League
+Ricardo Pereira,Fullbacks,3278,2023-2024 Championship
+Riccardo Calafiori,Center Backs,270,2024 UEFA Euro 2024
+Riccardo Calafiori,Center Backs,2349,2023-2024 Serie A
+Riccardo Calafiori,Fullbacks,255,2021-2022 Europa Conference League
+Riccardo Calafiori,Fullbacks,256,2024-2025 Champions League
+Riccardo Calafiori,Fullbacks,354,2020-2021 Europa League
+Riccardo Calafiori,Fullbacks,698,2022-2023 Europa Conference League
+Riccardo Calafiori,Fullbacks,707,2024-2025 Premier League
+Riccardo Calafiori,Fullbacks,1935,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Rico Lewis,Fullbacks,540,2024-2025 Champions League
+Rico Lewis,Fullbacks,809,2023-2024 Premier League
+Rico Lewis,Fullbacks,903,2022-2023 Premier League
+Rico Lewis,Fullbacks,1383,2024-2025 Premier League
+Rico Lewis,Fullbacks,2458,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Rob Holding,Center Backs,270,2019-2020 Europa League
+Rob Holding,Center Backs,405,2020-2021 Europa League
+Rob Holding,Center Backs,419,2018-2019 Europa League
+Rob Holding,Center Backs,566,2022-2023 Premier League
+Rob Holding,Center Backs,581,2019-2020 Premier League
+Rob Holding,Center Backs,596,2017-2018 Europa League
+Rob Holding,Center Backs,613,2022-2023 Europa League
+Rob Holding,Center Backs,807,2018-2019 Premier League
+Rob Holding,Center Backs,822,2017-2018 Premier League
+Rob Holding,Center Backs,845,2021-2022 Premier League
+Rob Holding,Center Backs,2558,2020-2021 Premier League
+Rodri,Center Backs,390,2022 World Cup
+Rodrigo Gomes,Fullbacks,416,2021-2022 Europa League
+Rodrigo Gomes,Fullbacks,530,2024-2025 Premier League
+Rodrigo Gomes,Fullbacks,530,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ronnie Edwards,Center Backs,2826,vs. Center Backs
+Ryan Manning,Center Backs,2993,2021-2022 Championship
+Ryan Manning,Fullbacks,669,2024-2025 Premier League
+Ryan Manning,Fullbacks,669,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ryan Manning,Fullbacks,875,Last 365 Days Men's Next 14 Competitions
+Ryan Manning,Fullbacks,1083,2020-2021 Championship
+Ryan Manning,Fullbacks,2744,2023-2024 Championship
+Ryan Manning,Fullbacks,3689,2019-2020 Championship
+Ryan Manning,Fullbacks,3700,2022-2023 Championship
+Ryan Sessegnon,Fullbacks,247,2020-2021 Europa League
+Ryan Sessegnon,Fullbacks,813,2022-2023 Premier League
+Ryan Sessegnon,Fullbacks,1047,2021-2022 Premier League
+Ryan Sessegnon,Fullbacks,1574,2020-2021 Bundesliga
+Rúben Dias,Center Backs,180,2017-2018 Champions League
+Rúben Dias,Center Backs,180,2019-2020 Europa League
+Rúben Dias,Center Backs,228,2024-2025 Champions League
+Rúben Dias,Center Backs,360,2021 UEFA Euro 2020
+Rúben Dias,Center Backs,360,2022 World Cup
+Rúben Dias,Center Backs,404,2018-2019 Champions League
+Rúben Dias,Center Backs,420,2024 UEFA Euro 2024
+Rúben Dias,Center Backs,540,2019-2020 Champions League
+Rúben Dias,Center Backs,570,2018-2019 Europa League
+Rúben Dias,Center Backs,664,2021-2022 Champions League
+Rúben Dias,Center Backs,765,2023-2024 Champions League
+Rúben Dias,Center Backs,969,2020-2021 Champions League
+Rúben Dias,Center Backs,1049,2022-2023 Champions League
+Rúben Dias,Center Backs,1087,2024-2025 Premier League
+Rúben Dias,Center Backs,1998,2022-2023 Premier League
+Rúben Dias,Center Backs,2402,2021-2022 Premier League
+Rúben Dias,Center Backs,2559,2023-2024 Premier League
+Rúben Dias,Center Backs,2843,2020-2021 Premier League
+Rúben Dias,Center Backs,2853,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Rúben Dias,Center Backs,2867,2018-2019 Primeira Liga
+Rúben Dias,Center Backs,2970,2019-2020 Primeira Liga
+Santiago Bueno,Center Backs,822,2023-2024 Premier League
+Santiago Bueno,Center Backs,1151,2024-2025 Premier League
+Santiago Bueno,Center Backs,1772,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Santiago Bueno,Center Backs,2672,2021-2022 Segunda División
+Santiago Bueno,Center Backs,3010,2022-2023 La Liga
+Santiago Bueno,Center Backs,3062,2020-2021 Segunda División
+Scott McTominay,Center Backs,270,2021 UEFA Euro 2020
+Sepp van den Berg,Center Backs,696,2022-2023 Bundesliga
+Sepp van den Berg,Center Backs,905,2018-2019 Eredivisie
+Sepp van den Berg,Center Backs,2839,2023-2024 Bundesliga
+Sepp van den Berg,Center Backs,2958,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Sepp van den Berg,Center Backs,3971,2021-2022 Championship
+Sepp van den Berg,Fullbacks,1354,2020-2021 Championship
+Sepp van den Berg,Fullbacks,1428,2024-2025 Premier League
+Sergio Reguilón,Fullbacks,255,2020-2021 Europa League
+Sergio Reguilón,Fullbacks,360,2018-2019 Champions League
+Sergio Reguilón,Fullbacks,450,2019-2020 Europa League
+Sergio Reguilón,Fullbacks,1119,2018-2019 La Liga
+Sergio Reguilón,Fullbacks,1204,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Sergio Reguilón,Fullbacks,1530,2023-2024 Premier League
+Sergio Reguilón,Fullbacks,1916,2021-2022 Premier League
+Sergio Reguilón,Fullbacks,2244,2020-2021 Premier League
+Sergio Reguilón,Fullbacks,2509,2019-2020 La Liga
+Simon Adingra,Fullbacks,415,2022-2023 Europa League
+Simon Adingra,Fullbacks,1905,2022-2023 Belgian Pro League
+Sven Botman,Center Backs,417,2021-2022 Champions League
+Sven Botman,Center Backs,662,2020-2021 Europa League
+Sven Botman,Center Backs,791,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Sven Botman,Center Backs,1377,2023-2024 Premier League
+Sven Botman,Center Backs,2250,2021-2022 Ligue 1
+Sven Botman,Center Backs,2340,2019-2020 Eredivisie
+Sven Botman,Center Backs,3127,2022-2023 Premier League
+Sven Botman,Center Backs,3309,2020-2021 Ligue 1
+Séamus Coleman,Fullbacks,665,2023-2024 Premier League
+Séamus Coleman,Fullbacks,678,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Séamus Coleman,Fullbacks,1035,2017-2018 Premier League
+Séamus Coleman,Fullbacks,1613,2020-2021 Premier League
+Séamus Coleman,Fullbacks,1656,2022-2023 Premier League
+Séamus Coleman,Fullbacks,1839,2019-2020 Premier League
+Séamus Coleman,Fullbacks,2558,2018-2019 Premier League
+Séamus Coleman,Fullbacks,2656,2021-2022 Premier League
+Takehiro Tomiyasu,Center Backs,187,2022 World Cup
+Takehiro Tomiyasu,Center Backs,270,2019 Copa América
+Takehiro Tomiyasu,Center Backs,2430,2018-2019 Belgian First Division A
+Takehiro Tomiyasu,Fullbacks,388,2023-2024 Champions League
+Takehiro Tomiyasu,Fullbacks,400,2022-2023 Europa League
+Takehiro Tomiyasu,Fullbacks,607,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Takehiro Tomiyasu,Fullbacks,663,2022-2023 Premier League
+Takehiro Tomiyasu,Fullbacks,1149,2023-2024 Premier League
+Takehiro Tomiyasu,Fullbacks,1679,2021-2022 Premier League
+Takehiro Tomiyasu,Fullbacks,2528,2019-2020 Serie A
+Takehiro Tomiyasu,Fullbacks,2715,2020-2021 Serie A
+Tariq Lamptey,Fullbacks,276,2023-2024 Europa League
+Tariq Lamptey,Fullbacks,453,2022-2023 Premier League
+Tariq Lamptey,Fullbacks,620,2019-2020 Premier League
+Tariq Lamptey,Fullbacks,886,2020-2021 Premier League
+Tariq Lamptey,Fullbacks,914,2023-2024 Premier League
+Tariq Lamptey,Fullbacks,1240,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Tariq Lamptey,Fullbacks,1561,2021-2022 Premier League
+Taylor Harwood-Bellis,Center Backs,1097,2021-2022 Belgian First Division A
+Taylor Harwood-Bellis,Center Backs,1542,2020-2021 Championship
+Taylor Harwood-Bellis,Center Backs,1634,Last 365 Days Men's Next 14 Competitions
+Taylor Harwood-Bellis,Center Backs,1670,2024-2025 Premier League
+Taylor Harwood-Bellis,Center Backs,1670,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Taylor Harwood-Bellis,Center Backs,1959,2021-2022 Championship
+Taylor Harwood-Bellis,Center Backs,2766,2022-2023 Championship
+Taylor Harwood-Bellis,Center Backs,3499,2023-2024 Championship
+Timothy Castagne,Fullbacks,222,2021-2022 Europa Conference League
+Timothy Castagne,Fullbacks,225,2017-2018 Europa League
+Timothy Castagne,Fullbacks,270,2022 World Cup
+Timothy Castagne,Fullbacks,357,2024 UEFA Euro 2024
+Timothy Castagne,Fullbacks,394,2019-2020 Champions League
+Timothy Castagne,Fullbacks,450,2021-2022 Europa League
+Timothy Castagne,Fullbacks,633,2024-2025 Premier League
+Timothy Castagne,Fullbacks,1500,2017-2018 Serie A
+Timothy Castagne,Fullbacks,1769,2019-2020 Serie A
+Timothy Castagne,Fullbacks,1958,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Timothy Castagne,Fullbacks,2006,2018-2019 Serie A
+Timothy Castagne,Fullbacks,2127,2021-2022 Premier League
+Timothy Castagne,Fullbacks,2345,2020-2021 Premier League
+Timothy Castagne,Fullbacks,2634,2023-2024 Premier League
+Timothy Castagne,Fullbacks,3254,2022-2023 Premier League
+Tosin Adarabioyo,Center Backs,360,2024-2025 Conference League
+Tosin Adarabioyo,Center Backs,643,2024-2025 Premier League
+Tosin Adarabioyo,Center Backs,1617,2023-2024 Premier League
+Tosin Adarabioyo,Center Backs,1627,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Tosin Adarabioyo,Center Backs,2085,2022-2023 Premier League
+Tosin Adarabioyo,Center Backs,2953,2020-2021 Premier League
+Tosin Adarabioyo,Center Backs,2966,2019-2020 Championship
+Tosin Adarabioyo,Center Backs,3684,2021-2022 Championship
+Tosin Adarabioyo,Fullbacks,2031,2018-2019 Championship
+Toti Gomes,Center Backs,1264,2024-2025 Premier League
+Toti Gomes,Center Backs,2752,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Toti Gomes,Center Backs,2772,2023-2024 Premier League
+Toti Gomes,Fullbacks,984,2022-2023 Premier League
+Trent Alexander-Arnold,Fullbacks,278,2023-2024 Europa League
+Trent Alexander-Arnold,Fullbacks,406,2024-2025 Champions League
+Trent Alexander-Arnold,Fullbacks,583,2019-2020 Champions League
+Trent Alexander-Arnold,Fullbacks,625,2022-2023 Champions League
+Trent Alexander-Arnold,Fullbacks,711,2020-2021 Champions League
+Trent Alexander-Arnold,Fullbacks,791,2021-2022 Champions League
+Trent Alexander-Arnold,Fullbacks,818,2017-2018 Champions League
+Trent Alexander-Arnold,Fullbacks,919,2018-2019 Champions League
+Trent Alexander-Arnold,Fullbacks,1485,2024-2025 Premier League
+Trent Alexander-Arnold,Fullbacks,1573,2017-2018 Premier League
+Trent Alexander-Arnold,Fullbacks,2155,2023-2024 Premier League
+Trent Alexander-Arnold,Fullbacks,2462,2018-2019 Premier League
+Trent Alexander-Arnold,Fullbacks,2620,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Trent Alexander-Arnold,Fullbacks,2853,2021-2022 Premier League
+Trent Alexander-Arnold,Fullbacks,2923,2022-2023 Premier League
+Trent Alexander-Arnold,Fullbacks,3031,2020-2021 Premier League
+Trent Alexander-Arnold,Fullbacks,3175,2019-2020 Premier League
+Trevoh Chalobah,Center Backs,439,2022-2023 Champions League
+Trevoh Chalobah,Center Backs,952,2023-2024 Premier League
+Trevoh Chalobah,Center Backs,1060,2024-2025 Premier League
+Trevoh Chalobah,Center Backs,1449,2021-2022 Premier League
+Trevoh Chalobah,Center Backs,1608,2022-2023 Premier League
+Trevoh Chalobah,Center Backs,2012,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Trevoh Chalobah,Center Backs,2237,2020-2021 Ligue 1
+Tyrell Malacia,Fullbacks,258,2020-2021 Europa League
+Tyrell Malacia,Fullbacks,261,2019-2020 Europa League
+Tyrell Malacia,Fullbacks,662,2022-2023 Europa League
+Tyrell Malacia,Fullbacks,987,2021-2022 Europa Conference League
+Tyrell Malacia,Fullbacks,1080,2019-2020 Eredivisie
+Tyrell Malacia,Fullbacks,1396,2022-2023 Premier League
+Tyrell Malacia,Fullbacks,1506,2018-2019 Eredivisie
+Tyrell Malacia,Fullbacks,2134,2020-2021 Eredivisie
+Tyrell Malacia,Fullbacks,2832,2021-2022 Eredivisie
+Tyrick Mitchell,Fullbacks,1710,2020-2021 Premier League
+Tyrick Mitchell,Fullbacks,1913,2024-2025 Premier League
+Tyrick Mitchell,Fullbacks,2891,2022-2023 Premier League
+Tyrick Mitchell,Fullbacks,3101,2021-2022 Premier League
+Tyrick Mitchell,Fullbacks,3204,2023-2024 Premier League
+Tyrick Mitchell,Fullbacks,3490,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Tyrone Mings,Center Backs,192,2021 UEFA Euro 2020
+Tyrone Mings,Center Backs,1293,2018-2019 Championship
+Tyrone Mings,Center Backs,2902,2019-2020 Premier League
+Tyrone Mings,Center Backs,3150,2022-2023 Premier League
+Tyrone Mings,Center Backs,3189,2021-2022 Premier League
+Tyrone Mings,Center Backs,3194,2020-2021 Premier League
+Valentino Livramento,Fullbacks,270,2023-2024 Champions League
+Valentino Livramento,Fullbacks,1314,2023-2024 Premier League
+Valentino Livramento,Fullbacks,1404,2024-2025 Premier League
+Valentino Livramento,Fullbacks,2017,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Valentino Livramento,Fullbacks,2202,2021-2022 Premier League
+Victor Bernth Kristiansen,Fullbacks,483,2022-2023 Champions League
+Victor Bernth Kristiansen,Fullbacks,484,2021-2022 Europa Conference League
+Victor Bernth Kristiansen,Fullbacks,892,2022-2023 Premier League
+Victor Bernth Kristiansen,Fullbacks,1667,2024-2025 Premier League
+Victor Bernth Kristiansen,Fullbacks,2307,2023-2024 Serie A
+Victor Bernth Kristiansen,Fullbacks,2996,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Victor Lindelöf,Center Backs,298,2023-2024 Champions League
+Victor Lindelöf,Center Backs,320,2019-2020 Europa League
+Victor Lindelöf,Center Backs,360,2018 World Cup
+Victor Lindelöf,Center Backs,390,2021 UEFA Euro 2020
+Victor Lindelöf,Center Backs,392,2020-2021 Champions League
+Victor Lindelöf,Center Backs,425,2021-2022 Champions League
+Victor Lindelöf,Center Backs,450,2017-2018 Champions League
+Victor Lindelöf,Center Backs,523,2022-2023 Europa League
+Victor Lindelöf,Center Backs,570,2020-2021 Europa League
+Victor Lindelöf,Center Backs,630,2018-2019 Champions League
+Victor Lindelöf,Center Backs,1285,2017-2018 Premier League
+Victor Lindelöf,Center Backs,1328,2023-2024 Premier League
+Victor Lindelöf,Center Backs,1365,2022-2023 Premier League
+Victor Lindelöf,Center Backs,2355,2021-2022 Premier League
+Victor Lindelöf,Center Backs,2585,2020-2021 Premier League
+Victor Lindelöf,Center Backs,2601,2018-2019 Premier League
+Victor Lindelöf,Center Backs,3092,2019-2020 Premier League
+Victor Lindelöf,Fullbacks,638,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Virgil van Dijk,Center Backs,336,2023-2024 Europa League
+Virgil van Dijk,Center Backs,480,2022 World Cup
+Virgil van Dijk,Center Backs,540,2017-2018 Champions League
+Virgil van Dijk,Center Backs,540,2024 UEFA Euro 2024
+Virgil van Dijk,Center Backs,540,2024-2025 Champions League
+Virgil van Dijk,Center Backs,720,2022-2023 Champions League
+Virgil van Dijk,Center Backs,750,2019-2020 Champions League
+Virgil van Dijk,Center Backs,810,2021-2022 Champions League
+Virgil van Dijk,Center Backs,1080,2018-2019 Champions League
+Virgil van Dijk,Center Backs,1800,2024-2025 Premier League
+Virgil van Dijk,Center Backs,2254,2017-2018 Premier League
+Virgil van Dijk,Center Backs,2835,2022-2023 Premier League
+Virgil van Dijk,Center Backs,3060,2021-2022 Premier League
+Virgil van Dijk,Center Backs,3177,2023-2024 Premier League
+Virgil van Dijk,Center Backs,3384,2018-2019 Premier League
+Virgil van Dijk,Center Backs,3420,2019-2020 Premier League
+Virgil van Dijk,Center Backs,4206,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Vitaliy Mykolenko,Fullbacks,352,2020-2021 Europa League
+Vitaliy Mykolenko,Fullbacks,353,2020-2021 Champions League
+Vitaliy Mykolenko,Fullbacks,354,2021 UEFA Euro 2020
+Vitaliy Mykolenko,Fullbacks,450,2021-2022 Champions League
+Vitaliy Mykolenko,Fullbacks,540,2019-2020 Europa League
+Vitaliy Mykolenko,Fullbacks,720,2018-2019 Europa League
+Vitaliy Mykolenko,Fullbacks,1055,2021-2022 Premier League
+Vitaliy Mykolenko,Fullbacks,1555,2024-2025 Premier League
+Vitaliy Mykolenko,Fullbacks,2469,2023-2024 Premier League
+Vitaliy Mykolenko,Fullbacks,2587,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Vitaliy Mykolenko,Fullbacks,2655,2022-2023 Premier League
+Vladimír Coufal,Fullbacks,270,2024 UEFA Euro 2024
+Vladimír Coufal,Fullbacks,356,2021-2022 Europa League
+Vladimír Coufal,Fullbacks,450,2021 UEFA Euro 2020
+Vladimír Coufal,Fullbacks,540,2019-2020 Champions League
+Vladimír Coufal,Fullbacks,575,2024-2025 Premier League
+Vladimír Coufal,Fullbacks,620,2023-2024 Europa League
+Vladimír Coufal,Fullbacks,785,2022-2023 Europa Conference League
+Vladimír Coufal,Fullbacks,802,2018-2019 Europa League
+Vladimír Coufal,Fullbacks,2136,2022-2023 Premier League
+Vladimír Coufal,Fullbacks,2209,2021-2022 Premier League
+Vladimír Coufal,Fullbacks,2355,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Vladimír Coufal,Fullbacks,3054,2020-2021 Premier League
+Vladimír Coufal,Fullbacks,3132,2023-2024 Premier League
+Wesley Fofana,Center Backs,180,2019-2020 Europa League
+Wesley Fofana,Center Backs,397,2022-2023 Champions League
+Wesley Fofana,Center Backs,437,2021-2022 Europa Conference League
+Wesley Fofana,Center Backs,469,2020-2021 Europa League
+Wesley Fofana,Center Backs,630,2021-2022 Premier League
+Wesley Fofana,Center Backs,1015,2024-2025 Premier League
+Wesley Fofana,Center Backs,1015,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Wesley Fofana,Center Backs,1215,2019-2020 Ligue 1
+Wesley Fofana,Center Backs,1363,2022-2023 Premier League
+Wesley Fofana,Center Backs,2262,2020-2021 Premier League
+William Saliba,Center Backs,180,2019-2020 Europa League
+William Saliba,Center Backs,290,2022-2023 Europa League
+William Saliba,Center Backs,540,2021-2022 Europa League
+William Saliba,Center Backs,540,2024-2025 Champions League
+William Saliba,Center Backs,570,2024 UEFA Euro 2024
+William Saliba,Center Backs,630,2021-2022 Europa Conference League
+William Saliba,Center Backs,901,2023-2024 Champions League
+William Saliba,Center Backs,992,2019-2020 Ligue 1
+William Saliba,Center Backs,1277,2018-2019 Ligue 1
+William Saliba,Center Backs,1739,2024-2025 Premier League
+William Saliba,Center Backs,1800,2020-2021 Ligue 1
+William Saliba,Center Backs,2415,2022-2023 Premier League
+William Saliba,Center Backs,3240,2021-2022 Ligue 1
+William Saliba,Center Backs,3420,2023-2024 Premier League
+William Saliba,Center Backs,4289,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Willy Boly,Center Backs,558,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Willy Boly,Center Backs,685,2022-2023 Premier League
+Willy Boly,Center Backs,720,2019-2020 Europa League
+Willy Boly,Center Backs,900,2021-2022 Premier League
+Willy Boly,Center Backs,1438,2023-2024 Premier League
+Willy Boly,Center Backs,1879,2020-2021 Premier League
+Willy Boly,Center Backs,1979,2019-2020 Premier League
+Willy Boly,Center Backs,3167,2018-2019 Premier League
+Wout Faes,Center Backs,360,2024 UEFA Euro 2024
+Wout Faes,Center Backs,1465,2024-2025 Premier League
+Wout Faes,Center Backs,1465,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Wout Faes,Center Backs,1710,Last 365 Days Men's Next 14 Competitions
+Wout Faes,Center Backs,2331,2018-2019 Belgian First Division A
+Wout Faes,Center Backs,2520,2019-2020 Belgian First Division A
+Wout Faes,Center Backs,2786,2022-2023 Premier League
+Wout Faes,Center Backs,2899,2020-2021 Ligue 1
+Wout Faes,Center Backs,3330,2021-2022 Ligue 1
+Wout Faes,Center Backs,3825,2023-2024 Championship
+Yerson Mosquera,Center Backs,301,2021 Copa Libertadores
+Yerson Mosquera,Center Backs,1229,2023-2024 La Liga
+Yerson Mosquera,Center Backs,1800,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Yerson Mosquera,Center Backs,2249,2023 Major League Soccer
+Yukinari Sugawara,Fullbacks,270,2020-2021 Europa League
+Yukinari Sugawara,Fullbacks,316,2019-2020 Europa League
+Yukinari Sugawara,Fullbacks,519,2023-2024 Europa Conference League
+Yukinari Sugawara,Fullbacks,565,2021-2022 Europa Conference League
+Yukinari Sugawara,Fullbacks,1050,2022-2023 Europa Conference League
+Yukinari Sugawara,Fullbacks,1068,2024-2025 Premier League
+Yukinari Sugawara,Fullbacks,1068,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Yukinari Sugawara,Fullbacks,1205,Last 365 Days Men's Next 14 Competitions
+Yukinari Sugawara,Fullbacks,1650,2020-2021 Eredivisie
+Yukinari Sugawara,Fullbacks,2398,2022-2023 Eredivisie
+Yukinari Sugawara,Fullbacks,2557,2023-2024 Eredivisie
+Yukinari Sugawara,Fullbacks,2635,2021-2022 Eredivisie
+Álex Moreno,Fullbacks,259,2023-2024 Europa Conference League
+Álex Moreno,Fullbacks,397,2021-2022 Europa League
+Álex Moreno,Fullbacks,789,2024-2025 Premier League
+Álex Moreno,Fullbacks,1031,2023-2024 Premier League
+Álex Moreno,Fullbacks,1329,2022-2023 Premier League
+Álex Moreno,Fullbacks,1350,2022-2023 La Liga
+Álex Moreno,Fullbacks,1461,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Álex Moreno,Fullbacks,1786,2020-2021 La Liga
+Álex Moreno,Fullbacks,2265,2019-2020 La Liga
+Álex Moreno,Fullbacks,2404,2021-2022 La Liga
+Álex Moreno,Fullbacks,3136,2018-2019 La Liga
+Álex Moreno,Fullbacks,3501,2017-2018 Segunda División

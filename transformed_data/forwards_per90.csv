@@ -1,1250 +1,1250 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Player,Versus,BasedOnMinutes,scouting_period
+Abdoulaye Doucouré,Forwards,2629,2023-2024 Premier League
+Abdul Fatawu Issahaku,Att Mid / Wingers,579,2024-2025 Premier League
+Abdul Fatawu Issahaku,Att Mid / Wingers,579,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Abdul Fatawu Issahaku,Att Mid / Wingers,1342,Last 365 Days Men's Next 14 Competitions
+Abdul Fatawu Issahaku,Att Mid / Wingers,2814,2023-2024 Championship
+Adam Armstrong,Att Mid / Wingers,1335,2022-2023 Premier League
+Adam Armstrong,Att Mid / Wingers,1437,Last 365 Days Men's Next 14 Competitions
+Adam Armstrong,Att Mid / Wingers,2853,2018-2019 Championship
+Adam Armstrong,Att Mid / Wingers,3471,2019-2020 Championship
+Adam Armstrong,Att Mid / Wingers,3745,2023-2024 Championship
+Adam Armstrong,Forwards,1132,2024-2025 Premier League
+Adam Armstrong,Forwards,1132,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Adam Armstrong,Forwards,1413,2021-2022 Premier League
+Adam Armstrong,Forwards,3459,2020-2021 Championship
+Adam Lallana,Att Mid / Wingers,722,2022-2023 Premier League
+Adam Lallana,Att Mid / Wingers,730,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Adam Lallana,Att Mid / Wingers,850,2023-2024 Premier League
+Adama Traoré,Att Mid / Wingers,353,2021-2022 Europa League
+Adama Traoré,Att Mid / Wingers,625,2019-2020 Europa League
+Adama Traoré,Att Mid / Wingers,964,2024-2025 Premier League
+Adama Traoré,Att Mid / Wingers,1067,2021-2022 Premier League
+Adama Traoré,Att Mid / Wingers,1297,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Adama Traoré,Att Mid / Wingers,1496,2022-2023 Premier League
+Adama Traoré,Att Mid / Wingers,2605,2019-2020 Premier League
+Adama Traoré,Att Mid / Wingers,2649,2020-2021 Premier League
+Adama Traoré,Forwards,902,2018-2019 Premier League
+Alejandro Garnacho,Att Mid / Wingers,215,2022-2023 Europa League
+Alejandro Garnacho,Att Mid / Wingers,301,2023-2024 Champions League
+Alejandro Garnacho,Att Mid / Wingers,323,2024-2025 Europa League
+Alejandro Garnacho,Att Mid / Wingers,569,2022-2023 Premier League
+Alejandro Garnacho,Att Mid / Wingers,1124,2024-2025 Premier League
+Alejandro Garnacho,Att Mid / Wingers,2565,2023-2024 Premier League
+Alejandro Garnacho,Att Mid / Wingers,2857,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Alex Iwobi,Att Mid / Wingers,335,2017-2018 Europa League
+Alex Iwobi,Att Mid / Wingers,557,2018-2019 Europa League
+Alex Iwobi,Att Mid / Wingers,1542,2020-2021 Premier League
+Alex Iwobi,Att Mid / Wingers,1803,2024-2025 Premier League
+Alex Iwobi,Att Mid / Wingers,1830,2017-2018 Premier League
+Alex Iwobi,Att Mid / Wingers,1970,2018-2019 Premier League
+Alex Iwobi,Att Mid / Wingers,2332,2023-2024 Premier League
+Alex Iwobi,Att Mid / Wingers,2888,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Alexander Isak,Forwards,312,2023-2024 Champions League
+Alexander Isak,Forwards,321,2021 UEFA Euro 2020
+Alexander Isak,Forwards,407,2021-2022 Europa League
+Alexander Isak,Forwards,465,2020-2021 Europa League
+Alexander Isak,Forwards,1367,2018-2019 Eredivisie
+Alexander Isak,Forwards,1507,2019-2020 La Liga
+Alexander Isak,Forwards,1522,2022-2023 Premier League
+Alexander Isak,Forwards,1540,2024-2025 Premier League
+Alexander Isak,Forwards,2140,2021-2022 La Liga
+Alexander Isak,Forwards,2255,2023-2024 Premier League
+Alexander Isak,Forwards,2340,2020-2021 La Liga
+Alexander Isak,Forwards,2657,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Alexis Mac Allister,Att Mid / Wingers,1541,2018-2019 Superliga Argentina
+Alfie Devine,Att Mid / Wingers,850,2023-2024 Championship
+Alfie Devine,Att Mid / Wingers,2121,Last 365 Days Men's Next 14 Competitions
+Amad Diallo,Att Mid / Wingers,336,2024-2025 Europa League
+Amad Diallo,Att Mid / Wingers,1324,2024-2025 Premier League
+Amad Diallo,Att Mid / Wingers,2013,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Amad Diallo,Att Mid / Wingers,2586,2022-2023 Championship
+Andreas Pereira,Att Mid / Wingers,233,2019-2020 Europa League
+Andreas Pereira,Att Mid / Wingers,1484,2019-2020 Premier League
+Andreas Pereira,Att Mid / Wingers,2456,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Andreas Pereira,Att Mid / Wingers,2613,2023-2024 Premier League
+Andreas Pereira,Att Mid / Wingers,2692,2022-2023 Premier League
+Andreas Pereira,Forwards,543,2020-2021 Serie A
+Anthony Elanga,Att Mid / Wingers,1206,2024-2025 Premier League
+Anthony Elanga,Att Mid / Wingers,1214,2021-2022 Premier League
+Anthony Elanga,Att Mid / Wingers,2276,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Anthony Elanga,Att Mid / Wingers,2433,2023-2024 Premier League
+Anthony Gordon,Att Mid / Wingers,437,2023-2024 Champions League
+Anthony Gordon,Att Mid / Wingers,513,2020-2021 Championship
+Anthony Gordon,Att Mid / Wingers,1582,2022-2023 Premier League
+Anthony Gordon,Att Mid / Wingers,1589,2024-2025 Premier League
+Anthony Gordon,Att Mid / Wingers,2819,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Anthony Gordon,Att Mid / Wingers,2890,2023-2024 Premier League
+Antoine Semenyo,Att Mid / Wingers,1746,2024-2025 Premier League
+Antoine Semenyo,Att Mid / Wingers,2105,2023-2024 Premier League
+Antoine Semenyo,Att Mid / Wingers,2444,2020-2021 Championship
+Antoine Semenyo,Att Mid / Wingers,3004,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Antoine Semenyo,Forwards,1249,2022-2023 Championship
+Antoine Semenyo,Forwards,2131,2021-2022 Championship
+Antony,Att Mid / Wingers,180,2020 Copa Libertadores
+Antony,Att Mid / Wingers,232,2023-2024 Champions League
+Antony,Att Mid / Wingers,358,2020-2021 Champions League
+Antony,Att Mid / Wingers,414,2020-2021 Europa League
+Antony,Att Mid / Wingers,574,2021-2022 Champions League
+Antony,Att Mid / Wingers,632,2022-2023 Europa League
+Antony,Att Mid / Wingers,680,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Antony,Att Mid / Wingers,1324,2023-2024 Premier League
+Antony,Att Mid / Wingers,1724,2021-2022 Eredivisie
+Antony,Att Mid / Wingers,1762,2020-2021 Eredivisie
+Antony,Att Mid / Wingers,1802,2022-2023 Premier League
+Armando Broja,Forwards,542,2023-2024 Premier League
+Armando Broja,Forwards,1866,2020-2021 Eredivisie
+Armando Broja,Forwards,1975,2021-2022 Premier League
+Ashley Young,Att Mid / Wingers,461,2018 World Cup
+Ben Brereton,Att Mid / Wingers,300,2021 Copa América
+Ben Brereton,Att Mid / Wingers,2430,2020-2021 Championship
+Ben Brereton,Att Mid / Wingers,3457,2022-2023 Championship
+Ben Brereton,Forwards,218,2023-2024 Europa League
+Ben Brereton,Forwards,593,2019-2020 Championship
+Ben Brereton,Forwards,695,2018-2019 Championship
+Ben Brereton,Forwards,1105,2023-2024 Premier League
+Ben Brereton,Forwards,1554,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ben Brereton,Forwards,3066,2021-2022 Championship
+Bernardo Silva,Att Mid / Wingers,240,2021 UEFA Euro 2020
+Bernardo Silva,Att Mid / Wingers,403,2024-2025 Champions League
+Bernardo Silva,Att Mid / Wingers,420,2024 UEFA Euro 2024
+Bernardo Silva,Att Mid / Wingers,435,2019-2020 Champions League
+Bernardo Silva,Att Mid / Wingers,534,2023-2024 Champions League
+Bernardo Silva,Att Mid / Wingers,565,2017-2018 Champions League
+Bernardo Silva,Att Mid / Wingers,911,2022-2023 Champions League
+Bernardo Silva,Att Mid / Wingers,1533,2017-2018 Premier League
+Bernardo Silva,Att Mid / Wingers,2030,2019-2020 Premier League
+Beto,Forwards,648,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Beto,Forwards,951,2023-2024 Premier League
+Beto,Forwards,1956,2020-2021 Primeira Liga
+Beto,Forwards,2129,2022-2023 Serie A
+Beto,Forwards,2173,2021-2022 Serie A
+Bilal El Khannouss,Att Mid / Wingers,444,2023-2024 Europa Conference League
+Bilal El Khannouss,Att Mid / Wingers,692,Last 365 Days Men's Next 14 Competitions
+Bilal El Khannouss,Att Mid / Wingers,929,2024-2025 Premier League
+Bilal El Khannouss,Att Mid / Wingers,929,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Bilal El Khannouss,Att Mid / Wingers,2182,2023-2024 Belgian Pro League
+Bilal El Khannouss,Att Mid / Wingers,2203,2022-2023 Belgian Pro League
+Bobby Reid,Att Mid / Wingers,835,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Bobby Reid,Att Mid / Wingers,1423,2023-2024 Premier League
+Bobby Reid,Att Mid / Wingers,2372,2020-2021 Premier League
+Bobby Reid,Att Mid / Wingers,2475,2022-2023 Premier League
+Bobby Reid,Att Mid / Wingers,2524,2021-2022 Championship
+Bobby Reid,Att Mid / Wingers,2935,2019-2020 Championship
+Bobby Reid,Forwards,1424,2018-2019 Premier League
+Brajan Gruda,Att Mid / Wingers,1133,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Brajan Gruda,Att Mid / Wingers,1641,2023-2024 Bundesliga
+Brennan Johnson,Att Mid / Wingers,287,2024-2025 Europa League
+Brennan Johnson,Att Mid / Wingers,1492,2024-2025 Premier League
+Brennan Johnson,Att Mid / Wingers,2322,2023-2024 Premier League
+Brennan Johnson,Att Mid / Wingers,2934,2022-2023 Premier League
+Brennan Johnson,Att Mid / Wingers,2939,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Brennan Johnson,Att Mid / Wingers,3898,2021-2022 Championship
+Bruno Fernandes,Att Mid / Wingers,356,2022 World Cup
+Bruno Fernandes,Att Mid / Wingers,374,2024 UEFA Euro 2024
+Bruno Fernandes,Att Mid / Wingers,438,2020-2021 Champions League
+Bruno Fernandes,Att Mid / Wingers,440,2024-2025 Europa League
+Bruno Fernandes,Att Mid / Wingers,518,2021-2022 Champions League
+Bruno Fernandes,Att Mid / Wingers,536,2017-2018 Champions League
+Bruno Fernandes,Att Mid / Wingers,540,2023-2024 Champions League
+Bruno Fernandes,Att Mid / Wingers,566,2017-2018 Europa League
+Bruno Fernandes,Att Mid / Wingers,743,2020-2021 Europa League
+Bruno Fernandes,Att Mid / Wingers,810,2019-2020 Europa League
+Bruno Fernandes,Att Mid / Wingers,863,2022-2023 Europa League
+Bruno Fernandes,Att Mid / Wingers,1186,2019-2020 Premier League
+Bruno Fernandes,Att Mid / Wingers,1529,2019-2020 Primeira Liga
+Bruno Fernandes,Att Mid / Wingers,1655,2024-2025 Premier League
+Bruno Fernandes,Att Mid / Wingers,3099,2020-2021 Premier League
+Bruno Fernandes,Att Mid / Wingers,3111,2021-2022 Premier League
+Bruno Fernandes,Att Mid / Wingers,3118,2023-2024 Premier League
+Bruno Fernandes,Att Mid / Wingers,3316,2022-2023 Premier League
+Bruno Fernandes,Att Mid / Wingers,3413,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Bryan Mbeumo,Att Mid / Wingers,233,2022 World Cup
+Bryan Mbeumo,Att Mid / Wingers,1884,2024-2025 Premier League
+Bryan Mbeumo,Att Mid / Wingers,1960,2023-2024 Premier League
+Bryan Mbeumo,Att Mid / Wingers,2558,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Bryan Mbeumo,Att Mid / Wingers,2906,2022-2023 Premier League
+Bryan Mbeumo,Att Mid / Wingers,2934,2019-2020 Championship
+Bryan Mbeumo,Att Mid / Wingers,3072,2020-2021 Championship
+Bryan Mbeumo,Forwards,2905,2021-2022 Premier League
+Bukayo Saka,Att Mid / Wingers,269,2021 UEFA Euro 2020
+Bukayo Saka,Att Mid / Wingers,288,2022 World Cup
+Bukayo Saka,Att Mid / Wingers,405,2022-2023 Europa League
+Bukayo Saka,Att Mid / Wingers,431,2024-2025 Champions League
+Bukayo Saka,Att Mid / Wingers,544,2019-2020 Europa League
+Bukayo Saka,Att Mid / Wingers,632,2024 UEFA Euro 2024
+Bukayo Saka,Att Mid / Wingers,699,2020-2021 Europa League
+Bukayo Saka,Att Mid / Wingers,720,2023-2024 Champions League
+Bukayo Saka,Att Mid / Wingers,1268,2024-2025 Premier League
+Bukayo Saka,Att Mid / Wingers,2553,2020-2021 Premier League
+Bukayo Saka,Att Mid / Wingers,2919,2023-2024 Premier League
+Bukayo Saka,Att Mid / Wingers,2978,2021-2022 Premier League
+Bukayo Saka,Att Mid / Wingers,3181,2022-2023 Premier League
+Bukayo Saka,Att Mid / Wingers,3348,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Callum Hudson-Odoi,Att Mid / Wingers,263,2019-2020 Champions League
+Callum Hudson-Odoi,Att Mid / Wingers,288,2021-2022 Champions League
+Callum Hudson-Odoi,Att Mid / Wingers,338,2020-2021 Champions League
+Callum Hudson-Odoi,Att Mid / Wingers,421,2018-2019 Europa League
+Callum Hudson-Odoi,Att Mid / Wingers,461,2022-2023 Champions League
+Callum Hudson-Odoi,Att Mid / Wingers,605,2022-2023 Bundesliga
+Callum Hudson-Odoi,Att Mid / Wingers,863,2019-2020 Premier League
+Callum Hudson-Odoi,Att Mid / Wingers,962,2021-2022 Premier League
+Callum Hudson-Odoi,Att Mid / Wingers,1059,2020-2021 Premier League
+Callum Hudson-Odoi,Att Mid / Wingers,1488,2024-2025 Premier League
+Callum Hudson-Odoi,Att Mid / Wingers,1854,2023-2024 Premier League
+Callum Hudson-Odoi,Att Mid / Wingers,2858,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Callum Wilson,Forwards,239,2023-2024 Champions League
+Callum Wilson,Forwards,991,2023-2024 Premier League
+Callum Wilson,Forwards,1386,2021-2022 Premier League
+Callum Wilson,Forwards,1877,2022-2023 Premier League
+Callum Wilson,Forwards,1981,2017-2018 Premier League
+Callum Wilson,Forwards,2084,2020-2021 Premier League
+Callum Wilson,Forwards,2528,2018-2019 Premier League
+Callum Wilson,Forwards,2908,2019-2020 Premier League
+Cameron Archer,Forwards,959,2024-2025 Premier League
+Cameron Archer,Forwards,1368,2022-2023 Championship
+Cameron Archer,Forwards,1476,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Cameron Archer,Forwards,1619,2021-2022 Championship
+Cameron Archer,Forwards,1838,2023-2024 Premier League
+Carlos Alcaraz,Att Mid / Wingers,1029,2022-2023 Premier League
+Carlos Forbs,Att Mid / Wingers,357,2023-2024 Europa League
+Carlos Forbs,Att Mid / Wingers,829,2023-2024 Eredivisie
+Carlos Vinícius,Forwards,282,2021-2022 Europa League
+Carlos Vinícius,Forwards,322,2019-2020 Champions League
+Carlos Vinícius,Forwards,523,2018-2019 Ligue 1
+Carlos Vinícius,Forwards,545,2020-2021 Europa League
+Carlos Vinícius,Forwards,1105,2021-2022 Eredivisie
+Carlos Vinícius,Forwards,1109,2022-2023 Premier League
+Carlos Vinícius,Forwards,1140,2018-2019 Primeira Liga
+Carlos Vinícius,Forwards,1777,2019-2020 Primeira Liga
+Chiedozie Ogbene,Forwards,3239,2022-2023 Championship
+Chiquinho,Att Mid / Wingers,838,2021-2022 Primeira Liga
+Chiquinho,Att Mid / Wingers,916,Last 365 Days Men's Next 14 Competitions
+Chiquinho,Att Mid / Wingers,1740,2023-2024 Primeira Liga
+Chris Wood,Forwards,818,2022-2023 Premier League
+Chris Wood,Forwards,1624,2017-2018 Premier League
+Chris Wood,Forwards,1662,2024-2025 Premier League
+Chris Wood,Forwards,1812,2023-2024 Premier League
+Chris Wood,Forwards,2437,2019-2020 Premier League
+Chris Wood,Forwards,2588,2018-2019 Premier League
+Chris Wood,Forwards,2694,2021-2022 Premier League
+Chris Wood,Forwards,2735,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Chris Wood,Forwards,2741,2020-2021 Premier League
+Christian Eriksen,Att Mid / Wingers,298,2019-2020 Champions League
+Christian Eriksen,Att Mid / Wingers,348,2024 UEFA Euro 2024
+Christian Eriksen,Att Mid / Wingers,390,2018 World Cup
+Christian Eriksen,Att Mid / Wingers,703,2019-2020 Serie A
+Christian Eriksen,Att Mid / Wingers,1003,2018-2019 Champions League
+Christian Eriksen,Att Mid / Wingers,1097,2019-2020 Premier League
+Christian Eriksen,Att Mid / Wingers,3218,2017-2018 Premier League
+Christopher Nkunku,Att Mid / Wingers,510,2019-2020 Champions League
+Christopher Nkunku,Att Mid / Wingers,530,2021-2022 Champions League
+Christopher Nkunku,Att Mid / Wingers,562,2022-2023 Champions League
+Christopher Nkunku,Att Mid / Wingers,583,2020-2021 Champions League
+Christopher Nkunku,Att Mid / Wingers,631,2017-2018 Ligue 1
+Christopher Nkunku,Att Mid / Wingers,1892,2020-2021 Bundesliga
+Christopher Nkunku,Att Mid / Wingers,2723,2021-2022 Bundesliga
+Christopher Nkunku,Forwards,382,2024-2025 Conference League
+Christopher Nkunku,Forwards,523,2021-2022 Europa League
+Christopher Nkunku,Forwards,714,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Christopher Nkunku,Forwards,1897,2022-2023 Bundesliga
+Cody Gakpo,Att Mid / Wingers,299,2024-2025 Champions League
+Cody Gakpo,Att Mid / Wingers,301,2021-2022 Europa League
+Cody Gakpo,Att Mid / Wingers,335,2019-2020 Europa League
+Cody Gakpo,Att Mid / Wingers,368,2022-2023 Europa League
+Cody Gakpo,Att Mid / Wingers,411,2021-2022 Europa Conference League
+Cody Gakpo,Att Mid / Wingers,523,2024 UEFA Euro 2024
+Cody Gakpo,Att Mid / Wingers,1080,2024-2025 Premier League
+Cody Gakpo,Att Mid / Wingers,1122,2022-2023 Eredivisie
+Cody Gakpo,Att Mid / Wingers,1462,2019-2020 Eredivisie
+Cody Gakpo,Att Mid / Wingers,1663,2020-2021 Eredivisie
+Cody Gakpo,Att Mid / Wingers,1905,2021-2022 Eredivisie
+Cody Gakpo,Att Mid / Wingers,2574,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Cody Gakpo,Forwards,450,2022 World Cup
+Cody Gakpo,Forwards,637,2023-2024 Europa League
+Cody Gakpo,Forwards,1458,2022-2023 Premier League
+Cody Gakpo,Forwards,1649,2023-2024 Premier League
+Cole Palmer,Att Mid / Wingers,1837,2024-2025 Premier League
+Cole Palmer,Att Mid / Wingers,2618,2023-2024 Premier League
+Cole Palmer,Att Mid / Wingers,3213,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Conor Chaplin,Att Mid / Wingers,614,2024-2025 Premier League
+Conor Chaplin,Att Mid / Wingers,614,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Conor Chaplin,Att Mid / Wingers,1183,Last 365 Days Men's Next 14 Competitions
+Conor Chaplin,Att Mid / Wingers,2113,2020-2021 Championship
+Conor Chaplin,Att Mid / Wingers,3340,2023-2024 Championship
+Conor Chaplin,Forwards,3302,2019-2020 Championship
+Crysencio Summerville,Att Mid / Wingers,786,2024-2025 Premier League
+Crysencio Summerville,Att Mid / Wingers,786,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Crysencio Summerville,Att Mid / Wingers,1426,2022-2023 Premier League
+Crysencio Summerville,Att Mid / Wingers,1489,2019-2020 Eredivisie
+Crysencio Summerville,Att Mid / Wingers,1598,Last 365 Days Men's Next 14 Competitions
+Crysencio Summerville,Att Mid / Wingers,3498,2023-2024 Championship
+Curtis Jones,Att Mid / Wingers,885,2024-2025 Premier League
+Daichi Kamada,Att Mid / Wingers,322,2022 World Cup
+Daichi Kamada,Att Mid / Wingers,696,2022-2023 Champions League
+Daichi Kamada,Att Mid / Wingers,736,2019-2020 Europa League
+Daichi Kamada,Att Mid / Wingers,1105,2021-2022 Europa League
+Daichi Kamada,Att Mid / Wingers,1895,2018-2019 Belgian First Division A
+Daichi Kamada,Att Mid / Wingers,1969,2019-2020 Bundesliga
+Daichi Kamada,Att Mid / Wingers,2139,2021-2022 Bundesliga
+Daichi Kamada,Att Mid / Wingers,2356,2020-2021 Bundesliga
+Dango Ouattara,Att Mid / Wingers,973,2024-2025 Premier League
+Dango Ouattara,Att Mid / Wingers,1229,2023-2024 Premier League
+Dango Ouattara,Att Mid / Wingers,1548,2022-2023 Ligue 1
+Dango Ouattara,Att Mid / Wingers,1744,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Daniel Jebbison,Forwards,492,vs. Forwards
+Daniel Podence,Att Mid / Wingers,180,2019-2020 Europa League
+Daniel Podence,Att Mid / Wingers,405,2023-2024 Europa League
+Daniel Podence,Att Mid / Wingers,457,2019-2020 Champions League
+Daniel Podence,Att Mid / Wingers,597,2023-2024 Europa Conference League
+Daniel Podence,Att Mid / Wingers,597,Last 365 Days Men's Next 14 Competitions
+Daniel Podence,Att Mid / Wingers,623,2018-2019 Europa League
+Daniel Podence,Att Mid / Wingers,1484,2021-2022 Premier League
+Daniel Podence,Att Mid / Wingers,1661,2020-2021 Premier League
+Daniel Podence,Att Mid / Wingers,1771,2022-2023 Premier League
+Danny Ings,Forwards,181,2023-2024 Europa League
+Danny Ings,Forwards,479,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Danny Ings,Forwards,1599,2022-2023 Premier League
+Danny Ings,Forwards,1651,2018-2019 Premier League
+Danny Ings,Forwards,1898,2021-2022 Premier League
+Danny Ings,Forwards,2173,2020-2021 Premier League
+Danny Ings,Forwards,2804,2019-2020 Premier League
+Danny Welbeck,Att Mid / Wingers,1194,2017-2018 Premier League
+Danny Welbeck,Forwards,255,2023-2024 Europa League
+Danny Welbeck,Forwards,289,2018-2019 Europa League
+Danny Welbeck,Forwards,760,2017-2018 Europa League
+Danny Welbeck,Forwards,822,2019-2020 Premier League
+Danny Welbeck,Forwards,1125,2024-2025 Premier League
+Danny Welbeck,Forwards,1478,2021-2022 Premier League
+Danny Welbeck,Forwards,1545,2020-2021 Premier League
+Danny Welbeck,Forwards,1693,2023-2024 Premier League
+Danny Welbeck,Forwards,1854,2022-2023 Premier League
+Danny Welbeck,Forwards,2389,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Darwin Núñez,Att Mid / Wingers,274,2019 Copa Libertadores
+Darwin Núñez,Forwards,240,2022 World Cup
+Darwin Núñez,Forwards,304,2024-2025 Champions League
+Darwin Núñez,Forwards,399,2022-2023 Champions League
+Darwin Núñez,Forwards,437,2020-2021 Europa League
+Darwin Núñez,Forwards,460,2023-2024 Europa League
+Darwin Núñez,Forwards,472,2024 Copa América
+Darwin Núñez,Forwards,614,2021-2022 Champions League
+Darwin Núñez,Forwards,755,2024-2025 Premier League
+Darwin Núñez,Forwards,1695,2022-2023 Premier League
+Darwin Núñez,Forwards,1791,2020-2021 Primeira Liga
+Darwin Núñez,Forwards,1976,2021-2022 Primeira Liga
+Darwin Núñez,Forwards,2047,2023-2024 Premier League
+Darwin Núñez,Forwards,2168,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Darwin Núñez,Forwards,2424,2019-2020 Segunda División
+David Brooks,Att Mid / Wingers,500,2021-2022 Championship
+David Brooks,Att Mid / Wingers,895,2023-2024 Championship
+David Brooks,Att Mid / Wingers,895,Last 365 Days Men's Next 14 Competitions
+David Brooks,Att Mid / Wingers,2146,2020-2021 Championship
+Dejan Kulusevski,Att Mid / Wingers,200,2022-2023 Champions League
+Dejan Kulusevski,Att Mid / Wingers,772,2021-2022 Serie A
+Dejan Kulusevski,Att Mid / Wingers,1261,2021-2022 Premier League
+Dejan Kulusevski,Att Mid / Wingers,2067,2022-2023 Premier League
+Dejan Kulusevski,Att Mid / Wingers,2762,2023-2024 Premier League
+Dejan Kulusevski,Att Mid / Wingers,2930,2019-2020 Serie A
+Dejan Kulusevski,Att Mid / Wingers,3042,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Diogo Jota,Att Mid / Wingers,230,2023-2024 Europa League
+Diogo Jota,Att Mid / Wingers,321,2021 UEFA Euro 2020
+Diogo Jota,Att Mid / Wingers,375,2019-2020 Europa League
+Diogo Jota,Att Mid / Wingers,1112,2020-2021 Premier League
+Diogo Jota,Att Mid / Wingers,1131,2022-2023 Premier League
+Diogo Jota,Att Mid / Wingers,1145,2023-2024 Premier League
+Diogo Jota,Att Mid / Wingers,2284,2019-2020 Premier League
+Diogo Jota,Forwards,263,2022-2023 Champions League
+Diogo Jota,Forwards,539,2020-2021 Champions League
+Diogo Jota,Forwards,578,2021-2022 Champions League
+Diogo Jota,Forwards,629,2024-2025 Premier League
+Diogo Jota,Forwards,1243,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Diogo Jota,Forwards,2355,2018-2019 Premier League
+Diogo Jota,Forwards,2364,2021-2022 Premier League
+Djed Spence,Att Mid / Wingers,2091,2020-2021 Championship
+Dominic Calvert-Lewin,Forwards,231,2017-2018 Europa League
+Dominic Calvert-Lewin,Forwards,1165,2022-2023 Premier League
+Dominic Calvert-Lewin,Forwards,1283,2021-2022 Premier League
+Dominic Calvert-Lewin,Forwards,1472,2024-2025 Premier League
+Dominic Calvert-Lewin,Forwards,1784,2018-2019 Premier League
+Dominic Calvert-Lewin,Forwards,1882,2017-2018 Premier League
+Dominic Calvert-Lewin,Forwards,2171,2023-2024 Premier League
+Dominic Calvert-Lewin,Forwards,2505,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Dominic Calvert-Lewin,Forwards,2626,2019-2020 Premier League
+Dominic Calvert-Lewin,Forwards,2871,2020-2021 Premier League
+Dominic Solanke,Forwards,266,2024-2025 Europa League
+Dominic Solanke,Forwards,596,2017-2018 Premier League
+Dominic Solanke,Forwards,1598,2024-2025 Premier League
+Dominic Solanke,Forwards,1651,2019-2020 Premier League
+Dominic Solanke,Forwards,2860,2022-2023 Premier League
+Dominic Solanke,Forwards,3325,2023-2024 Premier League
+Dominic Solanke,Forwards,3343,2020-2021 Championship
+Dominic Solanke,Forwards,3494,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Dominic Solanke,Forwards,4086,2021-2022 Championship
+Dominik Szoboszlai,Att Mid / Wingers,210,2021-2022 Champions League
+Dominik Szoboszlai,Att Mid / Wingers,270,2024 UEFA Euro 2024
+Dominik Szoboszlai,Att Mid / Wingers,379,2024-2025 Champions League
+Dominik Szoboszlai,Att Mid / Wingers,653,2022-2023 Champions League
+Dominik Szoboszlai,Att Mid / Wingers,1222,2024-2025 Premier League
+Dominik Szoboszlai,Att Mid / Wingers,1543,2021-2022 Bundesliga
+Dominik Szoboszlai,Att Mid / Wingers,2357,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Dominik Szoboszlai,Att Mid / Wingers,2444,2022-2023 Bundesliga
+Dwight McNeil,Att Mid / Wingers,1140,2024-2025 Premier League
+Dwight McNeil,Att Mid / Wingers,2498,2022-2023 Premier League
+Eberechi Eze,Att Mid / Wingers,1491,2024-2025 Premier League
+Eberechi Eze,Att Mid / Wingers,2055,2023-2024 Premier League
+Eberechi Eze,Att Mid / Wingers,2551,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Eberechi Eze,Att Mid / Wingers,4057,2019-2020 Championship
+Eberechi Eze,Forwards,3174,2018-2019 Championship
+Eddie Nketiah,Att Mid / Wingers,608,2024-2025 Premier League
+Eddie Nketiah,Att Mid / Wingers,743,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Eddie Nketiah,Forwards,180,2018-2019 Europa League
+Eddie Nketiah,Forwards,459,2020-2021 Europa League
+Eddie Nketiah,Forwards,509,2019-2020 Championship
+Eddie Nketiah,Forwards,518,2022-2023 Europa League
+Eddie Nketiah,Forwards,633,2019-2020 Premier League
+Eddie Nketiah,Forwards,835,2021-2022 Premier League
+Eddie Nketiah,Forwards,1082,2023-2024 Premier League
+Eddie Nketiah,Forwards,1089,2022-2023 Premier League
+Emi Buendía,Att Mid / Wingers,1899,2021-2022 Premier League
+Emi Buendía,Att Mid / Wingers,2412,2022-2023 Premier League
+Emi Buendía,Att Mid / Wingers,2464,2019-2020 Premier League
+Emi Buendía,Att Mid / Wingers,2841,2018-2019 Championship
+Emi Buendía,Att Mid / Wingers,3158,2017-2018 Segunda División
+Emi Buendía,Att Mid / Wingers,3316,2020-2021 Championship
+Emile Smith Rowe,Att Mid / Wingers,233,2019-2020 Europa League
+Emile Smith Rowe,Att Mid / Wingers,265,2018-2019 Europa League
+Emile Smith Rowe,Att Mid / Wingers,679,2020-2021 Europa League
+Emile Smith Rowe,Att Mid / Wingers,1176,2019-2020 Championship
+Emile Smith Rowe,Att Mid / Wingers,1203,2024-2025 Premier League
+Emile Smith Rowe,Att Mid / Wingers,1435,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Emile Smith Rowe,Att Mid / Wingers,1440,2020-2021 Premier League
+Emile Smith Rowe,Att Mid / Wingers,1921,2021-2022 Premier League
+Enes Ünal,Forwards,292,2017-2018 Europa League
+Enes Ünal,Forwards,791,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Enes Ünal,Forwards,1318,2020-2021 La Liga
+Enes Ünal,Forwards,1723,2017-2018 La Liga
+Enes Ünal,Forwards,2148,2018-2019 La Liga
+Enes Ünal,Forwards,2344,2019-2020 La Liga
+Enes Ünal,Forwards,2798,2021-2022 La Liga
+Enes Ünal,Forwards,2970,2022-2023 La Liga
+Erling Haaland,Forwards,203,2021-2022 Champions League
+Erling Haaland,Forwards,499,2024-2025 Champions League
+Erling Haaland,Forwards,553,2019-2020 Champions League
+Erling Haaland,Forwards,703,2020-2021 Champions League
+Erling Haaland,Forwards,776,2023-2024 Champions League
+Erling Haaland,Forwards,841,2022-2023 Champions League
+Erling Haaland,Forwards,1063,2019-2020 Bundesliga
+Erling Haaland,Forwards,1882,2024-2025 Premier League
+Erling Haaland,Forwards,1911,2021-2022 Bundesliga
+Erling Haaland,Forwards,2407,2020-2021 Bundesliga
+Erling Haaland,Forwards,2552,2023-2024 Premier League
+Erling Haaland,Forwards,2769,2022-2023 Premier League
+Erling Haaland,Forwards,3997,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Evanilson,Forwards,310,2021-2022 Champions League
+Evanilson,Forwards,455,2020-2021 Primeira Liga
+Evanilson,Forwards,486,2020 Série A
+Evanilson,Forwards,488,2023-2024 Champions League
+Evanilson,Forwards,513,2022-2023 Champions League
+Evanilson,Forwards,1274,Last 365 Days Men's Next 14 Competitions
+Evanilson,Forwards,1354,2022-2023 Primeira Liga
+Evanilson,Forwards,1370,2024-2025 Premier League
+Evanilson,Forwards,1541,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Evanilson,Forwards,2025,2021-2022 Primeira Liga
+Evanilson,Forwards,2051,2023-2024 Primeira Liga
+Fabio Carvalho,Att Mid / Wingers,2831,2021-2022 Championship
+Fabio Carvalho,Forwards,1627,Last 365 Days Men's Next 14 Competitions
+Fabio Carvalho,Forwards,1717,2023-2024 Championship
+Facundo Buonanotte,Att Mid / Wingers,217,2023-2024 Europa League
+Facundo Buonanotte,Att Mid / Wingers,565,2022-2023 Premier League
+Facundo Buonanotte,Att Mid / Wingers,1132,2024-2025 Premier League
+Facundo Buonanotte,Att Mid / Wingers,1364,2023-2024 Premier League
+Facundo Buonanotte,Att Mid / Wingers,2104,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Federico Chiesa,Att Mid / Wingers,263,2024 UEFA Euro 2024
+Federico Chiesa,Att Mid / Wingers,334,2021-2022 Champions League
+Federico Chiesa,Att Mid / Wingers,404,2022-2023 Europa League
+Federico Chiesa,Att Mid / Wingers,439,2021 UEFA Euro 2020
+Federico Chiesa,Att Mid / Wingers,3012,2017-2018 Serie A
+Federico Chiesa,Att Mid / Wingers,3034,2018-2019 Serie A
+Federico Chiesa,Forwards,1095,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Federico Chiesa,Forwards,2197,2023-2024 Serie A
+Federico Chiesa,Forwards,2637,2019-2020 Serie A
+Gabriel Jesus,Att Mid / Wingers,429,2019 Copa América
+Gabriel Jesus,Att Mid / Wingers,1877,2021-2022 Premier League
+Gabriel Jesus,Forwards,254,2022-2023 Europa League
+Gabriel Jesus,Forwards,258,2024-2025 Champions League
+Gabriel Jesus,Forwards,270,2020-2021 Champions League
+Gabriel Jesus,Forwards,355,2021-2022 Champions League
+Gabriel Jesus,Forwards,375,2018-2019 Champions League
+Gabriel Jesus,Forwards,404,2018 World Cup
+Gabriel Jesus,Forwards,406,2023-2024 Champions League
+Gabriel Jesus,Forwards,589,2019-2020 Champions League
+Gabriel Jesus,Forwards,608,2024-2025 Premier League
+Gabriel Jesus,Forwards,617,2017-2018 Champions League
+Gabriel Jesus,Forwards,1036,2018-2019 Premier League
+Gabriel Jesus,Forwards,1478,2023-2024 Premier League
+Gabriel Jesus,Forwards,1493,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Gabriel Jesus,Forwards,1668,2017-2018 Premier League
+Gabriel Jesus,Forwards,2030,2019-2020 Premier League
+Gabriel Jesus,Forwards,2063,2020-2021 Premier League
+Gabriel Jesus,Forwards,2064,2022-2023 Premier League
+Gabriel Martinelli,Att Mid / Wingers,424,2019-2020 Europa League
+Gabriel Martinelli,Att Mid / Wingers,481,2023-2024 Champions League
+Gabriel Martinelli,Att Mid / Wingers,494,2022-2023 Europa League
+Gabriel Martinelli,Att Mid / Wingers,589,2020-2021 Premier League
+Gabriel Martinelli,Att Mid / Wingers,663,2019-2020 Premier League
+Gabriel Martinelli,Att Mid / Wingers,1201,2024-2025 Premier League
+Gabriel Martinelli,Att Mid / Wingers,1860,2021-2022 Premier League
+Gabriel Martinelli,Att Mid / Wingers,2019,2023-2024 Premier League
+Gabriel Martinelli,Att Mid / Wingers,2649,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Gabriel Martinelli,Att Mid / Wingers,2789,2022-2023 Premier League
+George Hirst,Forwards,686,2020-2021 Championship
+George Hirst,Forwards,1762,2023-2024 Championship
+Georginio Rutter,Att Mid / Wingers,1110,2024-2025 Premier League
+Georginio Rutter,Att Mid / Wingers,1110,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Georginio Rutter,Att Mid / Wingers,1668,Last 365 Days Men's Next 14 Competitions
+Georginio Rutter,Forwards,1009,2022-2023 Bundesliga
+Georginio Rutter,Forwards,1611,2021-2022 Bundesliga
+Georginio Rutter,Forwards,3736,2023-2024 Championship
+Gonçalo Guedes,Att Mid / Wingers,180,2023-2024 Europa League
+Gonçalo Guedes,Att Mid / Wingers,602,2024-2025 Premier League
+Gonçalo Guedes,Att Mid / Wingers,707,2022-2023 Premier League
+Gonçalo Guedes,Forwards,198,2019-2020 Champions League
+Gonçalo Guedes,Forwards,243,2018 World Cup
+Gonçalo Guedes,Forwards,951,2023-2024 La Liga
+Gonçalo Guedes,Forwards,1733,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Gonçalo Guedes,Forwards,2606,2021-2022 La Liga
+Harrison Reed,Att Mid / Wingers,2404,2018-2019 Championship
+Harry Wilson,Att Mid / Wingers,698,2024-2025 Premier League
+Harry Wilson,Att Mid / Wingers,1100,2022-2023 Premier League
+Harry Wilson,Att Mid / Wingers,1213,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Harry Wilson,Att Mid / Wingers,1620,2023-2024 Premier League
+Harry Wilson,Att Mid / Wingers,2811,2020-2021 Championship
+Harry Wilson,Att Mid / Wingers,3171,2018-2019 Championship
+Harry Wilson,Att Mid / Wingers,3476,2021-2022 Championship
+Harvey Barnes,Att Mid / Wingers,275,2021-2022 Europa League
+Harvey Barnes,Att Mid / Wingers,487,2020-2021 Europa League
+Harvey Barnes,Att Mid / Wingers,519,2021-2022 Europa Conference League
+Harvey Barnes,Att Mid / Wingers,782,2024-2025 Premier League
+Harvey Barnes,Att Mid / Wingers,802,2023-2024 Premier League
+Harvey Barnes,Att Mid / Wingers,1004,2018-2019 Premier League
+Harvey Barnes,Att Mid / Wingers,1397,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Harvey Barnes,Att Mid / Wingers,1945,2020-2021 Premier League
+Harvey Barnes,Att Mid / Wingers,2101,2021-2022 Premier League
+Harvey Barnes,Att Mid / Wingers,2214,2018-2019 Championship
+Harvey Barnes,Att Mid / Wingers,2711,2022-2023 Premier League
+Harvey Elliott,Att Mid / Wingers,2753,2020-2021 Championship
+Hwang Hee-chan,Att Mid / Wingers,203,2018 World Cup
+Hwang Hee-chan,Att Mid / Wingers,549,2024-2025 Premier League
+Hwang Hee-chan,Att Mid / Wingers,1816,2021-2022 Premier League
+Hwang Hee-chan,Forwards,180,2019-2020 Europa League
+Hwang Hee-chan,Forwards,460,2020-2021 Bundesliga
+Hwang Hee-chan,Forwards,518,2017-2018 Europa League
+Hwang Hee-chan,Forwards,540,2019-2020 Champions League
+Hwang Hee-chan,Forwards,1130,2022-2023 Premier League
+Hwang Hee-chan,Forwards,1220,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Hwang Hee-chan,Forwards,1306,2018-2019 2. Bundesliga
+Hwang Hee-chan,Forwards,2119,2023-2024 Premier League
+Idrissa Gana Gueye,Att Mid / Wingers,270,2022 World Cup
+Iliman Ndiaye,Att Mid / Wingers,707,2023-2024 Europa League
+Iliman Ndiaye,Att Mid / Wingers,1606,2024-2025 Premier League
+Iliman Ndiaye,Att Mid / Wingers,1618,2023-2024 Ligue 1
+Iliman Ndiaye,Att Mid / Wingers,1829,2021-2022 Championship
+Iliman Ndiaye,Att Mid / Wingers,2677,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Iliman Ndiaye,Forwards,3698,2022-2023 Championship
+Ismaila Sarr,Att Mid / Wingers,344,2022 World Cup
+Ismaila Sarr,Att Mid / Wingers,437,2023-2024 Europa League
+Ismaila Sarr,Att Mid / Wingers,1431,2024-2025 Premier League
+Ismaila Sarr,Att Mid / Wingers,1447,2023-2024 Ligue 1
+Ismaila Sarr,Att Mid / Wingers,1861,2021-2022 Premier League
+Ismaila Sarr,Att Mid / Wingers,2028,2019-2020 Premier League
+Ismaila Sarr,Att Mid / Wingers,2308,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ismaila Sarr,Att Mid / Wingers,2788,2018-2019 Ligue 1
+Ismaila Sarr,Att Mid / Wingers,3167,2022-2023 Championship
+Ismaila Sarr,Att Mid / Wingers,3459,2020-2021 Championship
+Ismaila Sarr,Forwards,1858,2017-2018 Ligue 1
+Jack Clarke,Att Mid / Wingers,542,2024-2025 Premier League
+Jack Clarke,Att Mid / Wingers,542,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jack Clarke,Att Mid / Wingers,588,2020-2021 Championship
+Jack Clarke,Att Mid / Wingers,1290,Last 365 Days Men's Next 14 Competitions
+Jack Clarke,Att Mid / Wingers,3786,2022-2023 Championship
+Jack Grealish,Att Mid / Wingers,279,2024-2025 Champions League
+Jack Grealish,Att Mid / Wingers,460,2021-2022 Champions League
+Jack Grealish,Att Mid / Wingers,530,2023-2024 Champions League
+Jack Grealish,Att Mid / Wingers,580,2024-2025 Premier League
+Jack Grealish,Att Mid / Wingers,933,2022-2023 Champions League
+Jack Grealish,Att Mid / Wingers,1009,2023-2024 Premier League
+Jack Grealish,Att Mid / Wingers,1360,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jack Grealish,Att Mid / Wingers,1914,2021-2022 Premier League
+Jack Grealish,Att Mid / Wingers,2055,2022-2023 Premier League
+Jack Grealish,Att Mid / Wingers,2185,2020-2021 Premier League
+Jack Grealish,Att Mid / Wingers,3233,2019-2020 Premier League
+Jack Harrison,Att Mid / Wingers,997,2024-2025 Premier League
+Jack Harrison,Att Mid / Wingers,2005,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jack Harrison,Att Mid / Wingers,2639,2021-2022 Premier League
+Jack Harrison,Att Mid / Wingers,2708,2022-2023 Premier League
+Jacob Murphy,Att Mid / Wingers,725,2018-2019 Championship
+Jacob Murphy,Att Mid / Wingers,1101,2024-2025 Premier League
+Jacob Murphy,Att Mid / Wingers,1189,2023-2024 Premier League
+Jacob Murphy,Att Mid / Wingers,1251,2022-2023 Premier League
+Jacob Murphy,Att Mid / Wingers,1473,2021-2022 Premier League
+Jacob Murphy,Att Mid / Wingers,2169,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jacob Ramsey,Att Mid / Wingers,799,2024-2025 Premier League
+Jacob Ramsey,Att Mid / Wingers,853,2023-2024 Premier League
+Jacob Ramsey,Att Mid / Wingers,1337,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jaden Philogene Bidace,Att Mid / Wingers,453,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jaden Philogene Bidace,Att Mid / Wingers,541,2021-2022 Championship
+Jaden Philogene Bidace,Att Mid / Wingers,2240,2022-2023 Championship
+Jaden Philogene Bidace,Att Mid / Wingers,2806,2023-2024 Championship
+Jadon Sancho,Att Mid / Wingers,387,2020-2021 Champions League
+Jadon Sancho,Att Mid / Wingers,392,2021-2022 Champions League
+Jadon Sancho,Att Mid / Wingers,436,2018-2019 Champions League
+Jadon Sancho,Att Mid / Wingers,495,2022-2023 Europa League
+Jadon Sancho,Att Mid / Wingers,558,2023-2024 Champions League
+Jadon Sancho,Att Mid / Wingers,644,2019-2020 Champions League
+Jadon Sancho,Att Mid / Wingers,688,2017-2018 Bundesliga
+Jadon Sancho,Att Mid / Wingers,947,2023-2024 Bundesliga
+Jadon Sancho,Att Mid / Wingers,961,2024-2025 Premier League
+Jadon Sancho,Att Mid / Wingers,1686,2022-2023 Premier League
+Jadon Sancho,Att Mid / Wingers,1900,2021-2022 Premier League
+Jadon Sancho,Att Mid / Wingers,2062,2020-2021 Bundesliga
+Jadon Sancho,Att Mid / Wingers,2287,2019-2020 Bundesliga
+Jadon Sancho,Att Mid / Wingers,2430,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jadon Sancho,Att Mid / Wingers,2461,2018-2019 Bundesliga
+James Maddison,Att Mid / Wingers,278,2021-2022 Europa League
+James Maddison,Att Mid / Wingers,344,2020-2021 Europa League
+James Maddison,Att Mid / Wingers,2099,2020-2021 Premier League
+James Maddison,Att Mid / Wingers,2135,2023-2024 Premier League
+James Maddison,Att Mid / Wingers,2459,2021-2022 Premier League
+James Maddison,Att Mid / Wingers,2480,2022-2023 Premier League
+James Maddison,Att Mid / Wingers,2831,2018-2019 Premier League
+James Ward-Prowse,Att Mid / Wingers,1716,2017-2018 Premier League
+Jamie Vardy,Forwards,251,2020-2021 Europa League
+Jamie Vardy,Forwards,879,Last 365 Days Men's Next 14 Competitions
+Jamie Vardy,Forwards,1641,2024-2025 Premier League
+Jamie Vardy,Forwards,1641,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jamie Vardy,Forwards,1768,2023-2024 Championship
+Jamie Vardy,Forwards,1806,2021-2022 Premier League
+Jamie Vardy,Forwards,1857,2022-2023 Premier League
+Jamie Vardy,Forwards,2726,2018-2019 Premier League
+Jamie Vardy,Forwards,2840,2020-2021 Premier League
+Jamie Vardy,Forwards,3033,2019-2020 Premier League
+Jamie Vardy,Forwards,3247,2017-2018 Premier League
+Jarrod Bowen,Att Mid / Wingers,590,2021-2022 Europa League
+Jarrod Bowen,Att Mid / Wingers,742,2022-2023 Europa Conference League
+Jarrod Bowen,Att Mid / Wingers,917,2019-2020 Premier League
+Jarrod Bowen,Att Mid / Wingers,2562,2020-2021 Premier League
+Jarrod Bowen,Att Mid / Wingers,2983,2021-2022 Premier League
+Jarrod Bowen,Att Mid / Wingers,3019,2023-2024 Premier League
+Jarrod Bowen,Att Mid / Wingers,3233,2022-2023 Premier League
+Jarrod Bowen,Att Mid / Wingers,3233,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jarrod Bowen,Forwards,549,2023-2024 Europa League
+Jay Stansfield,Forwards,1552,Last 365 Days Men's Next 14 Competitions
+Jay Stansfield,Forwards,3335,2023-2024 Championship
+Jean-Philippe Mateta,Forwards,770,2022-2023 Premier League
+Jean-Philippe Mateta,Forwards,997,2020-2021 Bundesliga
+Jean-Philippe Mateta,Forwards,1053,2019-2020 Bundesliga
+Jean-Philippe Mateta,Forwards,1145,2021-2022 Premier League
+Jean-Philippe Mateta,Forwards,1682,2024-2025 Premier League
+Jean-Philippe Mateta,Forwards,2282,2023-2024 Premier League
+Jean-Philippe Mateta,Forwards,2483,2018-2019 Bundesliga
+Jean-Philippe Mateta,Forwards,2633,2017-2018 Ligue 2
+Jean-Philippe Mateta,Forwards,3157,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jean-Ricner Bellegarde,Att Mid / Wingers,827,2024-2025 Premier League
+Jean-Ricner Bellegarde,Att Mid / Wingers,958,2023-2024 Premier League
+Jean-Ricner Bellegarde,Att Mid / Wingers,1265,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jeffrey Schlupp,Att Mid / Wingers,1036,2019-2020 Premier League
+Jeffrey Schlupp,Att Mid / Wingers,1352,2023-2024 Premier League
+Jeremy Doku,Att Mid / Wingers,193,2024-2025 Champions League
+Jeremy Doku,Att Mid / Wingers,304,2023-2024 Champions League
+Jeremy Doku,Att Mid / Wingers,320,2024 UEFA Euro 2024
+Jeremy Doku,Att Mid / Wingers,401,2020-2021 Champions League
+Jeremy Doku,Att Mid / Wingers,605,2020-2021 Belgian First Division A
+Jeremy Doku,Att Mid / Wingers,699,2024-2025 Premier League
+Jeremy Doku,Att Mid / Wingers,1247,2019-2020 Belgian First Division A
+Jeremy Doku,Att Mid / Wingers,1595,2023-2024 Premier League
+Jeremy Doku,Att Mid / Wingers,1831,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jesper Lindstrøm,Att Mid / Wingers,200,2022 World Cup
+Jesper Lindstrøm,Att Mid / Wingers,508,2022-2023 Champions League
+Jesper Lindstrøm,Att Mid / Wingers,585,2021-2022 Europa League
+Jesper Lindstrøm,Att Mid / Wingers,669,2024-2025 Premier League
+Jesper Lindstrøm,Att Mid / Wingers,926,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jesper Lindstrøm,Att Mid / Wingers,1679,2022-2023 Bundesliga
+Jesper Lindstrøm,Att Mid / Wingers,1976,2021-2022 Bundesliga
+Jhon Durán,Forwards,207,2024-2025 Champions League
+Jhon Durán,Forwards,448,2023-2024 Europa Conference League
+Jhon Durán,Forwards,475,2023-2024 Premier League
+Jhon Durán,Forwards,602,2024-2025 Premier League
+Jhon Durán,Forwards,1099,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jhon Durán,Forwards,1367,2022 Major League Soccer
+Joe Aribo,Att Mid / Wingers,320,2019-2020 Europa League
+Joe Aribo,Att Mid / Wingers,566,2020-2021 Europa League
+Joe Aribo,Att Mid / Wingers,1105,2021-2022 Europa League
+Joe Aribo,Att Mid / Wingers,1224,2022-2023 Premier League
+Joe Willock,Att Mid / Wingers,194,2018-2019 Europa League
+Joe Willock,Att Mid / Wingers,557,2019-2020 Europa League
+Joe Willock,Att Mid / Wingers,857,2019-2020 Premier League
+Joelinton,Forwards,391,2018-2019 Champions League
+Joelinton,Forwards,1983,2020-2021 Premier League
+Joelinton,Forwards,2130,2018-2019 Bundesliga
+Joelinton,Forwards,2683,2019-2020 Premier League
+John McGinn,Att Mid / Wingers,376,2024-2025 Champions League
+John McGinn,Att Mid / Wingers,1254,2024-2025 Premier League
+John McGinn,Att Mid / Wingers,2836,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+John McGinn,Forwards,230,2024 UEFA Euro 2024
+Jordan Ayew,Att Mid / Wingers,1015,2024-2025 Premier League
+Jordan Ayew,Att Mid / Wingers,2012,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jordan Ayew,Att Mid / Wingers,2019,2021-2022 Premier League
+Jordan Ayew,Att Mid / Wingers,2543,2023-2024 Premier League
+Jordan Ayew,Att Mid / Wingers,2714,2022-2023 Premier League
+Jordan Ayew,Forwards,1181,2018-2019 Premier League
+Jordan Ayew,Forwards,2096,2020-2021 Premier League
+Jordan Ayew,Forwards,2851,2017-2018 Premier League
+Jordan Ayew,Forwards,3148,2019-2020 Premier League
+Joshua Zirkzee,Forwards,216,2024-2025 Europa League
+Joshua Zirkzee,Forwards,748,2024-2025 Premier League
+Joshua Zirkzee,Forwards,822,2022-2023 Serie A
+Joshua Zirkzee,Forwards,2077,2021-2022 Belgian First Division A
+Joshua Zirkzee,Forwards,2134,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Joshua Zirkzee,Forwards,2759,2023-2024 Serie A
+Jota Silva,Att Mid / Wingers,571,2024-2025 Premier League
+Jota Silva,Att Mid / Wingers,571,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jota Silva,Att Mid / Wingers,1336,Last 365 Days Men's Next 14 Competitions
+Jota Silva,Att Mid / Wingers,1599,2022-2023 Primeira Liga
+Jota Silva,Att Mid / Wingers,2778,2023-2024 Primeira Liga
+João Félix,Att Mid / Wingers,331,2022 World Cup
+João Félix,Att Mid / Wingers,369,2023-2024 Champions League
+João Félix,Att Mid / Wingers,461,2022-2023 Champions League
+João Félix,Att Mid / Wingers,941,2022-2023 Premier League
+João Félix,Att Mid / Wingers,955,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+João Félix,Att Mid / Wingers,1540,2023-2024 La Liga
+João Félix,Forwards,330,2024-2025 Conference League
+João Félix,Forwards,425,2019-2020 Champions League
+João Félix,Forwards,493,2018-2019 Europa League
+João Félix,Forwards,568,2021-2022 Champions League
+João Félix,Forwards,650,2022-2023 La Liga
+João Félix,Forwards,705,2020-2021 Champions League
+João Félix,Forwards,1263,2021-2022 La Liga
+João Félix,Forwards,1572,2020-2021 La Liga
+João Félix,Forwards,1725,2018-2019 Primeira Liga
+João Félix,Forwards,1745,2019-2020 La Liga
+João Pedro,Att Mid / Wingers,2016,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+João Pedro,Att Mid / Wingers,2045,2023-2024 Premier League
+João Pedro,Att Mid / Wingers,2787,2022-2023 Championship
+João Pedro,Forwards,435,2023-2024 Europa League
+João Pedro,Forwards,1116,2024-2025 Premier League
+João Pedro,Forwards,1644,2021-2022 Premier League
+João Pedro,Forwards,1694,2019 Série A
+João Pedro,Forwards,2747,2020-2021 Championship
+Julio Enciso,Att Mid / Wingers,251,2024 Copa América
+Julio Enciso,Att Mid / Wingers,475,2023-2024 Premier League
+Julio Enciso,Att Mid / Wingers,796,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Julio Enciso,Att Mid / Wingers,806,2022-2023 Premier League
+Justin Kluivert,Att Mid / Wingers,319,2018-2019 Champions League
+Justin Kluivert,Att Mid / Wingers,542,2019-2020 Europa League
+Justin Kluivert,Att Mid / Wingers,813,2020-2021 Bundesliga
+Justin Kluivert,Att Mid / Wingers,1264,2024-2025 Premier League
+Justin Kluivert,Att Mid / Wingers,1341,2018-2019 Serie A
+Justin Kluivert,Att Mid / Wingers,1447,2022-2023 La Liga
+Justin Kluivert,Att Mid / Wingers,1514,2019-2020 Serie A
+Justin Kluivert,Att Mid / Wingers,1916,2023-2024 Premier League
+Justin Kluivert,Att Mid / Wingers,2372,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jørgen Strand Larsen,Forwards,1705,2022-2023 La Liga
+Jørgen Strand Larsen,Forwards,1712,2024-2025 Premier League
+Jørgen Strand Larsen,Forwards,2301,2020-2021 Eredivisie
+Jørgen Strand Larsen,Forwards,2339,2021-2022 Eredivisie
+Jørgen Strand Larsen,Forwards,2863,2023-2024 La Liga
+Jørgen Strand Larsen,Forwards,2988,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kai Havertz,Att Mid / Wingers,301,2021 UEFA Euro 2020
+Kai Havertz,Att Mid / Wingers,432,2019-2020 Champions League
+Kai Havertz,Att Mid / Wingers,450,2019-2020 Europa League
+Kai Havertz,Att Mid / Wingers,785,2020-2021 Champions League
+Kai Havertz,Att Mid / Wingers,1520,2020-2021 Premier League
+Kai Havertz,Att Mid / Wingers,2143,2017-2018 Bundesliga
+Kai Havertz,Att Mid / Wingers,2454,2019-2020 Bundesliga
+Kai Havertz,Att Mid / Wingers,2894,2018-2019 Bundesliga
+Kai Havertz,Forwards,389,2024 UEFA Euro 2024
+Kai Havertz,Forwards,467,2024-2025 Champions League
+Kai Havertz,Forwards,619,2022-2023 Champions League
+Kai Havertz,Forwards,674,2021-2022 Champions League
+Kai Havertz,Forwards,1570,2024-2025 Premier League
+Kai Havertz,Forwards,1809,2021-2022 Premier League
+Kai Havertz,Forwards,2569,2022-2023 Premier League
+Kai Havertz,Forwards,3883,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kamaldeen Sulemana,Att Mid / Wingers,185,2022-2023 Europa League
+Kamaldeen Sulemana,Att Mid / Wingers,950,2023-2024 Championship
+Kamaldeen Sulemana,Forwards,966,2022-2023 Premier League
+Kaoru Mitoma,Att Mid / Wingers,513,2023-2024 Europa League
+Kaoru Mitoma,Att Mid / Wingers,1486,2023-2024 Premier League
+Kaoru Mitoma,Att Mid / Wingers,1665,2024-2025 Premier League
+Kaoru Mitoma,Att Mid / Wingers,1830,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kaoru Mitoma,Att Mid / Wingers,2318,2022-2023 Premier League
+Kasey McAteer,Att Mid / Wingers,451,Last 365 Days Men's Next 14 Competitions
+Kasey McAteer,Att Mid / Wingers,1158,2023-2024 Championship
+Keane Lewis-Potter,Att Mid / Wingers,507,2019-2020 Championship
+Keane Lewis-Potter,Att Mid / Wingers,4139,2021-2022 Championship
+Kevin De Bruyne,Att Mid / Wingers,270,2022 World Cup
+Kevin De Bruyne,Att Mid / Wingers,271,2021 UEFA Euro 2020
+Kevin De Bruyne,Att Mid / Wingers,360,2024 UEFA Euro 2024
+Kevin De Bruyne,Forwards,665,2020-2021 Champions League
+Kevin Schade,Att Mid / Wingers,732,2022-2023 Premier League
+Kevin Schade,Att Mid / Wingers,967,2024-2025 Premier League
+Kevin Schade,Att Mid / Wingers,1043,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kieran Trippier,Att Mid / Wingers,579,2018 World Cup
+Leandro Trossard,Att Mid / Wingers,525,2018-2019 Europa League
+Leandro Trossard,Att Mid / Wingers,531,2023-2024 Champions League
+Leandro Trossard,Att Mid / Wingers,1186,2024-2025 Premier League
+Leandro Trossard,Att Mid / Wingers,1258,2017-2018 Belgian First Division A
+Leandro Trossard,Att Mid / Wingers,1649,2023-2024 Premier League
+Leandro Trossard,Att Mid / Wingers,2011,2019-2020 Premier League
+Leandro Trossard,Att Mid / Wingers,2246,2022-2023 Premier League
+Leandro Trossard,Att Mid / Wingers,2607,2020-2021 Premier League
+Leandro Trossard,Att Mid / Wingers,2716,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Leandro Trossard,Att Mid / Wingers,2781,2018-2019 Belgian First Division A
+Leandro Trossard,Forwards,322,2024-2025 Champions League
+Leandro Trossard,Forwards,2805,2021-2022 Premier League
+Leon Bailey,Att Mid / Wingers,272,2024-2025 Champions League
+Leon Bailey,Att Mid / Wingers,536,2018-2019 Europa League
+Leon Bailey,Att Mid / Wingers,761,2021-2022 Premier League
+Leon Bailey,Att Mid / Wingers,919,2024-2025 Premier League
+Leon Bailey,Att Mid / Wingers,1090,2019-2020 Bundesliga
+Leon Bailey,Att Mid / Wingers,1914,2018-2019 Bundesliga
+Leon Bailey,Att Mid / Wingers,1967,2022-2023 Premier League
+Leon Bailey,Att Mid / Wingers,2141,2020-2021 Bundesliga
+Leon Bailey,Att Mid / Wingers,2216,2017-2018 Bundesliga
+Leon Bailey,Att Mid / Wingers,2332,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Leon Bailey,Forwards,508,2020-2021 Europa League
+Liam Delap,Forwards,1524,2024-2025 Premier League
+Liam Delap,Forwards,1524,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Liam Delap,Forwards,1878,2022-2023 Championship
+Liam Delap,Forwards,2206,2023-2024 Championship
+Lucas Paquetá,Att Mid / Wingers,293,2024 Copa América
+Lucas Paquetá,Att Mid / Wingers,354,2021 Copa América
+Lucas Paquetá,Att Mid / Wingers,617,2022-2023 Europa Conference League
+Lucas Paquetá,Att Mid / Wingers,698,2023-2024 Europa League
+Lucas Paquetá,Att Mid / Wingers,2151,2022-2023 Premier League
+Lucas Paquetá,Att Mid / Wingers,2622,2023-2024 Premier League
+Lucas Paquetá,Att Mid / Wingers,2699,2021-2022 Ligue 1
+Lucas Paquetá,Att Mid / Wingers,2814,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Lucas Paquetá,Forwards,571,2021-2022 Europa League
+Luis Díaz,Att Mid / Wingers,269,2022-2023 Champions League
+Luis Díaz,Att Mid / Wingers,390,2024-2025 Champions League
+Luis Díaz,Att Mid / Wingers,418,2019 Copa Libertadores
+Luis Díaz,Att Mid / Wingers,439,2023-2024 Europa League
+Luis Díaz,Att Mid / Wingers,507,2024 Copa América
+Luis Díaz,Att Mid / Wingers,905,2021-2022 Champions League
+Luis Díaz,Att Mid / Wingers,958,2021-2022 Premier League
+Luis Díaz,Att Mid / Wingers,996,2022-2023 Premier League
+Luis Díaz,Att Mid / Wingers,1190,2024-2025 Premier League
+Luis Díaz,Att Mid / Wingers,2629,2023-2024 Premier League
+Luis Díaz,Att Mid / Wingers,3224,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Luis Díaz,Forwards,452,2020-2021 Champions League
+Luis Guilherme,Att Mid / Wingers,221,2024 Copa Libertadores
+Luis Guilherme,Att Mid / Wingers,576,2023 Série A
+Luis Sinisterra,Att Mid / Wingers,538,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Luis Sinisterra,Att Mid / Wingers,699,2023-2024 Premier League
+Luis Sinisterra,Att Mid / Wingers,867,2022-2023 Premier League
+Luis Sinisterra,Att Mid / Wingers,1011,2021-2022 Europa Conference League
+Luis Sinisterra,Att Mid / Wingers,1207,2020-2021 Eredivisie
+Luis Sinisterra,Att Mid / Wingers,1616,2019-2020 Eredivisie
+Luis Sinisterra,Att Mid / Wingers,2405,2021-2022 Eredivisie
+Luis Sinisterra,Forwards,490,2019-2020 Europa League
+Luke Cundle,Att Mid / Wingers,1779,2022-2023 Championship
+Marc Guiu,Forwards,283,vs. Forwards
+Marcus Harness,Att Mid / Wingers,982,2023-2024 Championship
+Marcus Harness,Att Mid / Wingers,1298,Last 365 Days Men's Next 14 Competitions
+Marcus Rashford,Att Mid / Wingers,256,2021-2022 Champions League
+Marcus Rashford,Att Mid / Wingers,288,2023-2024 Champions League
+Marcus Rashford,Att Mid / Wingers,308,2024-2025 Europa League
+Marcus Rashford,Att Mid / Wingers,347,2017-2018 Champions League
+Marcus Rashford,Att Mid / Wingers,413,2019-2020 Europa League
+Marcus Rashford,Att Mid / Wingers,434,2020-2021 Europa League
+Marcus Rashford,Att Mid / Wingers,558,2022-2023 Europa League
+Marcus Rashford,Att Mid / Wingers,978,2024-2025 Premier League
+Marcus Rashford,Att Mid / Wingers,1235,2021-2022 Premier League
+Marcus Rashford,Att Mid / Wingers,1812,2017-2018 Premier League
+Marcus Rashford,Att Mid / Wingers,2147,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Marcus Rashford,Att Mid / Wingers,2271,2023-2024 Premier League
+Marcus Rashford,Att Mid / Wingers,2643,2019-2020 Premier League
+Marcus Rashford,Att Mid / Wingers,2879,2022-2023 Premier League
+Marcus Rashford,Att Mid / Wingers,2920,2020-2021 Premier League
+Marcus Rashford,Forwards,202,2018 World Cup
+Marcus Rashford,Forwards,414,2020-2021 Champions League
+Marcus Rashford,Forwards,722,2018-2019 Champions League
+Marcus Rashford,Forwards,2334,2018-2019 Premier League
+Marcus Tavernier,Att Mid / Wingers,498,2018-2019 Championship
+Marcus Tavernier,Att Mid / Wingers,1140,2024-2025 Premier League
+Marcus Tavernier,Att Mid / Wingers,1743,2022-2023 Premier League
+Marcus Tavernier,Att Mid / Wingers,2088,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Marcus Tavernier,Att Mid / Wingers,2118,2023-2024 Premier League
+Marcus Tavernier,Att Mid / Wingers,2202,2020-2021 Championship
+Marcus Tavernier,Att Mid / Wingers,2536,2019-2020 Championship
+Martin Ødegaard,Att Mid / Wingers,420,2020-2021 Europa League
+Martin Ødegaard,Att Mid / Wingers,866,2020-2021 Premier League
+Martin Ødegaard,Att Mid / Wingers,2785,2021-2022 Premier League
+Mason Mount,Att Mid / Wingers,186,2022 World Cup
+Mason Mount,Att Mid / Wingers,462,2021 UEFA Euro 2020
+Mason Mount,Att Mid / Wingers,473,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mason Mount,Att Mid / Wingers,539,2021-2022 Champions League
+Mason Mount,Att Mid / Wingers,1648,2022-2023 Premier League
+Mason Mount,Att Mid / Wingers,2363,2021-2022 Premier League
+Mason Mount,Att Mid / Wingers,2867,2019-2020 Premier League
+Matheus Cunha,Att Mid / Wingers,1605,2024-2025 Premier League
+Matheus Cunha,Att Mid / Wingers,2149,2020-2021 Bundesliga
+Matheus Cunha,Att Mid / Wingers,2373,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Matheus Cunha,Forwards,540,2018-2019 Europa League
+Matheus Cunha,Forwards,853,2018-2019 Bundesliga
+Matheus Cunha,Forwards,965,2022-2023 Premier League
+Matheus Cunha,Forwards,1023,2019-2020 Bundesliga
+Matheus Cunha,Forwards,1063,2021-2022 La Liga
+Matheus Cunha,Forwards,2440,2023-2024 Premier League
+Matty Cash,Att Mid / Wingers,2428,2018-2019 Championship
+Maxwel Cornet,Att Mid / Wingers,211,2022-2023 Europa Conference League
+Maxwel Cornet,Att Mid / Wingers,216,2018-2019 Champions League
+Maxwel Cornet,Att Mid / Wingers,370,2017-2018 Europa League
+Maxwel Cornet,Att Mid / Wingers,1272,2017-2018 Ligue 1
+Maxwel Cornet,Att Mid / Wingers,1281,2018-2019 Ligue 1
+Maxwel Cornet,Att Mid / Wingers,1330,2019-2020 Ligue 1
+Maxwel Cornet,Forwards,1766,2021-2022 Premier League
+Michail Antonio,Att Mid / Wingers,1354,2017-2018 Premier League
+Michail Antonio,Forwards,235,2024 Copa América
+Michail Antonio,Forwards,322,2023-2024 Europa League
+Michail Antonio,Forwards,605,2022-2023 Europa Conference League
+Michail Antonio,Forwards,762,2021-2022 Europa League
+Michail Antonio,Forwards,836,2024-2025 Premier League
+Michail Antonio,Forwards,1695,2023-2024 Premier League
+Michail Antonio,Forwards,1768,2019-2020 Premier League
+Michail Antonio,Forwards,1829,2022-2023 Premier League
+Michail Antonio,Forwards,1974,2020-2021 Premier League
+Michail Antonio,Forwards,1977,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Michail Antonio,Forwards,2971,2021-2022 Premier League
+Miguel Almirón,Att Mid / Wingers,180,2024 Copa América
+Miguel Almirón,Att Mid / Wingers,288,2021 Copa América
+Miguel Almirón,Att Mid / Wingers,413,2023-2024 Champions League
+Miguel Almirón,Att Mid / Wingers,663,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Miguel Almirón,Att Mid / Wingers,1937,2023-2024 Premier League
+Miguel Almirón,Att Mid / Wingers,2491,2022-2023 Premier League
+Miguel Almirón,Att Mid / Wingers,2756,2018 Major League Soccer
+Miguel Almirón,Forwards,386,2019 Copa América
+Mikey Moore,Att Mid / Wingers,183,vs. Att Mid / Wingers
+Mikkel Damsgaard,Att Mid / Wingers,325,2021 UEFA Euro 2020
+Mohamed Salah,Att Mid / Wingers,180,2018 World Cup
+Mohamed Salah,Att Mid / Wingers,400,2023-2024 Europa League
+Mohamed Salah,Att Mid / Wingers,511,2024-2025 Champions League
+Mohamed Salah,Att Mid / Wingers,624,2022-2023 Champions League
+Mohamed Salah,Att Mid / Wingers,730,2019-2020 Champions League
+Mohamed Salah,Att Mid / Wingers,778,2020-2021 Champions League
+Mohamed Salah,Att Mid / Wingers,923,2017-2018 Champions League
+Mohamed Salah,Att Mid / Wingers,1004,2021-2022 Champions League
+Mohamed Salah,Att Mid / Wingers,1056,2018-2019 Champions League
+Mohamed Salah,Att Mid / Wingers,1762,2024-2025 Premier League
+Mohamed Salah,Att Mid / Wingers,2534,2023-2024 Premier League
+Mohamed Salah,Att Mid / Wingers,2762,2021-2022 Premier League
+Mohamed Salah,Att Mid / Wingers,2876,2019-2020 Premier League
+Mohamed Salah,Att Mid / Wingers,2907,2017-2018 Premier League
+Mohamed Salah,Att Mid / Wingers,3078,2020-2021 Premier League
+Mohamed Salah,Att Mid / Wingers,3250,2018-2019 Premier League
+Mohamed Salah,Att Mid / Wingers,3285,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mohamed Salah,Att Mid / Wingers,3290,2022-2023 Premier League
+Mohammed Kudus,Att Mid / Wingers,180,2022-2023 Europa League
+Mohammed Kudus,Att Mid / Wingers,765,2023-2024 Europa League
+Mohammed Kudus,Att Mid / Wingers,1793,2022-2023 Eredivisie
+Mohammed Kudus,Att Mid / Wingers,2484,2023-2024 Premier League
+Mohammed Kudus,Att Mid / Wingers,3165,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mohammed Kudus,Forwards,247,2022 World Cup
+Mohammed Kudus,Forwards,448,2022-2023 Champions League
+Morgan Gibbs-White,Att Mid / Wingers,663,2018-2019 Premier League
+Morgan Gibbs-White,Att Mid / Wingers,1339,2024-2025 Premier League
+Morgan Gibbs-White,Att Mid / Wingers,2808,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Morgan Gibbs-White,Att Mid / Wingers,2865,2021-2022 Championship
+Morgan Gibbs-White,Att Mid / Wingers,3151,2022-2023 Premier League
+Morgan Gibbs-White,Att Mid / Wingers,3156,2023-2024 Premier League
+Morgan Rogers,Att Mid / Wingers,512,2024-2025 Champions League
+Morgan Rogers,Att Mid / Wingers,638,2023-2024 Premier League
+Morgan Rogers,Att Mid / Wingers,1308,2023-2024 Championship
+Morgan Rogers,Att Mid / Wingers,1648,2024-2025 Premier League
+Morgan Rogers,Att Mid / Wingers,2798,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Morgan Rogers,Forwards,1253,2022-2023 Championship
+Mykhailo Mudryk,Att Mid / Wingers,360,2024-2025 Conference League
+Mykhailo Mudryk,Att Mid / Wingers,657,2022-2023 Premier League
+Mykhailo Mudryk,Att Mid / Wingers,920,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mykhailo Mudryk,Att Mid / Wingers,1576,2023-2024 Premier League
+Nathan Broadhead,Att Mid / Wingers,776,Last 365 Days Men's Next 14 Competitions
+Nathan Broadhead,Att Mid / Wingers,2294,2023-2024 Championship
+Nathan Broadhead,Forwards,1069,2022-2023 Championship
+Neal Maupay,Forwards,734,2024-2025 Ligue 1
+Neal Maupay,Forwards,1118,2022-2023 Premier League
+Neal Maupay,Forwards,1359,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Neal Maupay,Forwards,1432,2023-2024 Premier League
+Neal Maupay,Forwards,2276,2021-2022 Premier League
+Neal Maupay,Forwards,2512,2020-2021 Premier League
+Neal Maupay,Forwards,2766,2019-2020 Premier League
+Neal Maupay,Forwards,3706,2018-2019 Championship
+Niclas Füllkrug,Forwards,877,2020-2021 Bundesliga
+Niclas Füllkrug,Forwards,1036,2023-2024 Champions League
+Niclas Füllkrug,Forwards,1112,2018-2019 Bundesliga
+Niclas Füllkrug,Forwards,2081,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Niclas Füllkrug,Forwards,2389,2017-2018 Bundesliga
+Niclas Füllkrug,Forwards,2392,2023-2024 Bundesliga
+Niclas Füllkrug,Forwards,2477,2022-2023 Bundesliga
+Niclas Füllkrug,Forwards,2503,2021-2022 2. Bundesliga
+Nicolas Jackson,Forwards,310,2022-2023 Europa Conference League
+Nicolas Jackson,Forwards,720,2020-2021 Segunda División
+Nicolas Jackson,Forwards,1535,2024-2025 Premier League
+Nicolas Jackson,Forwards,1598,2022-2023 La Liga
+Nicolas Jackson,Forwards,2799,2023-2024 Premier League
+Nicolas Jackson,Forwards,2885,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Noni Madueke,Att Mid / Wingers,268,2021-2022 Europa Conference League
+Noni Madueke,Att Mid / Wingers,643,2022-2023 Premier League
+Noni Madueke,Att Mid / Wingers,823,2021-2022 Eredivisie
+Noni Madueke,Att Mid / Wingers,1053,2023-2024 Premier League
+Noni Madueke,Att Mid / Wingers,1200,2024-2025 Premier League
+Noni Madueke,Att Mid / Wingers,1994,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Noni Madueke,Forwards,967,2020-2021 Eredivisie
+Odsonne Édouard,Forwards,277,2020-2021 Europa League
+Odsonne Édouard,Forwards,457,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Odsonne Édouard,Forwards,533,2019-2020 Europa League
+Odsonne Édouard,Forwards,551,2018-2019 Europa League
+Odsonne Édouard,Forwards,1555,2023-2024 Premier League
+Odsonne Édouard,Forwards,1564,2021-2022 Premier League
+Odsonne Édouard,Forwards,1803,2022-2023 Premier League
+Ollie Watkins,Att Mid / Wingers,3115,2018-2019 Championship
+Ollie Watkins,Forwards,355,2024-2025 Champions League
+Ollie Watkins,Forwards,503,Last 365 Days Men's Next 14 Competitions
+Ollie Watkins,Forwards,753,2023-2024 Europa Conference League
+Ollie Watkins,Forwards,1452,2024-2025 Premier League
+Ollie Watkins,Forwards,2952,2021-2022 Premier League
+Ollie Watkins,Forwards,3127,2022-2023 Premier League
+Ollie Watkins,Forwards,3178,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ollie Watkins,Forwards,3217,2023-2024 Premier League
+Ollie Watkins,Forwards,3328,2020-2021 Premier League
+Ollie Watkins,Forwards,4128,2019-2020 Championship
+Omari Hutchinson,Att Mid / Wingers,1268,Last 365 Days Men's Next 14 Competitions
+Omari Hutchinson,Att Mid / Wingers,1625,2024-2025 Premier League
+Omari Hutchinson,Att Mid / Wingers,1625,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Omari Hutchinson,Att Mid / Wingers,2195,2023-2024 Championship
+Pablo Sarabia,Att Mid / Wingers,253,2021 UEFA Euro 2020
+Pablo Sarabia,Att Mid / Wingers,406,2019-2020 Champions League
+Pablo Sarabia,Att Mid / Wingers,506,2021-2022 Champions League
+Pablo Sarabia,Att Mid / Wingers,740,2017-2018 Champions League
+Pablo Sarabia,Att Mid / Wingers,765,2022-2023 Premier League
+Pablo Sarabia,Att Mid / Wingers,1164,2019-2020 Ligue 1
+Pablo Sarabia,Att Mid / Wingers,1273,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Pablo Sarabia,Att Mid / Wingers,1320,2020-2021 Ligue 1
+Pablo Sarabia,Att Mid / Wingers,1745,2023-2024 Premier League
+Pablo Sarabia,Att Mid / Wingers,2072,2021-2022 Primeira Liga
+Pablo Sarabia,Att Mid / Wingers,2395,2017-2018 La Liga
+Patson Daka,Forwards,205,2020-2021 Champions League
+Patson Daka,Forwards,241,2019-2020 Champions League
+Patson Daka,Forwards,415,2021-2022 Europa League
+Patson Daka,Forwards,642,Last 365 Days Men's Next 14 Competitions
+Patson Daka,Forwards,1086,2023-2024 Championship
+Patson Daka,Forwards,1159,2021-2022 Premier League
+Patson Daka,Forwards,1187,2022-2023 Premier League
+Paul Onuachu,Forwards,214,2019-2020 Champions League
+Paul Onuachu,Forwards,372,2021-2022 Europa League
+Paul Onuachu,Forwards,1179,2022-2023 Belgian Pro League
+Paul Onuachu,Forwards,1536,2019-2020 Belgian First Division A
+Paul Onuachu,Forwards,2150,2021-2022 Belgian First Division A
+Paul Onuachu,Forwards,2572,2020-2021 Belgian First Division A
+Pedro Neto,Att Mid / Wingers,184,2024-2025 Conference League
+Pedro Neto,Att Mid / Wingers,332,2019-2020 Europa League
+Pedro Neto,Att Mid / Wingers,466,2021-2022 Premier League
+Pedro Neto,Att Mid / Wingers,939,2019-2020 Premier League
+Pedro Neto,Att Mid / Wingers,964,2022-2023 Premier League
+Pedro Neto,Att Mid / Wingers,1012,2024-2025 Premier League
+Pedro Neto,Att Mid / Wingers,1516,2023-2024 Premier League
+Pedro Neto,Att Mid / Wingers,1631,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Pedro Neto,Att Mid / Wingers,2550,2020-2021 Premier League
+Phil Foden,Att Mid / Wingers,253,2019-2020 Champions League
+Phil Foden,Att Mid / Wingers,258,2022 World Cup
+Phil Foden,Att Mid / Wingers,617,2024 UEFA Euro 2024
+Phil Foden,Att Mid / Wingers,658,2021-2022 Champions League
+Phil Foden,Att Mid / Wingers,681,2023-2024 Champions League
+Phil Foden,Att Mid / Wingers,901,2019-2020 Premier League
+Phil Foden,Att Mid / Wingers,1064,2020-2021 Champions League
+Phil Foden,Att Mid / Wingers,1616,2020-2021 Premier League
+Phil Foden,Att Mid / Wingers,1842,2022-2023 Premier League
+Phil Foden,Att Mid / Wingers,2128,2021-2022 Premier League
+Phil Foden,Att Mid / Wingers,2857,2023-2024 Premier League
+Philip Billing,Att Mid / Wingers,1398,2023-2024 Premier League
+Raheem Sterling,Att Mid / Wingers,496,2017-2018 Champions League
+Raheem Sterling,Att Mid / Wingers,585,2021-2022 Champions League
+Raheem Sterling,Att Mid / Wingers,601,2019-2020 Champions League
+Raheem Sterling,Att Mid / Wingers,630,2022-2023 Champions League
+Raheem Sterling,Att Mid / Wingers,639,2021 UEFA Euro 2020
+Raheem Sterling,Att Mid / Wingers,648,2020-2021 Champions League
+Raheem Sterling,Att Mid / Wingers,732,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Raheem Sterling,Att Mid / Wingers,869,2018-2019 Champions League
+Raheem Sterling,Att Mid / Wingers,1891,2022-2023 Premier League
+Raheem Sterling,Att Mid / Wingers,1978,2023-2024 Premier League
+Raheem Sterling,Att Mid / Wingers,2128,2021-2022 Premier League
+Raheem Sterling,Att Mid / Wingers,2536,2020-2021 Premier League
+Raheem Sterling,Att Mid / Wingers,2586,2017-2018 Premier League
+Raheem Sterling,Att Mid / Wingers,2651,2019-2020 Premier League
+Raheem Sterling,Att Mid / Wingers,2771,2018-2019 Premier League
+Raheem Sterling,Forwards,451,2018 World Cup
+Ramón Sosa,Att Mid / Wingers,285,2024 Copa Libertadores
+Ramón Sosa,Att Mid / Wingers,401,2021 Copa Libertadores
+Ramón Sosa,Att Mid / Wingers,484,Last 365 Days Men's Next 14 Competitions
+Ramón Sosa,Att Mid / Wingers,842,2023 Copa de la Liga Profesional
+Ramón Sosa,Att Mid / Wingers,1017,2024 Copa de la Liga Profesional
+Ramón Sosa,Att Mid / Wingers,1042,2022 Copa de la Liga Profesional
+Ramón Sosa,Att Mid / Wingers,1500,2023 Liga Profesional Argentina
+Rasmus Højlund,Forwards,286,2024 UEFA Euro 2024
+Rasmus Højlund,Forwards,329,2024-2025 Europa League
+Rasmus Højlund,Forwards,485,2023-2024 Champions League
+Rasmus Højlund,Forwards,1025,2024-2025 Premier League
+Rasmus Højlund,Forwards,1834,2022-2023 Serie A
+Rasmus Højlund,Forwards,2158,2023-2024 Premier League
+Rasmus Højlund,Forwards,2393,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Raúl Jiménez,Forwards,309,2017-2018 Champions League
+Raúl Jiménez,Forwards,761,2019-2020 Europa League
+Raúl Jiménez,Forwards,823,2020-2021 Premier League
+Raúl Jiménez,Forwards,846,2022-2023 Premier League
+Raúl Jiménez,Forwards,1317,2024-2025 Premier League
+Raúl Jiménez,Forwards,1395,2023-2024 Premier League
+Raúl Jiménez,Forwards,1517,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Raúl Jiménez,Forwards,2631,2021-2022 Premier League
+Raúl Jiménez,Forwards,3111,2018-2019 Premier League
+Raúl Jiménez,Forwards,3236,2019-2020 Premier League
+Reiss Nelson,Att Mid / Wingers,243,2020-2021 Europa League
+Reiss Nelson,Att Mid / Wingers,298,2022-2023 Europa League
+Reiss Nelson,Att Mid / Wingers,490,2024-2025 Premier League
+Reiss Nelson,Att Mid / Wingers,598,2021-2022 Europa Conference League
+Reiss Nelson,Att Mid / Wingers,631,2019-2020 Premier League
+Reiss Nelson,Att Mid / Wingers,649,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Reiss Nelson,Att Mid / Wingers,910,2021-2022 Eredivisie
+Richarlison,Att Mid / Wingers,365,2022-2023 Champions League
+Richarlison,Att Mid / Wingers,1010,2022-2023 Premier League
+Richarlison,Att Mid / Wingers,2665,2018-2019 Premier League
+Richarlison,Att Mid / Wingers,2823,2017-2018 Premier League
+Richarlison,Forwards,323,2022 World Cup
+Richarlison,Forwards,651,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Richarlison,Forwards,1491,2023-2024 Premier League
+Richarlison,Forwards,2523,2021-2022 Premier League
+Richarlison,Forwards,2861,2020-2021 Premier League
+Richarlison,Forwards,3070,2019-2020 Premier League
+Rodrigo Muniz,Forwards,511,2021-2022 Championship
+Rodrigo Muniz,Forwards,607,2024-2025 Premier League
+Rodrigo Muniz,Forwards,892,2022-2023 Championship
+Rodrigo Muniz,Forwards,1593,2023-2024 Premier League
+Rodrigo Muniz,Forwards,1872,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ross Barkley,Att Mid / Wingers,1573,2020-2021 Premier League
+Ross Stewart,Forwards,1042,vs. Forwards
+Ryan Christie,Att Mid / Wingers,390,2020-2021 Europa League
+Ryan Christie,Att Mid / Wingers,513,2019-2020 Europa League
+Ryan Christie,Att Mid / Wingers,1834,2022-2023 Premier League
+Ryan Christie,Att Mid / Wingers,2997,2021-2022 Championship
+Ryan Fraser,Att Mid / Wingers,754,Last 365 Days Men's Next 14 Competitions
+Ryan Fraser,Att Mid / Wingers,1465,2021-2022 Premier League
+Ryan Fraser,Att Mid / Wingers,1633,2023-2024 Championship
+Ryan Fraser,Forwards,928,2020-2021 Premier League
+Ryan Sessegnon,Att Mid / Wingers,196,2019-2020 Champions League
+Ryan Sessegnon,Att Mid / Wingers,2300,2018-2019 Premier League
+Sammie Szmodics,Att Mid / Wingers,978,2024-2025 Premier League
+Sammie Szmodics,Att Mid / Wingers,978,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Sammie Szmodics,Att Mid / Wingers,1722,Last 365 Days Men's Next 14 Competitions
+Sammie Szmodics,Att Mid / Wingers,2166,2022-2023 Championship
+Sammie Szmodics,Att Mid / Wingers,2388,2021-2022 Championship
+Sammie Szmodics,Att Mid / Wingers,3899,2023-2024 Championship
+Samuel Edozie,Att Mid / Wingers,200,2024-2025 Europa League
+Samuel Edozie,Att Mid / Wingers,567,2022-2023 Premier League
+Samuel Edozie,Att Mid / Wingers,792,2024-2025 Belgian Pro League
+Samuel Edozie,Att Mid / Wingers,1230,Last 365 Days Men's Next 14 Competitions
+Samuel Edozie,Att Mid / Wingers,1364,2023-2024 Championship
+Scott McTominay,Att Mid / Wingers,270,2024 UEFA Euro 2024
+Simon Adingra,Att Mid / Wingers,533,2023-2024 Europa League
+Simon Adingra,Att Mid / Wingers,553,2024-2025 Premier League
+Simon Adingra,Att Mid / Wingers,1813,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Simon Adingra,Att Mid / Wingers,2222,2023-2024 Premier League
+Son Heung-min,Att Mid / Wingers,282,2024-2025 Europa League
+Son Heung-min,Att Mid / Wingers,326,2020-2021 Europa League
+Son Heung-min,Att Mid / Wingers,360,2022 World Cup
+Son Heung-min,Att Mid / Wingers,365,2019-2020 Champions League
+Son Heung-min,Att Mid / Wingers,618,2022-2023 Champions League
+Son Heung-min,Att Mid / Wingers,900,2018-2019 Champions League
+Son Heung-min,Att Mid / Wingers,1315,2024-2025 Premier League
+Son Heung-min,Att Mid / Wingers,2301,2017-2018 Premier League
+Son Heung-min,Att Mid / Wingers,2476,2019-2020 Premier League
+Son Heung-min,Att Mid / Wingers,2842,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Son Heung-min,Att Mid / Wingers,2888,2022-2023 Premier League
+Son Heung-min,Att Mid / Wingers,3006,2021-2022 Premier League
+Son Heung-min,Att Mid / Wingers,3114,2020-2021 Premier League
+Son Heung-min,Forwards,270,2018 World Cup
+Son Heung-min,Forwards,2039,2018-2019 Premier League
+Son Heung-min,Forwards,2934,2023-2024 Premier League
+Stephy Mavididi,Att Mid / Wingers,1275,2024-2025 Premier League
+Stephy Mavididi,Att Mid / Wingers,1275,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Stephy Mavididi,Att Mid / Wingers,1288,2022-2023 Ligue 1
+Stephy Mavididi,Att Mid / Wingers,1391,2019-2020 Ligue 1
+Stephy Mavididi,Att Mid / Wingers,1460,Last 365 Days Men's Next 14 Competitions
+Stephy Mavididi,Att Mid / Wingers,2030,2020-2021 Ligue 1
+Stephy Mavididi,Att Mid / Wingers,2299,2021-2022 Ligue 1
+Stephy Mavididi,Att Mid / Wingers,3587,2023-2024 Championship
+Sávio,Att Mid / Wingers,1080,2024-2025 Premier League
+Sávio,Att Mid / Wingers,2807,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Sávio,Att Mid / Wingers,2976,2023-2024 La Liga
+Taiwo Awoniyi,Att Mid / Wingers,483,2019-2020 Bundesliga
+Taiwo Awoniyi,Forwards,315,2021-2022 Europa Conference League
+Taiwo Awoniyi,Forwards,604,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Taiwo Awoniyi,Forwards,1042,2023-2024 Premier League
+Taiwo Awoniyi,Forwards,1274,2018-2019 Belgian First Division A
+Taiwo Awoniyi,Forwards,1359,2020-2021 Bundesliga
+Taiwo Awoniyi,Forwards,1404,2022-2023 Premier League
+Taiwo Awoniyi,Forwards,2174,2021-2022 Bundesliga
+Taiwo Awoniyi,Forwards,2178,2017-2018 Belgian First Division A
+Thiago,Forwards,350,2022-2023 Europa League
+Thiago,Forwards,754,2023-2024 Europa Conference League
+Thiago,Forwards,862,Last 365 Days Men's Next 14 Competitions
+Thiago,Forwards,1840,2023-2024 Belgian Pro League
+Thomas Cannon,Forwards,1674,2022-2023 Championship
+Thomas Cannon,Forwards,1857,2024-2025 Championship
+Thomas Cannon,Forwards,2045,Last 365 Days Men's Next 14 Competitions
+Timo Werner,Att Mid / Wingers,187,2024-2025 Europa League
+Timo Werner,Att Mid / Wingers,500,2022-2023 Champions League
+Timo Werner,Att Mid / Wingers,507,2024-2025 Premier League
+Timo Werner,Att Mid / Wingers,809,2023-2024 Premier League
+Timo Werner,Att Mid / Wingers,1424,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Timo Werner,Att Mid / Wingers,2602,2020-2021 Premier League
+Timo Werner,Forwards,246,2021-2022 Champions League
+Timo Werner,Forwards,265,2018 World Cup
+Timo Werner,Forwards,329,2017-2018 Champions League
+Timo Werner,Forwards,444,2017-2018 Europa League
+Timo Werner,Forwards,579,2019-2020 Champions League
+Timo Werner,Forwards,810,2020-2021 Champions League
+Timo Werner,Forwards,1283,2021-2022 Premier League
+Timo Werner,Forwards,1937,2022-2023 Bundesliga
+Timo Werner,Forwards,2487,2017-2018 Bundesliga
+Timo Werner,Forwards,2509,2018-2019 Bundesliga
+Timo Werner,Forwards,2795,2019-2020 Bundesliga
+Tom Cairney,Att Mid / Wingers,988,2022-2023 Premier League
+Tom Cairney,Att Mid / Wingers,2194,2018-2019 Premier League
+Tyler Adams,Att Mid / Wingers,289,2020-2021 Champions League
+Tyler Dibling,Att Mid / Wingers,1230,2024-2025 Premier League
+Tyler Dibling,Att Mid / Wingers,1230,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Tyrique George,Att Mid / Wingers,289,vs. Att Mid / Wingers
+Wes Burns,Att Mid / Wingers,812,Last 365 Days Men's Next 14 Competitions
+Wes Burns,Att Mid / Wingers,898,2024-2025 Premier League
+Wes Burns,Att Mid / Wingers,898,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Wes Burns,Att Mid / Wingers,2381,2023-2024 Championship
+Will Hughes,Att Mid / Wingers,990,2017-2018 Premier League
+Will Hughes,Att Mid / Wingers,2418,2018-2019 Premier League
+William Osula,Forwards,786,vs. Forwards
+Wilson Odobert,Att Mid / Wingers,1764,2022-2023 Ligue 1
+Yankuba Minteh,Att Mid / Wingers,198,2023-2024 Champions League
+Yankuba Minteh,Att Mid / Wingers,665,2024-2025 Premier League
+Yankuba Minteh,Att Mid / Wingers,777,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Yankuba Minteh,Att Mid / Wingers,890,Last 365 Days Men's Next 14 Competitions
+Yankuba Minteh,Att Mid / Wingers,1456,2023-2024 Eredivisie
+Yasin Ayari,Att Mid / Wingers,884,2023-2024 Championship
+Yoane Wissa,Att Mid / Wingers,1606,2022-2023 Premier League
+Yoane Wissa,Att Mid / Wingers,2104,2018-2019 Ligue 2
+Yoane Wissa,Att Mid / Wingers,2115,2019-2020 Ligue 2
+Yoane Wissa,Att Mid / Wingers,2580,2017-2018 Ligue 2
+Yoane Wissa,Forwards,1284,2021-2022 Premier League
+Yoane Wissa,Forwards,1391,2024-2025 Premier League
+Yoane Wissa,Forwards,2340,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Yoane Wissa,Forwards,2493,2023-2024 Premier League
+Youssef Chermiti,Forwards,844,vs. Forwards
+Yukinari Sugawara,Att Mid / Wingers,646,2019-2020 Eredivisie
+İlkay Gündoğan,Att Mid / Wingers,383,2024 UEFA Euro 2024

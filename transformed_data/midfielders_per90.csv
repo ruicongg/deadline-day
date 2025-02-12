@@ -1,1100 +1,1100 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Player,Versus,BasedOnMinutes,scouting_period
+Abdoulaye Doucouré,Midfielders,1425,2024-2025 Premier League
+Abdoulaye Doucouré,Midfielders,1533,2022-2023 Premier League
+Abdoulaye Doucouré,Midfielders,2443,2020-2021 Premier League
+Abdoulaye Doucouré,Midfielders,2524,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Abdoulaye Doucouré,Midfielders,2537,2021-2022 Premier League
+Abdoulaye Doucouré,Midfielders,3062,2018-2019 Premier League
+Abdoulaye Doucouré,Midfielders,3156,2019-2020 Premier League
+Abdoulaye Doucouré,Midfielders,3324,2017-2018 Premier League
+Adam Lallana,Midfielders,468,2018-2019 Premier League
+Adam Lallana,Midfielders,1561,2021-2022 Premier League
+Adam Lallana,Midfielders,1596,2020-2021 Premier League
+Adam Wharton,Midfielders,622,2024-2025 Premier League
+Adam Wharton,Midfielders,1055,2022-2023 Championship
+Adam Wharton,Midfielders,1297,2023-2024 Premier League
+Adam Wharton,Midfielders,1919,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Adam Wharton,Midfielders,1957,2023-2024 Championship
+Alex Iwobi,Midfielders,1596,2019-2020 Premier League
+Alex Iwobi,Midfielders,2035,2021-2022 Premier League
+Alex Iwobi,Midfielders,3378,2022-2023 Premier League
+Alex Scott,Midfielders,935,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Alex Scott,Midfielders,1014,2023-2024 Premier League
+Alex Scott,Midfielders,2750,2021-2022 Championship
+Alex Scott,Midfielders,3381,2022-2023 Championship
+Alexis Mac Allister,Midfielders,409,2023-2024 Europa League
+Alexis Mac Allister,Midfielders,443,2024 Copa América
+Alexis Mac Allister,Midfielders,449,2024-2025 Champions League
+Alexis Mac Allister,Midfielders,488,2019 Copa Libertadores
+Alexis Mac Allister,Midfielders,550,2022 World Cup
+Alexis Mac Allister,Midfielders,708,2019-2020 Superliga Argentina
+Alexis Mac Allister,Midfielders,1115,2020-2021 Premier League
+Alexis Mac Allister,Midfielders,1316,2017-2018 Superliga Argentina
+Alexis Mac Allister,Midfielders,1412,2024-2025 Premier League
+Alexis Mac Allister,Midfielders,2123,2021-2022 Premier League
+Alexis Mac Allister,Midfielders,2599,2023-2024 Premier League
+Alexis Mac Allister,Midfielders,2886,2022-2023 Premier League
+Alexis Mac Allister,Midfielders,3604,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Alfie Devine,Midfielders,1271,2024-2025 Belgian Pro League
+Amadou Onana,Midfielders,194,2024-2025 Champions League
+Amadou Onana,Midfielders,260,2021-2022 Champions League
+Amadou Onana,Midfielders,360,2024 UEFA Euro 2024
+Amadou Onana,Midfielders,998,2024-2025 Premier League
+Amadou Onana,Midfielders,1359,2021-2022 Ligue 1
+Amadou Onana,Midfielders,1507,2020-2021 2. Bundesliga
+Amadou Onana,Midfielders,1880,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Amadou Onana,Midfielders,2091,2023-2024 Premier League
+Amadou Onana,Midfielders,2488,2022-2023 Premier League
+Andreas Pereira,Midfielders,191,2018-2019 Champions League
+Andreas Pereira,Midfielders,269,2021 Copa Libertadores
+Andreas Pereira,Midfielders,430,2022 Copa Libertadores
+Andreas Pereira,Midfielders,599,2018-2019 Premier League
+Andreas Pereira,Midfielders,792,2022 Série A
+Andreas Pereira,Midfielders,1078,2017-2018 La Liga
+Andreas Pereira,Midfielders,1246,2024-2025 Premier League
+Andreas Pereira,Midfielders,1383,2021 Série A
+André,Midfielders,196,2021 Copa Libertadores
+André,Midfielders,434,2024 Copa Libertadores
+André,Midfielders,1063,2024-2025 Premier League
+André,Midfielders,1063,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+André,Midfielders,1072,2024 Série A
+André,Midfielders,1139,2023 Copa Libertadores
+André,Midfielders,1506,Last 365 Days Men's Next 14 Competitions
+André,Midfielders,1906,2021 Série A
+André,Midfielders,2649,2023 Série A
+André,Midfielders,3015,2022 Série A
+Anthony Gordon,Midfielders,2285,2021-2022 Premier League
+Antony,Midfielders,2379,2019 Série A
+Bernardo Silva,Midfielders,238,2018 World Cup
+Bernardo Silva,Midfielders,356,2022 World Cup
+Bernardo Silva,Midfielders,579,2018-2019 Champions League
+Bernardo Silva,Midfielders,874,2021-2022 Champions League
+Bernardo Silva,Midfielders,928,2020-2021 Champions League
+Bernardo Silva,Midfielders,1736,2024-2025 Premier League
+Bernardo Silva,Midfielders,2065,2020-2021 Premier League
+Bernardo Silva,Midfielders,2205,2022-2023 Premier League
+Bernardo Silva,Midfielders,2578,2023-2024 Premier League
+Bernardo Silva,Midfielders,2854,2018-2019 Premier League
+Bernardo Silva,Midfielders,2857,2021-2022 Premier League
+Bernardo Silva,Midfielders,3578,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Boubacar Kamara,Midfielders,270,2024-2025 Champions League
+Boubacar Kamara,Midfielders,325,2023-2024 Europa Conference League
+Boubacar Kamara,Midfielders,347,2021-2022 Europa League
+Boubacar Kamara,Midfielders,385,2020-2021 Champions League
+Boubacar Kamara,Midfielders,496,2021-2022 Europa Conference League
+Boubacar Kamara,Midfielders,535,2017-2018 Europa League
+Boubacar Kamara,Midfielders,766,2024-2025 Premier League
+Boubacar Kamara,Midfielders,1252,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Boubacar Kamara,Midfielders,1652,2023-2024 Premier League
+Boubacar Kamara,Midfielders,1777,2022-2023 Premier League
+Boubacar Kamara,Midfielders,2778,2021-2022 Ligue 1
+Boubacar Kamara,Midfielders,2894,2020-2021 Ligue 1
+Boubacar Traoré,Midfielders,819,2023-2024 Premier League
+Boubacar Traoré,Midfielders,1726,2021-2022 Ligue 1
+Boubakary Soumaré,Midfielders,216,2023-2024 Champions League
+Boubakary Soumaré,Midfielders,401,2020-2021 Europa League
+Boubakary Soumaré,Midfielders,414,2021-2022 Europa League
+Boubakary Soumaré,Midfielders,511,2017-2018 Ligue 1
+Boubakary Soumaré,Midfielders,526,2019-2020 Champions League
+Boubakary Soumaré,Midfielders,564,2018-2019 Ligue 1
+Boubakary Soumaré,Midfielders,1015,2024-2025 Premier League
+Boubakary Soumaré,Midfielders,1102,2021-2022 Premier League
+Boubakary Soumaré,Midfielders,1213,2019-2020 Ligue 1
+Boubakary Soumaré,Midfielders,1629,2022-2023 Premier League
+Boubakary Soumaré,Midfielders,1919,2020-2021 Ligue 1
+Boubakary Soumaré,Midfielders,2286,2023-2024 La Liga
+Boubakary Soumaré,Midfielders,2454,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Bruno Fernandes,Midfielders,206,2021 UEFA Euro 2020
+Bruno Fernandes,Midfielders,702,2018-2019 Europa League
+Bruno Fernandes,Midfielders,2940,2018-2019 Primeira Liga
+Bruno Guimarães,Midfielders,234,2021-2022 Europa League
+Bruno Guimarães,Midfielders,294,2019-2020 Champions League
+Bruno Guimarães,Midfielders,332,2024 Copa América
+Bruno Guimarães,Midfielders,540,2023-2024 Champions League
+Bruno Guimarães,Midfielders,617,2019 Copa Libertadores
+Bruno Guimarães,Midfielders,1034,2021-2022 Premier League
+Bruno Guimarães,Midfielders,1634,2021-2022 Ligue 1
+Bruno Guimarães,Midfielders,1754,2020-2021 Ligue 1
+Bruno Guimarães,Midfielders,1834,2024-2025 Premier League
+Bruno Guimarães,Midfielders,1963,2019 Série A
+Bruno Guimarães,Midfielders,2726,2022-2023 Premier League
+Bruno Guimarães,Midfielders,3263,2023-2024 Premier League
+Bruno Guimarães,Midfielders,3335,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Bryan Mbeumo,Midfielders,2461,2018-2019 Ligue 2
+Carlos Alcaraz,Midfielders,214,2020 Copa Libertadores
+Carlos Alcaraz,Midfielders,255,2021 Copa de la Liga Profesional
+Carlos Alcaraz,Midfielders,751,2024 Série A
+Carlos Alcaraz,Midfielders,786,Last 365 Days Men's Next 14 Competitions
+Carlos Alcaraz,Midfielders,870,2022 Copa de la Liga Profesional
+Carlos Alcaraz,Midfielders,881,2021 Liga Profesional Argentina
+Carlos Alcaraz,Midfielders,1019,2022 Liga Profesional Argentina
+Carlos Alcaraz,Midfielders,1102,2023-2024 Championship
+Carlos Baleba,Midfielders,478,2022-2023 Ligue 1
+Carlos Baleba,Midfielders,1325,2023-2024 Premier League
+Carlos Baleba,Midfielders,1342,2024-2025 Premier League
+Carlos Baleba,Midfielders,2128,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Carlos Soler,Midfielders,392,2018-2019 Champions League
+Carlos Soler,Midfielders,392,2019-2020 Champions League
+Carlos Soler,Midfielders,507,2018-2019 Europa League
+Carlos Soler,Midfielders,796,2024-2025 Premier League
+Carlos Soler,Midfielders,1090,2023-2024 Ligue 1
+Carlos Soler,Midfielders,1187,2022-2023 Ligue 1
+Carlos Soler,Midfielders,1384,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Carlos Soler,Midfielders,2066,2019-2020 La Liga
+Carlos Soler,Midfielders,2365,2017-2018 La Liga
+Carlos Soler,Midfielders,2460,2018-2019 La Liga
+Carlos Soler,Midfielders,2474,2021-2022 La Liga
+Carlos Soler,Midfielders,2735,2020-2021 La Liga
+Casemiro,Midfielders,321,2024-2025 Europa League
+Casemiro,Midfielders,329,2018 World Cup
+Casemiro,Midfielders,390,2022 World Cup
+Casemiro,Midfielders,395,2019 Copa América
+Casemiro,Midfielders,478,2021 Copa América
+Casemiro,Midfielders,503,2018-2019 Champions League
+Casemiro,Midfielders,689,2019-2020 Champions League
+Casemiro,Midfielders,828,2020-2021 Champions League
+Casemiro,Midfielders,837,2024-2025 Premier League
+Casemiro,Midfielders,910,2021-2022 Champions League
+Casemiro,Midfielders,943,2017-2018 Champions League
+Casemiro,Midfielders,987,2022-2023 Europa League
+Casemiro,Midfielders,1982,2023-2024 Premier League
+Casemiro,Midfielders,2124,2022-2023 Premier League
+Casemiro,Midfielders,2312,2018-2019 La Liga
+Casemiro,Midfielders,2492,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Casemiro,Midfielders,2569,2021-2022 La Liga
+Casemiro,Midfielders,2595,2017-2018 La Liga
+Casemiro,Midfielders,2901,2020-2021 La Liga
+Casemiro,Midfielders,3088,2019-2020 La Liga
+Cesare Casadei,Midfielders,335,2024-2025 Conference League
+Cesare Casadei,Midfielders,883,2023-2024 Championship
+Cesare Casadei,Midfielders,1108,2022-2023 Championship
+Cheick Doucouré,Midfielders,452,2024-2025 Premier League
+Cheick Doucouré,Midfielders,452,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Cheick Doucouré,Midfielders,919,2023-2024 Premier League
+Cheick Doucouré,Midfielders,2005,2018-2019 Ligue 2
+Cheick Doucouré,Midfielders,2627,2020-2021 Ligue 1
+Cheick Doucouré,Midfielders,2769,2022-2023 Premier League
+Cheick Doucouré,Midfielders,2946,2021-2022 Ligue 1
+Chiedozie Ogbene,Midfielders,609,2020-2021 Championship
+Christian Eriksen,Midfielders,203,2023-2024 Champions League
+Christian Eriksen,Midfielders,244,2019-2020 Europa League
+Christian Eriksen,Midfielders,270,2022 World Cup
+Christian Eriksen,Midfielders,284,2024-2025 Europa League
+Christian Eriksen,Midfielders,532,2022-2023 Europa League
+Christian Eriksen,Midfielders,533,2017-2018 Champions League
+Christian Eriksen,Midfielders,633,2024-2025 Premier League
+Christian Eriksen,Midfielders,939,2021-2022 Premier League
+Christian Eriksen,Midfielders,1141,2023-2024 Premier League
+Christian Eriksen,Midfielders,1209,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Christian Eriksen,Midfielders,1385,2020-2021 Serie A
+Christian Eriksen,Midfielders,2048,2022-2023 Premier League
+Christian Eriksen,Midfielders,2774,2018-2019 Premier League
+Christian Nørgaard,Midfielders,1301,2020-2021 Championship
+Christian Nørgaard,Midfielders,1469,2024-2025 Premier League
+Christian Nørgaard,Midfielders,1763,2022-2023 Premier League
+Christian Nørgaard,Midfielders,2428,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Christian Nørgaard,Midfielders,2505,2023-2024 Premier League
+Christian Nørgaard,Midfielders,3054,2021-2022 Premier League
+Christian Nørgaard,Midfielders,3462,2019-2020 Championship
+Christopher Nkunku,Midfielders,1156,2018-2019 Ligue 1
+Christopher Nkunku,Midfielders,1925,2019-2020 Bundesliga
+Cody Gakpo,Midfielders,225,2020-2021 Europa League
+Curtis Jones,Midfielders,186,2021-2022 Champions League
+Curtis Jones,Midfielders,252,2024-2025 Champions League
+Curtis Jones,Midfielders,393,2023-2024 Europa League
+Curtis Jones,Midfielders,405,2020-2021 Champions League
+Curtis Jones,Midfielders,851,2021-2022 Premier League
+Curtis Jones,Midfielders,1035,2022-2023 Premier League
+Curtis Jones,Midfielders,1167,2023-2024 Premier League
+Curtis Jones,Midfielders,1179,2020-2021 Premier League
+Curtis Jones,Midfielders,1860,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Daichi Kamada,Midfielders,258,2023-2024 Champions League
+Daichi Kamada,Midfielders,866,2024-2025 Premier League
+Daichi Kamada,Midfielders,1544,2023-2024 Serie A
+Daichi Kamada,Midfielders,1701,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Daichi Kamada,Midfielders,2265,2022-2023 Bundesliga
+Dango Ouattara,Midfielders,812,2021-2022 Ligue 1
+Dango Ouattara,Midfielders,1241,2022-2023 Premier League
+Danilo,Midfielders,566,2022 Copa Libertadores
+Danilo,Midfielders,731,2020 Copa Libertadores
+Danilo,Midfielders,908,2020 Série A
+Danilo,Midfielders,941,2021 Copa Libertadores
+Danilo,Midfielders,976,2022-2023 Premier League
+Danilo,Midfielders,1147,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Danilo,Midfielders,1553,2021 Série A
+Danilo,Midfielders,1792,2023-2024 Premier League
+Danilo,Midfielders,2743,2022 Série A
+David Brooks,Midfielders,506,2019-2020 Premier League
+David Brooks,Midfielders,2261,2018-2019 Premier League
+Declan Rice,Midfielders,402,2024-2025 Champions League
+Declan Rice,Midfielders,417,2022 World Cup
+Declan Rice,Midfielders,535,2021 UEFA Euro 2020
+Declan Rice,Midfielders,690,2024 UEFA Euro 2024
+Declan Rice,Midfielders,696,2022-2023 Europa Conference League
+Declan Rice,Midfielders,838,2023-2024 Champions League
+Declan Rice,Midfielders,896,2021-2022 Europa League
+Declan Rice,Midfielders,1471,2024-2025 Premier League
+Declan Rice,Midfielders,2879,2020-2021 Premier League
+Declan Rice,Midfielders,3003,2018-2019 Premier League
+Declan Rice,Midfielders,3179,2021-2022 Premier League
+Declan Rice,Midfielders,3225,2023-2024 Premier League
+Declan Rice,Midfielders,3273,2022-2023 Premier League
+Declan Rice,Midfielders,3420,2019-2020 Premier League
+Declan Rice,Midfielders,3746,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Dejan Kulusevski,Midfielders,268,2020-2021 Champions League
+Dejan Kulusevski,Midfielders,269,2024-2025 Europa League
+Dejan Kulusevski,Midfielders,1680,2024-2025 Premier League
+Dejan Kulusevski,Midfielders,1923,2020-2021 Serie A
+Dominik Szoboszlai,Midfielders,328,2023-2024 Europa League
+Dominik Szoboszlai,Midfielders,389,2019-2020 Champions League
+Dominik Szoboszlai,Midfielders,505,2020-2021 Champions League
+Dominik Szoboszlai,Midfielders,2104,2023-2024 Premier League
+Dwight McNeil,Midfielders,1591,2018-2019 Premier League
+Dwight McNeil,Midfielders,2638,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Dwight McNeil,Midfielders,2892,2023-2024 Premier League
+Dwight McNeil,Midfielders,3069,2020-2021 Premier League
+Dwight McNeil,Midfielders,3107,2021-2022 Premier League
+Dwight McNeil,Midfielders,3338,2019-2020 Premier League
+Eberechi Eze,Midfielders,605,2021-2022 Premier League
+Eberechi Eze,Midfielders,2559,2020-2021 Premier League
+Eberechi Eze,Midfielders,2636,2022-2023 Premier League
+Edson Álvarez,Midfielders,377,2019-2020 Champions League
+Edson Álvarez,Midfielders,499,2023-2024 Europa League
+Edson Álvarez,Midfielders,518,2020-2021 Europa League
+Edson Álvarez,Midfielders,531,2022-2023 Champions League
+Edson Álvarez,Midfielders,556,2021-2022 Champions League
+Edson Álvarez,Midfielders,561,2019-2020 Eredivisie
+Edson Álvarez,Midfielders,1059,2024-2025 Premier League
+Edson Álvarez,Midfielders,1551,2020-2021 Eredivisie
+Edson Álvarez,Midfielders,2331,2021-2022 Eredivisie
+Edson Álvarez,Midfielders,2356,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Edson Álvarez,Midfielders,2377,2023-2024 Premier League
+Edson Álvarez,Midfielders,2586,2022-2023 Eredivisie
+Elliot Anderson,Midfielders,1027,2023-2024 Premier League
+Elliot Anderson,Midfielders,1291,2024-2025 Premier League
+Elliot Anderson,Midfielders,1907,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Enzo Fernández,Midfielders,328,2020 Copa Libertadores
+Enzo Fernández,Midfielders,351,2024 Copa América
+Enzo Fernández,Midfielders,473,2021 Copa Libertadores
+Enzo Fernández,Midfielders,564,2022 World Cup
+Enzo Fernández,Midfielders,662,2022 Copa Libertadores
+Enzo Fernández,Midfielders,759,2022-2023 Champions League
+Enzo Fernández,Midfielders,797,2021 Copa de la Liga Profesional
+Enzo Fernández,Midfielders,1174,2022 Copa de la Liga Profesional
+Enzo Fernández,Midfielders,1382,2022-2023 Primeira Liga
+Enzo Fernández,Midfielders,1395,2021 Liga Profesional Argentina
+Enzo Fernández,Midfielders,1512,2024-2025 Premier League
+Enzo Fernández,Midfielders,1547,2022-2023 Premier League
+Enzo Fernández,Midfielders,2209,2023-2024 Premier League
+Enzo Fernández,Midfielders,2368,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Facundo Buonanotte,Midfielders,1825,2022 Liga Profesional Argentina
+Federico Chiesa,Midfielders,551,2020-2021 Champions League
+Federico Chiesa,Midfielders,863,2021-2022 Serie A
+Federico Chiesa,Midfielders,2450,2020-2021 Serie A
+Flynn Downes,Midfielders,544,2022-2023 Europa Conference League
+Flynn Downes,Midfielders,762,2022-2023 Premier League
+Flynn Downes,Midfielders,958,Last 365 Days Men's Next 14 Competitions
+Flynn Downes,Midfielders,1387,2024-2025 Premier League
+Flynn Downes,Midfielders,1387,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Flynn Downes,Midfielders,1848,2018-2019 Championship
+Flynn Downes,Midfielders,2550,2023-2024 Championship
+Flynn Downes,Midfielders,2871,2021-2022 Championship
+Frank Onyeka,Midfielders,508,2020-2021 Champions League
+Frank Onyeka,Midfielders,848,2022-2023 Premier League
+Frank Onyeka,Midfielders,1045,2021-2022 Premier League
+Frank Onyeka,Midfielders,1161,2023-2024 Premier League
+Frank Onyeka,Midfielders,1261,2024-2025 Bundesliga
+Frank Onyeka,Midfielders,1705,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Gabriel Jesus,Midfielders,278,2021 Copa América
+Gabriel Martinelli,Midfielders,492,2024-2025 Champions League
+Gonçalo Guedes,Midfielders,314,2018-2019 Champions League
+Gonçalo Guedes,Midfielders,505,2018-2019 Europa League
+Gonçalo Guedes,Midfielders,1266,2019-2020 La Liga
+Gonçalo Guedes,Midfielders,1465,2018-2019 La Liga
+Gonçalo Guedes,Midfielders,2287,2020-2021 La Liga
+Gonçalo Guedes,Midfielders,2439,2017-2018 La Liga
+Guido Rodríguez,Midfielders,355,2022-2023 Europa League
+Guido Rodríguez,Midfielders,392,2023-2024 Europa League
+Guido Rodríguez,Midfielders,427,2021 Copa América
+Guido Rodríguez,Midfielders,716,2021-2022 Europa League
+Guido Rodríguez,Midfielders,936,2019-2020 La Liga
+Guido Rodríguez,Midfielders,971,2024-2025 Premier League
+Guido Rodríguez,Midfielders,1345,2019-2020 Liga MX
+Guido Rodríguez,Midfielders,1742,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Guido Rodríguez,Midfielders,1846,2023-2024 La Liga
+Guido Rodríguez,Midfielders,2529,2021-2022 La Liga
+Guido Rodríguez,Midfielders,2864,2020-2021 La Liga
+Guido Rodríguez,Midfielders,2872,2022-2023 La Liga
+Guido Rodríguez,Midfielders,3060,2018-2019 Liga MX
+Hamza Choudhury,Midfielders,439,2020-2021 Europa League
+Hamza Choudhury,Midfielders,595,2018-2019 Premier League
+Hamza Choudhury,Midfielders,893,2019-2020 Premier League
+Hamza Choudhury,Midfielders,3033,2022-2023 Championship
+Harrison Reed,Midfielders,593,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Harrison Reed,Midfielders,1325,2023-2024 Premier League
+Harrison Reed,Midfielders,1821,2019-2020 Championship
+Harrison Reed,Midfielders,2247,2020-2021 Premier League
+Harrison Reed,Midfielders,2695,2021-2022 Championship
+Harrison Reed,Midfielders,2866,2022-2023 Premier League
+Harry Wilson,Midfielders,1646,2019-2020 Premier League
+Harry Winks,Midfielders,198,2021-2022 Europa Conference League
+Harry Winks,Midfielders,425,2017-2018 Champions League
+Harry Winks,Midfielders,440,2019-2020 Champions League
+Harry Winks,Midfielders,664,2020-2021 Europa League
+Harry Winks,Midfielders,673,2018-2019 Champions League
+Harry Winks,Midfielders,774,2017-2018 Premier League
+Harry Winks,Midfielders,861,2020-2021 Premier League
+Harry Winks,Midfielders,912,2021-2022 Premier League
+Harry Winks,Midfielders,1276,2024-2025 Premier League
+Harry Winks,Midfielders,1276,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Harry Winks,Midfielders,1597,2018-2019 Premier League
+Harry Winks,Midfielders,1707,Last 365 Days Men's Next 14 Competitions
+Harry Winks,Midfielders,1716,2022-2023 Serie A
+Harry Winks,Midfielders,2221,2019-2020 Premier League
+Harry Winks,Midfielders,4039,2023-2024 Championship
+Harvey Barnes,Midfielders,2083,2019-2020 Premier League
+Harvey Elliott,Midfielders,395,2022-2023 Champions League
+Harvey Elliott,Midfielders,744,2023-2024 Europa League
+Harvey Elliott,Midfielders,1207,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Harvey Elliott,Midfielders,1352,2023-2024 Premier League
+Harvey Elliott,Midfielders,1613,2022-2023 Premier League
+Ibrahim Sangaré,Midfielders,342,2021-2022 Europa League
+Ibrahim Sangaré,Midfielders,442,2021-2022 Europa Conference League
+Ibrahim Sangaré,Midfielders,512,2022-2023 Europa League
+Ibrahim Sangaré,Midfielders,556,2020-2021 Europa League
+Ibrahim Sangaré,Midfielders,1035,2023-2024 Premier League
+Ibrahim Sangaré,Midfielders,1588,2017-2018 Ligue 1
+Ibrahim Sangaré,Midfielders,2175,2019-2020 Ligue 1
+Ibrahim Sangaré,Midfielders,2280,2020-2021 Eredivisie
+Ibrahim Sangaré,Midfielders,2303,2022-2023 Eredivisie
+Ibrahim Sangaré,Midfielders,2416,2021-2022 Eredivisie
+Ibrahim Sangaré,Midfielders,2467,2018-2019 Ligue 1
+Idrissa Gana Gueye,Midfielders,270,2018 World Cup
+Idrissa Gana Gueye,Midfielders,399,2021-2022 Champions League
+Idrissa Gana Gueye,Midfielders,488,2020-2021 Champions League
+Idrissa Gana Gueye,Midfielders,566,2019-2020 Champions League
+Idrissa Gana Gueye,Midfielders,1487,2024-2025 Premier League
+Idrissa Gana Gueye,Midfielders,1581,2020-2021 Ligue 1
+Idrissa Gana Gueye,Midfielders,1641,2021-2022 Ligue 1
+Idrissa Gana Gueye,Midfielders,1653,2019-2020 Ligue 1
+Idrissa Gana Gueye,Midfielders,1884,2023-2024 Premier League
+Idrissa Gana Gueye,Midfielders,2359,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Idrissa Gana Gueye,Midfielders,2577,2022-2023 Premier League
+Idrissa Gana Gueye,Midfielders,2750,2017-2018 Premier League
+Idrissa Gana Gueye,Midfielders,2822,2018-2019 Premier League
+Ismaila Sarr,Midfielders,270,2018 World Cup
+Ismaila Sarr,Midfielders,730,2018-2019 Europa League
+Jack Clarke,Midfielders,808,2018-2019 Championship
+Jack Clarke,Midfielders,3496,2023-2024 Championship
+Jack Grealish,Midfielders,2688,2018-2019 Championship
+Jack Harrison,Midfielders,2214,2023-2024 Premier League
+Jack Harrison,Midfielders,2491,2018-2019 Championship
+Jack Harrison,Midfielders,2847,2020-2021 Premier League
+Jack Harrison,Midfielders,3794,2019-2020 Championship
+Jack Hinshelwood,Midfielders,840,2024-2025 Premier League
+Jack Taylor,Midfielders,886,2023-2024 Championship
+Jack Taylor,Midfielders,2578,2021-2022 Championship
+Jacob Murphy,Midfielders,1148,2017-2018 Premier League
+Jacob Murphy,Midfielders,2298,2019-2020 Championship
+Jacob Ramsey,Midfielders,626,2020-2021 Premier League
+Jacob Ramsey,Midfielders,2467,2021-2022 Premier League
+Jacob Ramsey,Midfielders,2636,2022-2023 Premier League
+Jaden Philogene Bidace,Midfielders,1619,Last 365 Days Men's Next 14 Competitions
+Jakub Kiwior,Midfielders,1964,2021-2022 Serie A
+James Garner,Midfielders,282,2019-2020 Europa League
+James Garner,Midfielders,804,2022-2023 Premier League
+James Garner,Midfielders,1560,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+James Garner,Midfielders,2834,2020-2021 Championship
+James Garner,Midfielders,3004,2023-2024 Premier League
+James Garner,Midfielders,3304,2021-2022 Championship
+James Maddison,Midfielders,276,2024-2025 Europa League
+James Maddison,Midfielders,511,2021-2022 Europa Conference League
+James Maddison,Midfielders,1210,2024-2025 Premier League
+James Maddison,Midfielders,2624,2019-2020 Premier League
+James Maddison,Midfielders,2740,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+James Mcatee,Midfielders,935,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+James Mcatee,Midfielders,1823,2023-2024 Premier League
+James Mcatee,Midfielders,1898,2022-2023 Championship
+James Milner,Midfielders,213,2021-2022 Champions League
+James Milner,Midfielders,242,2022-2023 Champions League
+James Milner,Midfielders,362,2020-2021 Champions League
+James Milner,Midfielders,417,2019-2020 Champions League
+James Milner,Midfielders,853,2021-2022 Premier League
+James Milner,Midfielders,876,2017-2018 Champions League
+James Milner,Midfielders,899,2018-2019 Champions League
+James Milner,Midfielders,913,2022-2023 Premier League
+James Milner,Midfielders,937,2019-2020 Premier League
+James Milner,Midfielders,1070,2020-2021 Premier League
+James Milner,Midfielders,1775,2017-2018 Premier League
+James Milner,Midfielders,1789,2018-2019 Premier League
+James Ward-Prowse,Midfielders,809,2023-2024 Europa League
+James Ward-Prowse,Midfielders,1945,2018-2019 Premier League
+James Ward-Prowse,Midfielders,2026,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+James Ward-Prowse,Midfielders,3001,2023-2024 Premier League
+James Ward-Prowse,Midfielders,3215,2021-2022 Premier League
+James Ward-Prowse,Midfielders,3371,2022-2023 Premier League
+James Ward-Prowse,Midfielders,3420,2019-2020 Premier League
+James Ward-Prowse,Midfielders,3420,2020-2021 Premier League
+Jarrod Bowen,Midfielders,1655,2024-2025 Premier League
+Jarrod Bowen,Midfielders,2610,2019-2020 Championship
+Jarrod Bowen,Midfielders,3944,2018-2019 Championship
+Jean-Ricner Bellegarde,Midfielders,1061,2018-2019 Ligue 2
+Jean-Ricner Bellegarde,Midfielders,1497,2019-2020 Ligue 1
+Jean-Ricner Bellegarde,Midfielders,1655,2017-2018 Ligue 2
+Jean-Ricner Bellegarde,Midfielders,2086,2020-2021 Ligue 1
+Jean-Ricner Bellegarde,Midfielders,2332,2021-2022 Ligue 1
+Jean-Ricner Bellegarde,Midfielders,2419,2022-2023 Ligue 1
+Jefferson Lerma,Midfielders,422,2024 Copa América
+Jefferson Lerma,Midfielders,1113,2024-2025 Premier League
+Jefferson Lerma,Midfielders,2135,2017-2018 La Liga
+Jefferson Lerma,Midfielders,2208,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jefferson Lerma,Midfielders,2400,2023-2024 Premier League
+Jefferson Lerma,Midfielders,2506,2018-2019 Premier League
+Jefferson Lerma,Midfielders,2703,2019-2020 Premier League
+Jefferson Lerma,Midfielders,2854,2021-2022 Championship
+Jefferson Lerma,Midfielders,3252,2022-2023 Premier League
+Jefferson Lerma,Midfielders,3342,2020-2021 Championship
+Jeffrey Schlupp,Midfielders,1428,2020-2021 Premier League
+Jeffrey Schlupp,Midfielders,1670,2018-2019 Premier League
+Jeffrey Schlupp,Midfielders,1851,2021-2022 Premier League
+Jeffrey Schlupp,Midfielders,2531,2022-2023 Premier League
+Jens Cajuste,Midfielders,324,2020-2021 Champions League
+Jens Cajuste,Midfielders,903,2024-2025 Premier League
+Jens Cajuste,Midfielders,1016,2023-2024 Serie A
+Jens Cajuste,Midfielders,1465,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jens Cajuste,Midfielders,1530,2022-2023 Ligue 1
+Jeremy Doku,Midfielders,238,2022-2023 Europa League
+Jeremy Doku,Midfielders,469,2021-2022 Ligue 1
+Jeremy Doku,Midfielders,1291,2022-2023 Ligue 1
+Jeremy Doku,Midfielders,2313,2020-2021 Ligue 1
+Joe Aribo,Midfielders,859,Last 365 Days Men's Next 14 Competitions
+Joe Aribo,Midfielders,1197,2024-2025 Premier League
+Joe Aribo,Midfielders,1197,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Joe Aribo,Midfielders,1606,2023-2024 Championship
+Joe Willock,Midfielders,272,2017-2018 Europa League
+Joe Willock,Midfielders,343,2020-2021 Europa League
+Joe Willock,Midfielders,561,2024-2025 Premier League
+Joe Willock,Midfielders,843,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Joe Willock,Midfielders,1216,2020-2021 Premier League
+Joe Willock,Midfielders,2038,2021-2022 Premier League
+Joe Willock,Midfielders,2558,2022-2023 Premier League
+Joelinton,Midfielders,334,2023-2024 Champions League
+Joelinton,Midfielders,1279,2023-2024 Premier League
+Joelinton,Midfielders,1671,2024-2025 Premier League
+Joelinton,Midfielders,1817,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Joelinton,Midfielders,2558,2021-2022 Premier League
+Joelinton,Midfielders,2661,2022-2023 Premier League
+John McGinn,Midfielders,270,2021 UEFA Euro 2020
+John McGinn,Midfielders,467,Last 365 Days Men's Next 14 Competitions
+John McGinn,Midfielders,890,2023-2024 Europa Conference League
+John McGinn,Midfielders,2312,2019-2020 Premier League
+John McGinn,Midfielders,2693,2022-2023 Premier League
+John McGinn,Midfielders,2999,2023-2024 Premier League
+John McGinn,Midfielders,3090,2021-2022 Premier League
+John McGinn,Midfielders,3330,2020-2021 Premier League
+John McGinn,Midfielders,3459,2018-2019 Championship
+John Stones,Midfielders,684,2022-2023 Champions League
+Jorginho,Midfielders,215,2024 UEFA Euro 2024
+Jorginho,Midfielders,418,2022-2023 Champions League
+Jorginho,Midfielders,459,2024-2025 Premier League
+Jorginho,Midfielders,532,2023-2024 Champions League
+Jorginho,Midfielders,557,2021-2022 Champions League
+Jorginho,Midfielders,611,2019-2020 Champions League
+Jorginho,Midfielders,704,2021 UEFA Euro 2020
+Jorginho,Midfielders,740,2018-2019 Europa League
+Jorginho,Midfielders,921,2023-2024 Premier League
+Jorginho,Midfielders,1028,2020-2021 Champions League
+Jorginho,Midfielders,1289,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Jorginho,Midfielders,2010,2020-2021 Premier League
+Jorginho,Midfielders,2134,2022-2023 Premier League
+Jorginho,Midfielders,2273,2021-2022 Premier League
+Jorginho,Midfielders,2379,2019-2020 Premier League
+Jorginho,Midfielders,2650,2017-2018 Serie A
+Jorginho,Midfielders,3156,2018-2019 Premier League
+João Gomes,Midfielders,289,2021 Copa Libertadores
+João Gomes,Midfielders,324,2024 Copa América
+João Gomes,Midfielders,502,2020 Série A
+João Gomes,Midfielders,653,2022-2023 Premier League
+João Gomes,Midfielders,822,2022 Copa Libertadores
+João Gomes,Midfielders,1003,2021 Série A
+João Gomes,Midfielders,1693,2024-2025 Premier League
+João Gomes,Midfielders,1880,2022 Série A
+João Gomes,Midfielders,2649,2023-2024 Premier League
+João Gomes,Midfielders,2957,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Justin Kluivert,Midfielders,1868,2021-2022 Ligue 1
+Kai Havertz,Midfielders,422,2018-2019 Europa League
+Kai Havertz,Midfielders,830,2023-2024 Champions League
+Kai Havertz,Midfielders,2634,2023-2024 Premier League
+Kalvin Phillips,Midfielders,664,2021 UEFA Euro 2020
+Kalvin Phillips,Midfielders,771,2024-2025 Premier League
+Kalvin Phillips,Midfielders,1095,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kalvin Phillips,Midfielders,1596,2021-2022 Premier League
+Kalvin Phillips,Midfielders,2428,2020-2021 Premier League
+Kalvin Phillips,Midfielders,3250,2019-2020 Championship
+Kalvin Phillips,Midfielders,3497,2018-2019 Championship
+Kamaldeen Sulemana,Midfielders,284,2021-2022 Europa Conference League
+Kamaldeen Sulemana,Midfielders,1015,2021-2022 Ligue 1
+Kevin De Bruyne,Midfielders,201,2023-2024 Champions League
+Kevin De Bruyne,Midfielders,246,2018-2019 Champions League
+Kevin De Bruyne,Midfielders,540,2018 World Cup
+Kevin De Bruyne,Midfielders,571,2019-2020 Champions League
+Kevin De Bruyne,Midfielders,665,2017-2018 Champions League
+Kevin De Bruyne,Midfielders,716,2022-2023 Champions League
+Kevin De Bruyne,Midfielders,730,2021-2022 Champions League
+Kevin De Bruyne,Midfielders,913,2024-2025 Premier League
+Kevin De Bruyne,Midfielders,975,2018-2019 Premier League
+Kevin De Bruyne,Midfielders,1221,2023-2024 Premier League
+Kevin De Bruyne,Midfielders,1997,2020-2021 Premier League
+Kevin De Bruyne,Midfielders,2201,2021-2022 Premier League
+Kevin De Bruyne,Midfielders,2417,2022-2023 Premier League
+Kevin De Bruyne,Midfielders,2456,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Kevin De Bruyne,Midfielders,2791,2019-2020 Premier League
+Kevin De Bruyne,Midfielders,3072,2017-2018 Premier League
+Kevin Schade,Midfielders,831,2021-2022 Bundesliga
+Kiernan Dewsbury-Hall,Midfielders,191,2021-2022 Europa League
+Kiernan Dewsbury-Hall,Midfielders,471,2024-2025 Conference League
+Kiernan Dewsbury-Hall,Midfielders,597,2021-2022 Europa Conference League
+Kiernan Dewsbury-Hall,Midfielders,1967,Last 365 Days Men's Next 14 Competitions
+Kiernan Dewsbury-Hall,Midfielders,2105,2021-2022 Premier League
+Kiernan Dewsbury-Hall,Midfielders,2306,2022-2023 Premier League
+Kiernan Dewsbury-Hall,Midfielders,3222,2020-2021 Championship
+Kiernan Dewsbury-Hall,Midfielders,3636,2023-2024 Championship
+Kobbie Mainoo,Midfielders,368,2024 UEFA Euro 2024
+Kobbie Mainoo,Midfielders,1143,2024-2025 Premier League
+Kobbie Mainoo,Midfielders,1924,2023-2024 Premier League
+Kobbie Mainoo,Midfielders,2543,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Leon Bailey,Midfielders,770,2023-2024 Europa Conference League
+Leon Bailey,Midfielders,2068,2023-2024 Premier League
+Lesley Ugochukwu,Midfielders,501,2022-2023 Europa League
+Lesley Ugochukwu,Midfielders,542,2024-2025 Premier League
+Lesley Ugochukwu,Midfielders,570,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Lesley Ugochukwu,Midfielders,1330,2022-2023 Ligue 1
+Lewis Cook,Midfielders,723,2018-2019 Premier League
+Lewis Cook,Midfielders,1352,2019-2020 Premier League
+Lewis Cook,Midfielders,1672,2024-2025 Premier League
+Lewis Cook,Midfielders,1720,2022-2023 Premier League
+Lewis Cook,Midfielders,2173,2021-2022 Championship
+Lewis Cook,Midfielders,2237,2017-2018 Premier League
+Lewis Cook,Midfielders,2506,2020-2021 Championship
+Lewis Cook,Midfielders,2786,2023-2024 Premier League
+Lewis Cook,Midfielders,3370,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Lewis Miley,Midfielders,474,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Lewis Miley,Midfielders,1202,2023-2024 Premier League
+Lisandro Martínez,Midfielders,180,2019-2020 Europa League
+Lisandro Martínez,Midfielders,537,2019-2020 Champions League
+Lisandro Martínez,Midfielders,2029,2019-2020 Eredivisie
+Lucas Bergvall,Midfielders,255,2024-2025 Europa League
+Lucas Bergvall,Midfielders,637,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Lucas Paquetá,Midfielders,314,2022 World Cup
+Lucas Paquetá,Midfielders,842,2018-2019 Serie A
+Lucas Paquetá,Midfielders,1103,2019-2020 Serie A
+Lucas Paquetá,Midfielders,1464,2024-2025 Premier League
+Lucas Paquetá,Midfielders,2275,2020-2021 Ligue 1
+Luis Díaz,Midfielders,401,2019-2020 Europa League
+Luis Díaz,Midfielders,417,2021 Copa América
+Luis Díaz,Midfielders,1495,2021-2022 Primeira Liga
+Luis Díaz,Midfielders,1636,2020-2021 Primeira Liga
+Luis Díaz,Midfielders,1770,2019-2020 Primeira Liga
+Luke Cundle,Midfielders,895,Last 365 Days Men's Next 14 Competitions
+Luke Cundle,Midfielders,2214,2023-2024 Championship
+Manuel Ugarte Ribeiro,Midfielders,206,2021-2022 Champions League
+Manuel Ugarte Ribeiro,Midfielders,344,2024-2025 Europa League
+Manuel Ugarte Ribeiro,Midfielders,368,2022-2023 Europa League
+Manuel Ugarte Ribeiro,Midfielders,391,2023-2024 Champions League
+Manuel Ugarte Ribeiro,Midfielders,467,2022-2023 Champions League
+Manuel Ugarte Ribeiro,Midfielders,493,2024 Copa América
+Manuel Ugarte Ribeiro,Midfielders,855,2024-2025 Premier League
+Manuel Ugarte Ribeiro,Midfielders,1107,2021-2022 Primeira Liga
+Manuel Ugarte Ribeiro,Midfielders,1512,2020-2021 Primeira Liga
+Manuel Ugarte Ribeiro,Midfielders,1932,2023-2024 Ligue 1
+Manuel Ugarte Ribeiro,Midfielders,2053,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Manuel Ugarte Ribeiro,Midfielders,2352,2022-2023 Primeira Liga
+Marc Cucurella,Midfielders,410,2019-2020 Europa League
+Marc Cucurella,Midfielders,2354,2018-2019 La Liga
+Marc Cucurella,Midfielders,3237,2019-2020 La Liga
+Marc Cucurella,Midfielders,3244,2020-2021 La Liga
+Marcus Harness,Midfielders,1073,2024-2025 Championship
+Marcus Tavernier,Midfielders,3903,2021-2022 Championship
+Mario Lemina,Midfielders,329,2019-2020 Champions League
+Mario Lemina,Midfielders,440,2022-2023 Europa Conference League
+Mario Lemina,Midfielders,838,2022-2023 Ligue 1
+Mario Lemina,Midfielders,1299,2022-2023 Premier League
+Mario Lemina,Midfielders,1364,2024-2025 Premier League
+Mario Lemina,Midfielders,1613,2018-2019 Premier League
+Mario Lemina,Midfielders,1703,2020-2021 Premier League
+Mario Lemina,Midfielders,1720,2017-2018 Premier League
+Mario Lemina,Midfielders,1967,2021-2022 Ligue 1
+Mario Lemina,Midfielders,2863,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mario Lemina,Midfielders,2968,2023-2024 Premier League
+Martin Ødegaard,Midfielders,243,2022-2023 Europa League
+Martin Ødegaard,Midfielders,750,2023-2024 Champions League
+Martin Ødegaard,Midfielders,1110,2024-2025 Premier League
+Martin Ødegaard,Midfielders,2527,2019-2020 La Liga
+Martin Ødegaard,Midfielders,2611,2018-2019 Eredivisie
+Martin Ødegaard,Midfielders,3091,2023-2024 Premier League
+Martin Ødegaard,Midfielders,3127,2022-2023 Premier League
+Martin Ødegaard,Midfielders,3242,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mason Mount,Midfielders,369,2017-2018 Europa League
+Mason Mount,Midfielders,441,2022-2023 Champions League
+Mason Mount,Midfielders,450,2019-2020 Champions League
+Mason Mount,Midfielders,516,2023-2024 Premier League
+Mason Mount,Midfielders,755,2020-2021 Champions League
+Mason Mount,Midfielders,2890,2020-2021 Premier League
+Mason Mount,Midfielders,3044,2018-2019 Championship
+Massimo Luongo,Midfielders,828,2020-2021 Championship
+Massimo Luongo,Midfielders,1312,Last 365 Days Men's Next 14 Competitions
+Massimo Luongo,Midfielders,1472,2019-2020 Championship
+Massimo Luongo,Midfielders,3159,2023-2024 Championship
+Massimo Luongo,Midfielders,3616,2018-2019 Championship
+Mateo Kovačić,Midfielders,185,2018 World Cup
+Mateo Kovačić,Midfielders,223,2024 UEFA Euro 2024
+Mateo Kovačić,Midfielders,256,2017-2018 Champions League
+Mateo Kovačić,Midfielders,338,2021 UEFA Euro 2020
+Mateo Kovačić,Midfielders,425,2021-2022 Champions League
+Mateo Kovačić,Midfielders,433,2023-2024 Champions League
+Mateo Kovačić,Midfielders,600,2020-2021 Champions League
+Mateo Kovačić,Midfielders,610,2019-2020 Champions League
+Mateo Kovačić,Midfielders,621,2022-2023 Champions League
+Mateo Kovačić,Midfielders,635,2022 World Cup
+Mateo Kovačić,Midfielders,913,2018-2019 Europa League
+Mateo Kovačić,Midfielders,992,2017-2018 La Liga
+Mateo Kovačić,Midfielders,1294,2024-2025 Premier League
+Mateo Kovačić,Midfielders,1551,2023-2024 Premier League
+Mateo Kovačić,Midfielders,1558,2021-2022 Premier League
+Mateo Kovačić,Midfielders,1707,2022-2023 Premier League
+Mateo Kovačić,Midfielders,1735,2018-2019 Premier League
+Mateo Kovačić,Midfielders,1815,2020-2021 Premier League
+Mateo Kovačić,Midfielders,2073,2019-2020 Premier League
+Mateo Kovačić,Midfielders,2284,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mateus Fernandes,Midfielders,1324,Last 365 Days Men's Next 14 Competitions
+Mateus Fernandes,Midfielders,1469,2024-2025 Premier League
+Mateus Fernandes,Midfielders,1469,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mateus Fernandes,Midfielders,2236,2023-2024 Primeira Liga
+Matheus Nunes,Midfielders,364,2024-2025 Champions League
+Matheus Nunes,Midfielders,422,2023-2024 Champions League
+Matheus Nunes,Midfielders,508,2021-2022 Champions League
+Matheus Nunes,Midfielders,620,2024-2025 Premier League
+Matheus Nunes,Midfielders,718,2019-2020 Primeira Liga
+Matheus Nunes,Midfielders,840,2023-2024 Premier League
+Matheus Nunes,Midfielders,1272,2020-2021 Primeira Liga
+Matheus Nunes,Midfielders,1434,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Matheus Nunes,Midfielders,2467,2022-2023 Premier League
+Matheus Nunes,Midfielders,2555,2021-2022 Primeira Liga
+Mathias Jensen,Midfielders,632,2024-2025 Premier League
+Mathias Jensen,Midfielders,1601,2021-2022 Premier League
+Mathias Jensen,Midfielders,1845,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mathias Jensen,Midfielders,2204,2023-2024 Premier League
+Mathias Jensen,Midfielders,2473,2019-2020 Championship
+Mathias Jensen,Midfielders,2803,2022-2023 Premier League
+Mathias Jensen,Midfielders,3176,2020-2021 Championship
+Mats Wieffer,Midfielders,209,2023-2024 Europa League
+Mats Wieffer,Midfielders,431,2022-2023 Europa League
+Mats Wieffer,Midfielders,469,2023-2024 Champions League
+Mats Wieffer,Midfielders,471,2024-2025 Premier League
+Mats Wieffer,Midfielders,680,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mats Wieffer,Midfielders,1170,Last 365 Days Men's Next 14 Competitions
+Mats Wieffer,Midfielders,1673,2022-2023 Eredivisie
+Mats Wieffer,Midfielders,2590,2023-2024 Eredivisie
+Matt Doherty,Midfielders,844,2019-2020 Europa League
+Matt Doherty,Midfielders,2839,2019-2020 Premier League
+Matt O'Riley,Midfielders,481,2022-2023 Champions League
+Matt O'Riley,Midfielders,486,2023-2024 Champions League
+Michail Antonio,Midfielders,2103,2018-2019 Premier League
+Miguel Almirón,Midfielders,759,2018-2019 Premier League
+Miguel Almirón,Midfielders,952,2016-2017 Primera División Argentina
+Miguel Almirón,Midfielders,1716,2021-2022 Premier League
+Miguel Almirón,Midfielders,2429,2020-2021 Premier League
+Miguel Almirón,Midfielders,3021,2019-2020 Premier League
+Mikel Merino,Midfielders,182,2024 UEFA Euro 2024
+Mikel Merino,Midfielders,228,2024-2025 Champions League
+Mikel Merino,Midfielders,514,2021-2022 Europa League
+Mikel Merino,Midfielders,541,2022-2023 Europa League
+Mikel Merino,Midfielders,630,2023-2024 Champions League
+Mikel Merino,Midfielders,670,2024-2025 Premier League
+Mikel Merino,Midfielders,693,2020-2021 Europa League
+Mikel Merino,Midfielders,1347,2017-2018 Premier League
+Mikel Merino,Midfielders,2055,2018-2019 La Liga
+Mikel Merino,Midfielders,2154,2020-2021 La Liga
+Mikel Merino,Midfielders,2221,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mikel Merino,Midfielders,2482,2023-2024 La Liga
+Mikel Merino,Midfielders,2494,2022-2023 La Liga
+Mikel Merino,Midfielders,2890,2021-2022 La Liga
+Mikel Merino,Midfielders,3139,2019-2020 La Liga
+Mikkel Damsgaard,Midfielders,578,2021-2022 Serie A
+Mikkel Damsgaard,Midfielders,842,2023-2024 Premier League
+Mikkel Damsgaard,Midfielders,988,2022-2023 Premier League
+Mikkel Damsgaard,Midfielders,1534,2024-2025 Premier League
+Mikkel Damsgaard,Midfielders,1773,2020-2021 Serie A
+Mikkel Damsgaard,Midfielders,2138,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Mohammed Kudus,Midfielders,801,2020-2021 Eredivisie
+Mohammed Kudus,Midfielders,1294,2024-2025 Premier League
+Moisés Caicedo,Midfielders,269,2022 World Cup
+Moisés Caicedo,Midfielders,296,2021 Copa América
+Moisés Caicedo,Midfielders,319,2020 Copa Libertadores
+Moisés Caicedo,Midfielders,360,2024 Copa América
+Moisés Caicedo,Midfielders,660,2021-2022 Premier League
+Moisés Caicedo,Midfielders,752,2021-2022 Belgian First Division A
+Moisés Caicedo,Midfielders,1855,2024-2025 Premier League
+Moisés Caicedo,Midfielders,2866,2023-2024 Premier League
+Moisés Caicedo,Midfielders,3139,2022-2023 Premier League
+Moisés Caicedo,Midfielders,3267,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Morgan Gibbs-White,Midfielders,248,2019-2020 Europa League
+Morgan Rogers,Midfielders,338,2023-2024 Europa Conference League
+Mykhailo Mudryk,Midfielders,182,2021-2022 Champions League
+Mykhailo Mudryk,Midfielders,610,2022-2023 Champions League
+Naouirou Ahamada,Midfielders,1398,vs. Midfielders
+Nicolás Domínguez,Midfielders,699,2019-2020 Serie A
+Nicolás Domínguez,Midfielders,716,2016-2017 Primera División Argentina
+Nicolás Domínguez,Midfielders,971,2024-2025 Premier League
+Nicolás Domínguez,Midfielders,1232,2019-2020 Superliga Argentina
+Nicolás Domínguez,Midfielders,1255,2020-2021 Serie A
+Nicolás Domínguez,Midfielders,1495,2023-2024 Premier League
+Nicolás Domínguez,Midfielders,1728,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Nicolás Domínguez,Midfielders,1844,2017-2018 Superliga Argentina
+Nicolás Domínguez,Midfielders,2015,2021-2022 Serie A
+Nicolás Domínguez,Midfielders,2197,2018-2019 Superliga Argentina
+Nicolás Domínguez,Midfielders,2300,2022-2023 Serie A
+Noni Madueke,Midfielders,247,2020-2021 Europa League
+Nélson Semedo,Midfielders,2131,2021-2022 Premier League
+Oleksandr Zinchenko,Midfielders,480,2021 UEFA Euro 2020
+Oliver Skipp,Midfielders,211,2022-2023 Champions League
+Oliver Skipp,Midfielders,320,2021-2022 Europa Conference League
+Oliver Skipp,Midfielders,707,2023-2024 Premier League
+Oliver Skipp,Midfielders,760,2024-2025 Premier League
+Oliver Skipp,Midfielders,935,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Oliver Skipp,Midfielders,1350,2021-2022 Premier League
+Oliver Skipp,Midfielders,1491,2022-2023 Premier League
+Oliver Skipp,Midfielders,3855,2020-2021 Championship
+Orel Mangala,Midfielders,778,2017-2018 Bundesliga
+Orel Mangala,Midfielders,1081,2024-2025 Premier League
+Orel Mangala,Midfielders,1550,2022-2023 Premier League
+Orel Mangala,Midfielders,1563,2023-2024 Premier League
+Orel Mangala,Midfielders,1706,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Orel Mangala,Midfielders,1853,2021-2022 Bundesliga
+Orel Mangala,Midfielders,1986,2019-2020 2. Bundesliga
+Orel Mangala,Midfielders,2109,2020-2021 Bundesliga
+Orel Mangala,Midfielders,2467,2018-2019 2. Bundesliga
+Pablo Sarabia,Midfielders,444,2018-2019 Europa League
+Pablo Sarabia,Midfielders,2724,2018-2019 La Liga
+Pape Matar Sarr,Midfielders,312,2024-2025 Europa League
+Pape Matar Sarr,Midfielders,1107,2024-2025 Premier League
+Pape Matar Sarr,Midfielders,1594,2020-2021 Ligue 1
+Pape Matar Sarr,Midfielders,2069,2023-2024 Premier League
+Pape Matar Sarr,Midfielders,2129,2021-2022 Ligue 1
+Pape Matar Sarr,Midfielders,2322,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Phil Foden,Midfielders,194,2017-2018 Champions League
+Phil Foden,Midfielders,370,2024-2025 Champions League
+Phil Foden,Midfielders,384,2022-2023 Champions League
+Phil Foden,Midfielders,1141,2024-2025 Premier League
+Phil Foden,Midfielders,3060,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Philip Billing,Midfielders,764,2017-2018 Premier League
+Philip Billing,Midfielders,2070,2020-2021 Championship
+Philip Billing,Midfielders,2188,2018-2019 Premier League
+Philip Billing,Midfielders,2530,2019-2020 Premier League
+Philip Billing,Midfielders,2764,2022-2023 Premier League
+Philip Billing,Midfielders,3304,2021-2022 Championship
+Ramón Sosa,Midfielders,2041,2022 Liga Profesional Argentina
+Reiss Nelson,Midfielders,643,2018-2019 Bundesliga
+Richarlison,Midfielders,461,2021 Copa América
+Rico Lewis,Midfielders,548,2023-2024 Champions League
+Rodri,Midfielders,227,2021 UEFA Euro 2020
+Rodri,Midfielders,459,2017-2018 Europa League
+Rodri,Midfielders,520,2024 UEFA Euro 2024
+Rodri,Midfielders,607,2018-2019 Champions League
+Rodri,Midfielders,620,2019-2020 Champions League
+Rodri,Midfielders,696,2023-2024 Champions League
+Rodri,Midfielders,783,2020-2021 Champions League
+Rodri,Midfielders,838,2021-2022 Champions League
+Rodri,Midfielders,995,2022-2023 Champions League
+Rodri,Midfielders,1981,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Rodri,Midfielders,2486,2019-2020 Premier League
+Rodri,Midfielders,2735,2018-2019 La Liga
+Rodri,Midfielders,2748,2020-2021 Premier League
+Rodri,Midfielders,2884,2021-2022 Premier League
+Rodri,Midfielders,2911,2022-2023 Premier League
+Rodri,Midfielders,2931,2023-2024 Premier League
+Rodri,Midfielders,3227,2017-2018 La Liga
+Rodrigo Bentancur,Midfielders,213,2022 World Cup
+Rodrigo Bentancur,Midfielders,255,2021 Copa América
+Rodrigo Bentancur,Midfielders,292,2017-2018 Champions League
+Rodrigo Bentancur,Midfielders,292,2024-2025 Europa League
+Rodrigo Bentancur,Midfielders,362,2018 World Cup
+Rodrigo Bentancur,Midfielders,378,2021-2022 Champions League
+Rodrigo Bentancur,Midfielders,390,2019 Copa América
+Rodrigo Bentancur,Midfielders,421,2019-2020 Champions League
+Rodrigo Bentancur,Midfielders,472,2020-2021 Champions League
+Rodrigo Bentancur,Midfielders,503,2022-2023 Champions League
+Rodrigo Bentancur,Midfielders,551,2018-2019 Champions League
+Rodrigo Bentancur,Midfielders,580,2017-2018 Serie A
+Rodrigo Bentancur,Midfielders,688,2024-2025 Premier League
+Rodrigo Bentancur,Midfielders,1005,2023-2024 Premier League
+Rodrigo Bentancur,Midfielders,1155,2021-2022 Serie A
+Rodrigo Bentancur,Midfielders,1361,2021-2022 Premier League
+Rodrigo Bentancur,Midfielders,1500,2022-2023 Premier League
+Rodrigo Bentancur,Midfielders,1748,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Rodrigo Bentancur,Midfielders,1837,2016-2017 Primera División Argentina
+Rodrigo Bentancur,Midfielders,2003,2018-2019 Serie A
+Rodrigo Bentancur,Midfielders,2196,2019-2020 Serie A
+Rodrigo Bentancur,Midfielders,2324,2020-2021 Serie A
+Rodrigo Gomes,Midfielders,185,2022-2023 Europa League
+Rodrigo Gomes,Midfielders,738,2021-2022 Primeira Liga
+Rodrigo Gomes,Midfielders,1219,Last 365 Days Men's Next 14 Competitions
+Rodrigo Gomes,Midfielders,2445,2023-2024 Primeira Liga
+Roméo Lavia,Midfielders,532,2024-2025 Premier League
+Roméo Lavia,Midfielders,532,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Roméo Lavia,Midfielders,2221,2022-2023 Premier League
+Ross Barkley,Midfielders,554,2024-2025 Premier League
+Ross Barkley,Midfielders,804,2018-2019 Europa League
+Ross Barkley,Midfielders,960,2022-2023 Ligue 1
+Ross Barkley,Midfielders,1103,2019-2020 Premier League
+Ross Barkley,Midfielders,1245,2018-2019 Premier League
+Ross Barkley,Midfielders,2107,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ross Barkley,Midfielders,2618,2023-2024 Premier League
+Ryan Christie,Midfielders,488,2018-2019 Europa League
+Ryan Christie,Midfielders,1494,2024-2025 Premier League
+Ryan Christie,Midfielders,2907,2023-2024 Premier League
+Ryan Christie,Midfielders,2920,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ryan Fraser,Midfielders,2004,2017-2018 Premier League
+Ryan Fraser,Midfielders,2067,2019-2020 Premier League
+Ryan Fraser,Midfielders,3166,2018-2019 Premier League
+Ryan Gravenberch,Midfielders,254,2022-2023 Champions League
+Ryan Gravenberch,Midfielders,346,2023-2024 Europa League
+Ryan Gravenberch,Midfielders,449,2020-2021 Europa League
+Ryan Gravenberch,Midfielders,481,2019-2020 Eredivisie
+Ryan Gravenberch,Midfielders,528,2020-2021 Champions League
+Ryan Gravenberch,Midfielders,540,2024-2025 Champions League
+Ryan Gravenberch,Midfielders,576,2022-2023 Bundesliga
+Ryan Gravenberch,Midfielders,702,2021-2022 Champions League
+Ryan Gravenberch,Midfielders,1121,2023-2024 Premier League
+Ryan Gravenberch,Midfielders,1738,2024-2025 Premier League
+Ryan Gravenberch,Midfielders,2205,2021-2022 Eredivisie
+Ryan Gravenberch,Midfielders,2609,2020-2021 Eredivisie
+Ryan Gravenberch,Midfielders,2772,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ryan Manning,Midfielders,1809,2018-2019 Championship
+Ryan Yates,Midfielders,1226,2018-2019 Championship
+Ryan Yates,Midfielders,1404,2024-2025 Premier League
+Ryan Yates,Midfielders,1503,2019-2020 Championship
+Ryan Yates,Midfielders,1837,2022-2023 Premier League
+Ryan Yates,Midfielders,1992,2023-2024 Premier League
+Ryan Yates,Midfielders,2492,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Ryan Yates,Midfielders,2717,2020-2021 Championship
+Ryan Yates,Midfielders,3674,2021-2022 Championship
+Sam Morsy,Midfielders,1614,Last 365 Days Men's Next 14 Competitions
+Sam Morsy,Midfielders,1633,2024-2025 Premier League
+Sam Morsy,Midfielders,1633,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Sam Morsy,Midfielders,2336,2020-2021 Championship
+Sam Morsy,Midfielders,3564,2018-2019 Championship
+Sam Morsy,Midfielders,3749,2023-2024 Championship
+Sam Morsy,Midfielders,3870,2019-2020 Championship
+Sander Berge,Midfielders,391,2018-2019 Europa League
+Sander Berge,Midfielders,540,2019-2020 Champions League
+Sander Berge,Midfielders,943,2019-2020 Premier League
+Sander Berge,Midfielders,957,2024-2025 Premier League
+Sander Berge,Midfielders,1035,2017-2018 Belgian First Division A
+Sander Berge,Midfielders,1120,2020-2021 Premier League
+Sander Berge,Midfielders,1985,2019-2020 Belgian First Division A
+Sander Berge,Midfielders,2082,2021-2022 Championship
+Sander Berge,Midfielders,2174,2018-2019 Belgian First Division A
+Sander Berge,Midfielders,2487,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Sander Berge,Midfielders,3005,2023-2024 Premier League
+Sander Berge,Midfielders,3103,2022-2023 Championship
+Sandro Tonali,Midfielders,331,2021-2022 Champions League
+Sandro Tonali,Midfielders,539,2020-2021 Europa League
+Sandro Tonali,Midfielders,1051,2022-2023 Champions League
+Sandro Tonali,Midfielders,1191,2024-2025 Premier League
+Sandro Tonali,Midfielders,1191,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Sandro Tonali,Midfielders,1330,2020-2021 Serie A
+Sandro Tonali,Midfielders,2600,2021-2022 Serie A
+Sandro Tonali,Midfielders,2713,2022-2023 Serie A
+Sandro Tonali,Midfielders,2907,2018-2019 Serie B
+Sandro Tonali,Midfielders,3014,2019-2020 Serie A
+Saša Lukić,Midfielders,209,2024 UEFA Euro 2024
+Saša Lukić,Midfielders,245,2022 World Cup
+Saša Lukić,Midfielders,989,2018-2019 Serie A
+Saša Lukić,Midfielders,994,2017-2018 La Liga
+Saša Lukić,Midfielders,1122,2023-2024 Premier League
+Saša Lukić,Midfielders,1195,2022-2023 Serie A
+Saša Lukić,Midfielders,1240,2024-2025 Premier League
+Saša Lukić,Midfielders,1861,2019-2020 Serie A
+Saša Lukić,Midfielders,1966,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Saša Lukić,Midfielders,2106,2020-2021 Serie A
+Saša Lukić,Midfielders,2982,2021-2022 Serie A
+Scott McTominay,Midfielders,206,2017-2018 Champions League
+Scott McTominay,Midfielders,270,2018-2019 Champions League
+Scott McTominay,Midfielders,343,2020-2021 Champions League
+Scott McTominay,Midfielders,382,2023-2024 Champions League
+Scott McTominay,Midfielders,397,2021-2022 Champions League
+Scott McTominay,Midfielders,424,2019-2020 Europa League
+Scott McTominay,Midfielders,538,2020-2021 Europa League
+Scott McTominay,Midfielders,634,2017-2018 Premier League
+Scott McTominay,Midfielders,867,2018-2019 Premier League
+Scott McTominay,Midfielders,1160,2022-2023 Premier League
+Scott McTominay,Midfielders,1434,2024-2025 Serie A
+Scott McTominay,Midfielders,1772,2019-2020 Premier League
+Scott McTominay,Midfielders,1901,2023-2024 Premier League
+Scott McTominay,Midfielders,2129,2020-2021 Premier League
+Scott McTominay,Midfielders,2207,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Scott McTominay,Midfielders,2387,2021-2022 Premier League
+Sean Longstaff,Midfielders,354,2023-2024 Champions League
+Sean Longstaff,Midfielders,687,2018-2019 Premier League
+Sean Longstaff,Midfielders,720,2024-2025 Premier League
+Sean Longstaff,Midfielders,1378,2019-2020 Premier League
+Sean Longstaff,Midfielders,1412,2020-2021 Premier League
+Sean Longstaff,Midfielders,1464,2021-2022 Premier League
+Sean Longstaff,Midfielders,2198,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Sean Longstaff,Midfielders,2518,2022-2023 Premier League
+Sean Longstaff,Midfielders,2747,2023-2024 Premier League
+Son Heung-min,Midfielders,426,2017-2018 Champions League
+Sávio,Midfielders,313,2024-2025 Champions League
+Thomas Partey,Midfielders,270,2022 World Cup
+Thomas Partey,Midfielders,415,2018-2019 Champions League
+Thomas Partey,Midfielders,434,2017-2018 Champions League
+Thomas Partey,Midfielders,479,2017-2018 Europa League
+Thomas Partey,Midfielders,480,2024-2025 Champions League
+Thomas Partey,Midfielders,540,2020-2021 Europa League
+Thomas Partey,Midfielders,735,2019-2020 Champions League
+Thomas Partey,Midfielders,788,2023-2024 Premier League
+Thomas Partey,Midfielders,1534,2020-2021 Premier League
+Thomas Partey,Midfielders,1583,2024-2025 Premier League
+Thomas Partey,Midfielders,2028,2021-2022 Premier League
+Thomas Partey,Midfielders,2070,2018-2019 La Liga
+Thomas Partey,Midfielders,2377,2017-2018 La Liga
+Thomas Partey,Midfielders,2483,2022-2023 Premier League
+Thomas Partey,Midfielders,2549,2019-2020 La Liga
+Thomas Partey,Midfielders,2605,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Tim Iroegbunam,Midfielders,542,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Tim Iroegbunam,Midfielders,2273,2022-2023 Championship
+Tom Cairney,Midfielders,759,2020-2021 Premier League
+Tom Cairney,Midfielders,953,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Tom Cairney,Midfielders,1488,2023-2024 Premier League
+Tom Cairney,Midfielders,1547,2021-2022 Championship
+Tom Cairney,Midfielders,3263,2019-2020 Championship
+Tommy Doyle,Midfielders,1222,2023-2024 Premier League
+Tommy Doyle,Midfielders,1251,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Tommy Doyle,Midfielders,1452,2021-2022 Championship
+Tommy Doyle,Midfielders,1853,2022-2023 Championship
+Tomáš Souček,Midfielders,270,2024 UEFA Euro 2024
+Tomáš Souček,Midfielders,450,2017-2018 Europa League
+Tomáš Souček,Midfielders,450,2021 UEFA Euro 2020
+Tomáš Souček,Midfielders,510,2022-2023 Europa Conference League
+Tomáš Souček,Midfielders,540,2019-2020 Champions League
+Tomáš Souček,Midfielders,676,2023-2024 Europa League
+Tomáš Souček,Midfielders,876,2021-2022 Europa League
+Tomáš Souček,Midfielders,1020,2018-2019 Europa League
+Tomáš Souček,Midfielders,1040,2019-2020 Premier League
+Tomáš Souček,Midfielders,1435,2024-2025 Premier League
+Tomáš Souček,Midfielders,2815,2022-2023 Premier League
+Tomáš Souček,Midfielders,2870,2023-2024 Premier League
+Tomáš Souček,Midfielders,3062,2021-2022 Premier League
+Tomáš Souček,Midfielders,3139,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Tomáš Souček,Midfielders,3419,2020-2021 Premier League
+Trevoh Chalobah,Midfielders,2735,2019-2020 Championship
+Trevoh Chalobah,Midfielders,3277,2018-2019 Championship
+Tyler Adams,Midfielders,180,2024 Copa América
+Tyler Adams,Midfielders,293,2021-2022 Champions League
+Tyler Adams,Midfielders,360,2022 World Cup
+Tyler Adams,Midfielders,596,2024-2025 Premier League
+Tyler Adams,Midfielders,717,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Tyler Adams,Midfielders,721,2018-2019 Bundesliga
+Tyler Adams,Midfielders,953,2019-2020 Bundesliga
+Tyler Adams,Midfielders,1351,2021-2022 Bundesliga
+Tyler Adams,Midfielders,1850,2020-2021 Bundesliga
+Tyler Adams,Midfielders,2156,2022-2023 Premier League
+Tyler Adams,Midfielders,2328,2018 Major League Soccer
+Vitaly Janelt,Midfielders,502,2018-2019 2. Bundesliga
+Vitaly Janelt,Midfielders,790,2017-2018 2. Bundesliga
+Vitaly Janelt,Midfielders,1498,2024-2025 Premier League
+Vitaly Janelt,Midfielders,1606,2019-2020 2. Bundesliga
+Vitaly Janelt,Midfielders,2208,2022-2023 Premier League
+Vitaly Janelt,Midfielders,2298,2021-2022 Premier League
+Vitaly Janelt,Midfielders,3009,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Vitaly Janelt,Midfielders,3054,2023-2024 Premier League
+Vitaly Janelt,Midfielders,3076,2020-2021 Championship
+Wataru Endo,Midfielders,304,2022 World Cup
+Wataru Endo,Midfielders,585,2023-2024 Europa League
+Wataru Endo,Midfielders,1108,2018-2019 Belgian First Division A
+Wataru Endo,Midfielders,1291,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Wataru Endo,Midfielders,1722,2023-2024 Premier League
+Wataru Endo,Midfielders,1802,2019-2020 2. Bundesliga
+Wataru Endo,Midfielders,2899,2021-2022 Bundesliga
+Wataru Endo,Midfielders,2922,2022-2023 Bundesliga
+Wataru Endo,Midfielders,2955,2020-2021 Bundesliga
+Wilfred Ndidi,Midfielders,270,2018 World Cup
+Wilfred Ndidi,Midfielders,297,2020-2021 Europa League
+Wilfred Ndidi,Midfielders,302,2021-2022 Europa Conference League
+Wilfred Ndidi,Midfielders,302,2021-2022 Europa League
+Wilfred Ndidi,Midfielders,774,Last 365 Days Men's Next 14 Competitions
+Wilfred Ndidi,Midfielders,1215,2024-2025 Premier League
+Wilfred Ndidi,Midfielders,1215,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Wilfred Ndidi,Midfielders,1618,2021-2022 Premier League
+Wilfred Ndidi,Midfielders,1679,2022-2023 Premier League
+Wilfred Ndidi,Midfielders,2127,2023-2024 Championship
+Wilfred Ndidi,Midfielders,2176,2020-2021 Premier League
+Wilfred Ndidi,Midfielders,2674,2019-2020 Premier League
+Wilfred Ndidi,Midfielders,2896,2017-2018 Premier League
+Wilfred Ndidi,Midfielders,3296,2018-2019 Premier League
+Will Hughes,Midfielders,842,2022-2023 Premier League
+Will Hughes,Midfielders,1053,2021-2022 Premier League
+Will Hughes,Midfielders,1240,2024-2025 Premier League
+Will Hughes,Midfielders,1891,2023-2024 Premier League
+Will Hughes,Midfielders,1946,2020-2021 Championship
+Will Hughes,Midfielders,2162,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Will Hughes,Midfielders,2252,2019-2020 Premier League
+William Smallbone,Midfielders,1371,Last 365 Days Men's Next 14 Competitions
+William Smallbone,Midfielders,3002,2023-2024 Championship
+William Smallbone,Midfielders,3232,2022-2023 Championship
+Wilson Odobert,Midfielders,1611,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Wilson Odobert,Midfielders,2098,2023-2024 Premier League
+Yasin Ayari,Midfielders,1103,2024-2025 Premier League
+Yasin Ayari,Midfielders,1103,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Yehor Yarmoliuk,Midfielders,528,2024-2025 Premier League
+Yehor Yarmoliuk,Midfielders,688,2023-2024 Premier League
+Yehor Yarmoliuk,Midfielders,866,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Yoane Wissa,Midfielders,2674,2020-2021 Ligue 1
+Youri Tielemans,Midfielders,309,2017-2018 Champions League
+Youri Tielemans,Midfielders,338,2021 UEFA Euro 2020
+Youri Tielemans,Midfielders,365,2021-2022 Europa League
+Youri Tielemans,Midfielders,515,2024-2025 Champions League
+Youri Tielemans,Midfielders,537,2020-2021 Europa League
+Youri Tielemans,Midfielders,540,2018-2019 Champions League
+Youri Tielemans,Midfielders,689,2021-2022 Europa Conference League
+Youri Tielemans,Midfielders,749,2023-2024 Europa Conference League
+Youri Tielemans,Midfielders,1086,2018-2019 Premier League
+Youri Tielemans,Midfielders,1569,2017-2018 Ligue 1
+Youri Tielemans,Midfielders,1622,2023-2024 Premier League
+Youri Tielemans,Midfielders,1680,2018-2019 Ligue 1
+Youri Tielemans,Midfielders,1771,2024-2025 Premier League
+Youri Tielemans,Midfielders,2344,2022-2023 Premier League
+Youri Tielemans,Midfielders,2631,2021-2022 Premier League
+Youri Tielemans,Midfielders,2828,2019-2020 Premier League
+Youri Tielemans,Midfielders,3317,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Youri Tielemans,Midfielders,3357,2020-2021 Premier League
+Yves Bissouma,Midfielders,332,2024-2025 Europa League
+Yves Bissouma,Midfielders,969,2024-2025 Premier League
+Yves Bissouma,Midfielders,1010,2022-2023 Premier League
+Yves Bissouma,Midfielders,1259,2019-2020 Premier League
+Yves Bissouma,Midfielders,1561,2017-2018 Ligue 1
+Yves Bissouma,Midfielders,1774,2018-2019 Premier League
+Yves Bissouma,Midfielders,2068,2023-2024 Premier League
+Yves Bissouma,Midfielders,2111,2021-2022 Premier League
+Yves Bissouma,Midfielders,2162,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
+Yves Bissouma,Midfielders,3111,2020-2021 Premier League
+İlkay Gündoğan,Midfielders,189,2022 World Cup
+İlkay Gündoğan,Midfielders,219,2021 UEFA Euro 2020
+İlkay Gündoğan,Midfielders,374,2024-2025 Champions League
+İlkay Gündoğan,Midfielders,503,2017-2018 Champions League
+İlkay Gündoğan,Midfielders,589,2018-2019 Champions League
+İlkay Gündoğan,Midfielders,663,2021-2022 Champions League
+İlkay Gündoğan,Midfielders,810,2019-2020 Champions League
+İlkay Gündoğan,Midfielders,836,2023-2024 Champions League
+İlkay Gündoğan,Midfielders,973,2020-2021 Champions League
+İlkay Gündoğan,Midfielders,994,2022-2023 Champions League
+İlkay Gündoğan,Midfielders,1164,2024-2025 Premier League
+İlkay Gündoğan,Midfielders,1517,2017-2018 Premier League
+İlkay Gündoğan,Midfielders,1857,2021-2022 Premier League
+İlkay Gündoğan,Midfielders,2020,2019-2020 Premier League
+İlkay Gündoğan,Midfielders,2029,2020-2021 Premier League
+İlkay Gündoğan,Midfielders,2137,2018-2019 Premier League
+İlkay Gündoğan,Midfielders,2353,2022-2023 Premier League
+İlkay Gündoğan,Midfielders,2994,2023-2024 La Liga
+İlkay Gündoğan,Midfielders,3321,"Last 365 Days Men's Big 5 Leagues, UCL, UEL"
