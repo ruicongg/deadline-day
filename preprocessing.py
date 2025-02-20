@@ -25,11 +25,14 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+
+from thefuzz import process
 input = ["defenders_per90.csv", "midfielders_per90.csv", "forwards_per90.csv"]
 output = ["defenders_processed.csv", "midfielders_processed.csv", "forwards_processed.csv"]
-for i in range(len(input)):
+for each_file in range(len(input)):
 # %%
-    outfield_df = pd.read_csv("transformed_data/" + input[i])
+    outfield_df = pd.read_csv("transformed_data/" + input[each_file])
+
     # print number of rows in outfield_df
     print(outfield_df.shape[0])
 
@@ -196,6 +199,33 @@ for i in range(len(input)):
     outfield_df.head()
 
     # %% [markdown]
+    # Merge with age_data
+
+    # %%
+
+    age_df = pd.read_csv("data/age_data.csv")
+
+    for name in outfield_df['Player']:
+        matched_name, score, _ = process.extractOne(name, age_df['Player'])
+
+        if score >= 70:
+            outfield_df['Player'] = outfield_df['Player'].replace(name, matched_name)
+
+    outfield_df = outfield_df.merge(
+        age_df[['Player', 'age']], 
+        on="Player", 
+        how="left"
+    )
+
+    print(f"Number of na values in Age: {outfield_df['age'].isna().sum()}")
+    outfield_df['age'].fillna(0, inplace=True)
+    print(f"Number of na values in Age after filling: {outfield_df['age'].isna().sum()}")
+
+    outfield_df.to_csv("preprocessed_data/outfield_processed.csv", index=False)
+
+    print("Merging completed successfully!")
+
+    # %% [markdown]
     # Finding correlation between features 
 
     # %%
@@ -311,7 +341,6 @@ for i in range(len(input)):
     # Merge data with valuation
 
     # %%
-    from thefuzz import process
 
     # Load player market valuations data
     valuations_df = pd.read_csv("data/Premier_League_Player_Valuations_2019_2024.csv")
@@ -343,12 +372,9 @@ for i in range(len(input)):
     outfield_df['player_market_value_euro'].fillna(0, inplace=True)
     print(f"Number of na values in player_market_value_euro after filling: {outfield_df['player_market_value_euro'].isna().sum()}")
     # Save the processed file
-    outfield_df.to_csv("preprocessed_data/" + output[i], index=False)
+    outfield_df.to_csv("preprocessed_data/" + output[each_file], index=False)
 
     print("Merging completed successfully!")
-
-    # %%
-
 
     # %% [markdown]
     # Encoding Categorical Variables (all categorical were dropped as we are manually separating by position)
