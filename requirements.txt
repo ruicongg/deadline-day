@@ -9,6 +9,10 @@ seaborn>=0.11.0       # Data visualization
 scikit-optimize        # Hyperparameter optimization
 pygments              # Syntax highlighting
 matplotlib-inline     # Inline plotting
+kagglehub             # Download kaggle datasets
+torch                 # Deep learning
+transformers          # NLP
+tqdm                  # Progress bar
 # reading xlsx files
 openpyxl
 thefuzz
