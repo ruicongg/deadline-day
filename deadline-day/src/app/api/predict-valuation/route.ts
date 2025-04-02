@@ -1,11 +1,138 @@
 import { type NextRequest, NextResponse } from "next/server"
-import { exec } from "child_process"
-import { promisify } from "util"
 import fs from "fs"
 import path from "path"
 import os from "os"
+import { parse } from "csv-parse/sync"
 
-const execAsync = promisify(exec)
+// FastAPI endpoint URL
+const FASTAPI_ENDPOINT = "http://127.0.0.1:8000/predict"
+
+// Function to convert from log scale back to original scale
+function convertFromLogScale(logValue) {
+  return Math.exp(logValue) - 1
+}
+
+// Function to calculate basic statistics
+function calculateStatistics(values) {
+  if (!values || values.length === 0) return null
+
+  // Sort values for median and percentiles
+  const sortedValues = [...values].sort((a, b) => a - b)
+
+  return {
+    min: Math.min(...values),
+    max: Math.max(...values),
+    average: values.reduce((sum, val) => sum + val, 0) / values.length,
+    median: sortedValues[Math.floor(sortedValues.length / 2)],
+    count: values.length,
+    // Calculate percentiles
+    percentile25: sortedValues[Math.floor(sortedValues.length * 0.25)],
+    percentile75: sortedValues[Math.floor(sortedValues.length * 0.75)],
+    // Standard deviation
+    stdDev: Math.sqrt(
+      values.reduce((sum, val) => {
+        const avg = values.reduce((s, v) => s + v, 0) / values.length
+        return sum + Math.pow(val - avg, 2)
+      }, 0) / values.length,
+    ),
+  }
+}
+
+// Function to categorize player value
+function categorizePlayerValue(value, stats) {
+  if (value >= stats.percentile75) {
+    return "High Value"
+  } else if (value <= stats.percentile25) {
+    return "Low Value"
+  } else {
+    return "Medium Value"
+  }
+}
+
+// Function to extract key performance indicators from player data
+function extractPlayerKPIs(record) {
+  const kpis = {}
+
+  // Extract attacking metrics
+  const attackingMetrics = [
+    "Per90_Goals",
+    "Per90_Assists",
+    "Per90_Shots Total",
+    "Per90_Shots on Target",
+    "Per90_xG: Expected Goals",
+  ]
+
+  // Extract passing metrics
+  const passingMetrics = [
+    "Per90_Pass Completion %",
+    "Per90_Progressive Passes",
+    "Per90_Key Passes",
+    "Per90_Passes into Final Third",
+  ]
+
+  // Extract defensive metrics
+  const defensiveMetrics = [
+    "Per90_Tackles",
+    "Per90_Interceptions",
+    "Per90_Blocks",
+    "Per90_Clearances",
+    "Per90_% of Dribblers Tackled",
+  ]
+
+  // Calculate average for each category if data exists
+  let attackCount = 0
+  let attackSum = 0
+  attackingMetrics.forEach((metric) => {
+    if (record[metric] !== undefined) {
+      const value = typeof record[metric] === "string" ? Number.parseFloat(record[metric]) : record[metric]
+      if (!isNaN(value)) {
+        attackSum += value
+        attackCount++
+      }
+    }
+  })
+
+  let passCount = 0
+  let passSum = 0
+  passingMetrics.forEach((metric) => {
+    if (record[metric] !== undefined) {
+      const value = typeof record[metric] === "string" ? Number.parseFloat(record[metric]) : record[metric]
+      if (!isNaN(value)) {
+        passSum += value
+        passCount++
+      }
+    }
+  })
+
+  let defenseCount = 0
+  let defenseSum = 0
+  defensiveMetrics.forEach((metric) => {
+    if (record[metric] !== undefined) {
+      const value = typeof record[metric] === "string" ? Number.parseFloat(record[metric]) : record[metric]
+      if (!isNaN(value)) {
+        defenseSum += value
+        defenseCount++
+      }
+    }
+  })
+
+  // Add averages to KPIs if we have data
+  if (attackCount > 0) kpis.attackingScore = attackSum / attackCount
+  if (passCount > 0) kpis.passingScore = passSum / passCount
+  if (defenseCount > 0) kpis.defensiveScore = defenseSum / defenseCount
+
+  // Add age if available
+  if (record.age) {
+    kpis.age = typeof record.age === "string" ? Number.parseInt(record.age) : record.age
+  }
+
+  // Add position if available
+  if (record.position) {
+    kpis.position = record.position
+  }
+
+  return kpis
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -26,244 +153,153 @@ export async function POST(request: NextRequest) {
     const fileBuffer = Buffer.from(await file.arrayBuffer())
     fs.writeFileSync(filePath, fileBuffer)
 
-    // Create a Python script that handles preprocessing and prediction
-    const scriptPath = path.join(tempDir, "predict.py")
+    // Read and parse the CSV file
+    const csvContent = fs.readFileSync(filePath, "utf8")
+    const records = parse(csvContent, {
+      columns: true,
+      skip_empty_lines: true,
+    })
 
-    // Write the Python script
-    fs.writeFileSync(
-      scriptPath,
-      `
-import pandas as pd
-import numpy as np
-import pickle
-import sys
-import json
-import os
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestRegressor
+    console.log(`CSV loaded successfully with ${records.length} rows`)
 
-# Define the preprocessing function
-def preprocess_football_data(file_path):
-    """
-    Preprocess football player data for the valuation model.
-    
-    Args:
-        file_path: Path to the CSV file containing player data
-        
-    Returns:
-        DataFrame with preprocessed data ready for model prediction
-    """
-    try:
-        # Read the CSV file
-        df = pd.read_csv(file_path, low_memory=False)
-        print(f"Original data shape: {df.shape}")
-        
-        # List of required columns for the model
-        required_columns = [
-            'Per90_% of Dribblers Tackled', 'Per90_Blocks', 'Per90_Challenges Lost', 
-            'Per90_Clearances', 'Per90_Dead-ball Passes', 'Per90_Dribblers Tackled', 
-            'Per90_Dribbles Challenged', 'Per90_Errors', 'Per90_Fouls Drawn', 
-            'Per90_GCA (Dead-ball Pass)', 'Per90_GCA (Fouls Drawn)', 'Per90_GCA (Live-ball Pass)', 
-            'Per90_GCA (Take-On)', 'Per90_Goals/Shot on Target', 'Per90_Non-Penalty Goals - npxG', 
-            'Per90_Pass Completion %', 'Per90_Pass Completion % (Long)', 'Per90_Pass Completion % (Medium)', 
-            'Per90_Penalty Kicks Won', 'Per90_Progressive Carrying Distance', 'Per90_Progressive Passes Rec', 
-            'Per90_SCA (Defensive Action)', 'Per90_SCA (Shot)', 'Per90_Shots on Target %', 
-            'Per90_Tackles', 'Per90_Tackles (Def 3rd)', 'Per90_Through Balls', 
-            'Per90_Throw-ins Taken', 'Per90_Tkl+Int', 'Per90_Total Carrying Distance', 
-            'Per90_Yellow Cards', 'Per90_npxG/Shot', 'age', 'Finishing_Efficiency', 
-            'Pass_Efficiency', 'Ball_Retention'
-        ]
-        
-        # Check which required columns are missing
-        missing_columns = [col for col in required_columns if col not in df.columns]
-        if missing_columns:
-            print(f"Warning: Missing columns: {missing_columns}")
-            # Add missing columns with zeros
-            for col in missing_columns:
-                df[col] = 0
-        
-        # Ensure we have a Player column for identification
-        if 'Player' not in df.columns:
-            if 'player' in df.columns:
-                df['Player'] = df['player']
-            elif 'name' in df.columns:
-                df['Player'] = df['name']
-            else:
-                # Create a default player name if none exists
-                df['Player'] = [f"Player_{i}" for i in range(len(df))]
-        
-        # Select only the required columns plus Player and actual value if available
-        columns_to_keep = ['Player'] + required_columns
-        
-        # Add actual value column if it exists
-        if 'player_market_value_euro' in df.columns:
-            columns_to_keep.append('player_market_value_euro')
-        elif 'market_value_euro' in df.columns:
-            df['player_market_value_euro'] = df['market_value_euro']
-            columns_to_keep.append('player_market_value_euro')
-        
-        # Keep only the necessary columns
-        df = df[columns_to_keep]
-        
-        # Handle missing values
-        df = df.fillna(0)
-        
-        # Convert percentage strings to floats if needed
-        for col in df.columns:
-            if 'Per90_' in col and '%' in col:
-                try:
-                    df[col] = df[col].astype(str).str.rstrip('%').astype(float) / 100
-                except:
-                    pass
-            elif '%' in col:
-                try:
-                    df[col] = df[col].astype(str).str.rstrip('%').astype(float) / 100
-                except:
-                    pass
-        
-        # Convert all numeric columns to float
-        for col in df.columns:
-            if col != 'Player':
-                try:
-                    df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)
-                except:
-                    print(f"Warning: Could not convert column {col} to numeric")
-        
-        print(f"Preprocessed data shape: {df.shape}")
-        return df
-        
-    except Exception as e:
-        print(f"Error in preprocessing: {str(e)}")
-        raise
+    if (!records || records.length === 0) {
+      return NextResponse.json({ error: "CSV file is empty or invalid" }, { status: 400 })
+    }
 
-# Main execution
-try:
-    # First check if the file exists
-    if not os.path.exists('${filePath}'):
-        print(json.dumps({"error": "CSV file not found"}))
-        sys.exit(1)
-    
-    # Read the raw data to get column names for diagnostics
-    try:
-        raw_df = pd.read_csv('${filePath}', low_memory=False)
-        print(f"CSV loaded successfully with {len(raw_df)} rows and {len(raw_df.columns)} columns")
-        print(f"Columns in raw data: {list(raw_df.columns)}")
-    except Exception as e:
-        print(json.dumps({"error": f"Error reading CSV file: {str(e)}"}))
-        sys.exit(1)
-    
-    # Step 1: Preprocess the data
-    try:
-        print("Starting preprocessing...")
-        preprocessed_data = preprocess_football_data('${filePath}')
-        print(f"Preprocessing complete. Result has {len(preprocessed_data)} rows and {len(preprocessed_data.columns)} columns")
-        
-        # Save preprocessed data for debugging if needed
-        preprocessed_path = os.path.join('${tempDir}', 'preprocessed_data.csv')
-        preprocessed_data.to_csv(preprocessed_path, index=False)
-        
-        # Get player names
-        player_names = preprocessed_data['Player'].values
-        
-        # Check if actual values exist
-        has_actual_values = 'player_market_value_euro' in preprocessed_data.columns
-        actual_values = None
-        if has_actual_values:
-            actual_values = preprocessed_data['player_market_value_euro'].values
-        
-    except Exception as e:
-        print(json.dumps({"error": f"Error preprocessing data: {str(e)}"}))
-        sys.exit(1)
-    
-    # Step 2: Load the model and make predictions
-    try:
-        print("Loading model and making predictions...")
-        model_path = '${path.join(process.cwd(), "model/pl_model.pkl")}'
-        
-        if not os.path.exists(model_path):
-            print(json.dumps({"error": f"Model file not found at {model_path}. Please ensure the model is available."}))
-            sys.exit(1)
-        
-        # Load the model
-        with open(model_path, 'rb') as f:
-            model = pickle.load(f)
-        
-        # Prepare data for prediction
-        X = preprocessed_data.drop(['Player'], axis=1, errors='ignore')
-        if has_actual_values:
-            X = X.drop(['player_market_value_euro'], axis=1, errors='ignore')
-        
-        # Make predictions
-        predictions = model.predict(X)
-        
-        # Prepare results
-        results = []
-        for i, player in enumerate(player_names):
-            result = {
-                'player': str(player),
-                'predicted_value': float(predictions[i])
-            }
-            
-            if has_actual_values:
-                result['actual_value'] = float(actual_values[i])
-                result['difference'] = float(actual_values[i] - predictions[i])
-                result['difference_percentage'] = float((result['difference'] / actual_values[i]) * 100) if actual_values[i] != 0 else 0
-            
-            results.append(result)
-        
-        # Add preprocessing stats for debugging
-        preprocessing_stats = {
-            "raw_rows": len(raw_df),
-            "raw_columns": len(raw_df.columns),
-            "preprocessed_rows": len(preprocessed_data),
-            "preprocessed_columns": len(preprocessed_data.columns),
-            "preprocessed_column_names": list(preprocessed_data.columns)
-        }
-        
-        # Output results as JSON
-        print(json.dumps({
-            "success": True,
-            "predictions": results,
-            "preprocessing_stats": preprocessing_stats
-        }))
-        
-    except Exception as e:
-        print(json.dumps({"error": f"Error making predictions: {str(e)}"}))
-        sys.exit(1)
-    
-except Exception as e:
-    print(json.dumps({"error": str(e)}))
-    sys.exit(1)
-`,
+    // Extract player names for the results
+    const playerNames = records.map((record) => record.Player || record.player || record.name || "Unknown Player")
+
+    // Extract actual values if they exist (these are in log scale)
+    let actualValues = null
+    const hasActualValues = records.some(
+      (record) => record.player_market_value_euro !== undefined || record.market_value_euro !== undefined,
     )
 
-    // Execute the Python script
-    const { stdout, stderr } = await execAsync(`python ${scriptPath}`)
+    if (hasActualValues) {
+      actualValues = records.map((record) => {
+        const logValue = record.player_market_value_euro || record.market_value_euro || 0
+        const numericLogValue = typeof logValue === "number" ? logValue : Number.parseFloat(logValue) || 0
+        // Convert from log scale to original scale
+        return convertFromLogScale(numericLogValue)
+      })
+    }
 
-    // Check for errors in stdout (our script outputs JSON)
-    try {
-      const result = JSON.parse(stdout)
+    // Get predictions from FastAPI
+    const predictions = []
+    const playerKPIs = []
 
-      if (result.error) {
-        console.error("Python script error:", result.error)
-        return NextResponse.json({ error: result.error }, { status: 400 })
+    for (const record of records) {
+      try {
+        // Extract KPIs for this player
+        playerKPIs.push(extractPlayerKPIs(record))
+
+        // Convert all values to numbers to ensure proper JSON formatting
+        const cleanRecord = {}
+
+        for (const key in record) {
+          if (
+            key !== "Player" &&
+            key !== "player" &&
+            key !== "name" &&
+            key !== "player_market_value_euro" &&
+            key !== "market_value_euro"
+          ) {
+            let value = record[key]
+            // Convert string values to numbers
+            if (typeof value === "string") {
+              // Handle percentage values
+              if (value.includes("%")) {
+                value = Number.parseFloat(value.replace("%", "")) / 100
+              } else {
+                value = Number.parseFloat(value) || 0
+              }
+            }
+
+            // Handle NaN, Infinity
+            if (!isFinite(value)) {
+              value = 0
+            }
+
+            cleanRecord[key] = value
+          }
+        }
+
+        const response = await fetch(FASTAPI_ENDPOINT, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(cleanRecord),
+        })
+
+        if (!response.ok) {
+          const errorText = await response.text()
+          console.error(`FastAPI error response: ${errorText}`)
+          throw new Error(`FastAPI returned status ${response.status}: ${errorText}`)
+        }
+
+        const result = await response.json()
+
+        // Convert prediction from log scale back to original scale
+        const logPrediction = result.prediction
+        const originalScalePrediction = convertFromLogScale(logPrediction)
+
+        predictions.push(originalScalePrediction)
+      } catch (err) {
+        console.error("Error getting prediction for record:", err)
+        predictions.push(0)
+        playerKPIs.push({}) // Add empty KPIs for this player
+      }
+    }
+
+    // Calculate statistics for predictions
+    const predictionStats = calculateStatistics(predictions)
+
+    // Calculate statistics for actual values if available
+    const actualValueStats = hasActualValues ? calculateStatistics(actualValues) : null
+
+    // Combine player names, predictions, and actual values with insights
+    const results = playerNames.map((player, index) => {
+      const result: any = {
+        player,
+        predicted_value: predictions[index],
+        value_category: predictionStats ? categorizePlayerValue(predictions[index], predictionStats) : null,
+        performance_metrics: playerKPIs[index] || {},
       }
 
-      // Clean up temporary files
-      fs.rmSync(tempDir, { recursive: true, force: true })
+      // Add comparison to average
+      if (predictionStats) {
+        result.comparison_to_average = {
+          value: predictions[index] - predictionStats.average,
+          percentage: (predictions[index] / predictionStats.average - 1) * 100,
+        }
+      }
 
-      return NextResponse.json(result)
-    } catch (error) {
-      console.error("Error parsing Python output:", stdout)
-      console.error("Python stderr:", stderr)
-      return NextResponse.json(
-        {
-          error: "Error processing the file. Please check the format of your CSV file.",
-          details: stdout,
-        },
-        { status: 500 },
-      )
-    }
+      if (actualValues) {
+        result.actual_value = actualValues[index]
+        result.difference = actualValues[index] - predictions[index]
+        result.difference_percentage = actualValues[index] !== 0 ? (result.difference / actualValues[index]) * 100 : 0
+      }
+
+      return result
+    })
+
+    // Clean up temporary files
+    fs.rmSync(tempDir, { recursive: true, force: true })
+
+    return NextResponse.json({
+      success: true,
+      predictions: results,
+      statistics: {
+        predicted_values: predictionStats,
+        actual_values: actualValueStats,
+      },
+      preprocessing_stats: {
+        raw_rows: records.length,
+        processed_rows: records.length,
+        columns: Object.keys(records[0] || {}).length,
+      },
+    })
   } catch (error) {
     console.error("Error:", error)
     return NextResponse.json(

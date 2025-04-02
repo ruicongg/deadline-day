@@ -74,11 +74,13 @@ def preprocess_football_data(csv_path, feature_importance_threshold=0.005, retur
     else:
         print("\n✅ All required columns are present.")
 
-    # Select only the required columns that are available
+    # Drop all columns not in REQUIRED_COLUMNS
     selected_columns = [col for col in REQUIRED_COLUMNS if col in outfield_df.columns]
-    selected_df = outfield_df[selected_columns]
+    outfield_df = outfield_df[selected_columns]
 
-    return selected_df
+    print(outfield_df)
+
+    return outfield_df
 
 # Example usage
 if __name__ == "__main__":
