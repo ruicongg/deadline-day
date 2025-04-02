@@ -42,8 +42,99 @@ import os
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestRegressor
 
-# Import the preprocessing function
-${fs.readFileSync(path.join(process.cwd(), "src/lib/preprocess_football_data.py"), "utf8")}
+# Define the preprocessing function
+def preprocess_football_data(file_path):
+    """
+    Preprocess football player data for the valuation model.
+    
+    Args:
+        file_path: Path to the CSV file containing player data
+        
+    Returns:
+        DataFrame with preprocessed data ready for model prediction
+    """
+    try:
+        # Read the CSV file
+        df = pd.read_csv(file_path, low_memory=False)
+        print(f"Original data shape: {df.shape}")
+        
+        # List of required columns for the model
+        required_columns = [
+            'Per90_% of Dribblers Tackled', 'Per90_Blocks', 'Per90_Challenges Lost', 
+            'Per90_Clearances', 'Per90_Dead-ball Passes', 'Per90_Dribblers Tackled', 
+            'Per90_Dribbles Challenged', 'Per90_Errors', 'Per90_Fouls Drawn', 
+            'Per90_GCA (Dead-ball Pass)', 'Per90_GCA (Fouls Drawn)', 'Per90_GCA (Live-ball Pass)', 
+            'Per90_GCA (Take-On)', 'Per90_Goals/Shot on Target', 'Per90_Non-Penalty Goals - npxG', 
+            'Per90_Pass Completion %', 'Per90_Pass Completion % (Long)', 'Per90_Pass Completion % (Medium)', 
+            'Per90_Penalty Kicks Won', 'Per90_Progressive Carrying Distance', 'Per90_Progressive Passes Rec', 
+            'Per90_SCA (Defensive Action)', 'Per90_SCA (Shot)', 'Per90_Shots on Target %', 
+            'Per90_Tackles', 'Per90_Tackles (Def 3rd)', 'Per90_Through Balls', 
+            'Per90_Throw-ins Taken', 'Per90_Tkl+Int', 'Per90_Total Carrying Distance', 
+            'Per90_Yellow Cards', 'Per90_npxG/Shot', 'age', 'Finishing_Efficiency', 
+            'Pass_Efficiency', 'Ball_Retention'
+        ]
+        
+        # Check which required columns are missing
+        missing_columns = [col for col in required_columns if col not in df.columns]
+        if missing_columns:
+            print(f"Warning: Missing columns: {missing_columns}")
+            # Add missing columns with zeros
+            for col in missing_columns:
+                df[col] = 0
+        
+        # Ensure we have a Player column for identification
+        if 'Player' not in df.columns:
+            if 'player' in df.columns:
+                df['Player'] = df['player']
+            elif 'name' in df.columns:
+                df['Player'] = df['name']
+            else:
+                # Create a default player name if none exists
+                df['Player'] = [f"Player_{i}" for i in range(len(df))]
+        
+        # Select only the required columns plus Player and actual value if available
+        columns_to_keep = ['Player'] + required_columns
+        
+        # Add actual value column if it exists
+        if 'player_market_value_euro' in df.columns:
+            columns_to_keep.append('player_market_value_euro')
+        elif 'market_value_euro' in df.columns:
+            df['player_market_value_euro'] = df['market_value_euro']
+            columns_to_keep.append('player_market_value_euro')
+        
+        # Keep only the necessary columns
+        df = df[columns_to_keep]
+        
+        # Handle missing values
+        df = df.fillna(0)
+        
+        # Convert percentage strings to floats if needed
+        for col in df.columns:
+            if 'Per90_' in col and '%' in col:
+                try:
+                    df[col] = df[col].astype(str).str.rstrip('%').astype(float) / 100
+                except:
+                    pass
+            elif '%' in col:
+                try:
+                    df[col] = df[col].astype(str).str.rstrip('%').astype(float) / 100
+                except:
+                    pass
+        
+        # Convert all numeric columns to float
+        for col in df.columns:
+            if col != 'Player':
+                try:
+                    df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)
+                except:
+                    print(f"Warning: Could not convert column {col} to numeric")
+        
+        print(f"Preprocessed data shape: {df.shape}")
+        return df
+        
+    except Exception as e:
+        print(f"Error in preprocessing: {str(e)}")
+        raise
 
 # Main execution
 try:
@@ -87,10 +178,10 @@ try:
     # Step 2: Load the model and make predictions
     try:
         print("Loading model and making predictions...")
-        model_path = '${path.join(process.cwd(), "src/lib/valuation_model.pkl")}'
+        model_path = '${path.join(process.cwd(), "model/pl_model.pkl")}'
         
         if not os.path.exists(model_path):
-            print(json.dumps({"error": "Model file not found. Please ensure the model is available at src/lib/valuation_model.pkl"}))
+            print(json.dumps({"error": f"Model file not found at {model_path}. Please ensure the model is available."}))
             sys.exit(1)
         
         # Load the model
